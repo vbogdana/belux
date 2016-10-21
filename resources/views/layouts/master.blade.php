@@ -6,7 +6,7 @@
 <html>
     <head>        
         <link rel="shortcut icon" href="../storage/app/images/logo.ico" type="image/x-icon" /> 
-        <title> Belgrade Luxury </title>
+        <title> Belgrade Luxury - VIP experience Belgrade nightlife  </title>
         
         <!-- 
             css i js fajlovi za menu, container i footer (treba ih napisati)
