@@ -82,7 +82,7 @@
             svi css i js fajlovi u public/css i public/js
             za kontrolere pogledati na google-u gde tacno stoje
             za svaku novu stranicu obavezno dodati rutu u routes/web.php fajlu
-        -->
+        -->      
         <div class="container">
             @yield('content')
         </div>
