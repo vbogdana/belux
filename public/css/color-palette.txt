@@ -1,0 +1,30 @@
+COLORS:
+
+TEMA 1:
+pozadina: #181818;
+menu: transparent;
+menu: hover {
+    background: rgb(18,18,18);
+    background: rgba(18,18,18,0.5);
+}
+
+TEMA 2:
+pozadina: #070707;
+menu: transparent;
+menu: hover {
+    background: rgb(2,2,2);
+    background: rgba(2,2,2,0.5);
+}
+
+TEMA 3:  - za sada odabrana
+pozadina: #0a0a0a;
+menu: transparent;
+menu: hover {
+    background: rgb(2,2,2);
+    background: rgba(2,2,2,0.5);
+}
+
+svetla (default) boja texta: #888888;
+tamna boja texta: #222222;
+zlatna boja: #CFB53B ili #EDD468 ili #FFDA44 ili #F1DB6E - za sada izabrana #F1DB6E;
+font: 14px/22px "ralewayregular", Raleway, sans-serif; (obican text  je font-weight 300)

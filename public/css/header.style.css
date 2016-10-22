@@ -1,0 +1,178 @@
+/* 
+    Created on : Oct 21, 2016, 12:10:15 PM
+    Author     : Bogdana
+*/
+
+/* #Header Section
+================================================== */
+
+#header-section {
+    line-height: 90px;
+}
+.ha-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ha-header.ha-transparent {
+    background: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.ha-header.ha-transparent:hover {
+    background: rgb(2,2,2);
+    background: rgba(2,2,2,0.5);
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
+} 
+
+/* #Center Logo
+================================================== */
+
+.site-logo {
+        box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+	height: 90px;
+	line-height: 90px;
+	position: relative;
+        //border: solid 1px #EDD468; 
+        //border: solid 1px #CFB53B;
+}
+.site-logo img {
+	max-height: 90px;
+	vertical-align: middle;
+}
+
+/* #Navigation
+================================================== */
+.top-nav {
+    width: 690px;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 656px;
+}
+.top-nav-item {
+   text-align: center;
+   width: 130px;
+}
+.top-nav-separator {
+    width: 20px;
+    line-height: 90px;   
+    text-align: center;
+    background: #F1DB6E;
+    width: 1px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+.top-nav-separator img {
+    position: relative;
+    bottom: 37px;
+}
+/* don't display Menu and Home in menu on desktops */
+nav a#pull, ul.top-nav-menu li:first-child {
+    display: none;
+}
+ul.top-nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.top-nav-menu li {
+    float: left;
+}
+ul.top-nav-menu li a {
+    display: inline-block;
+    color: #888888;
+}
+ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
+    color: #F1DB6E;
+}
+
+/* #Media Queries
+================================================== */
+
+/* Phone & Small Tablets */
+@media screen and (max-width: 767px) {
+    #header-section.fullwidth {
+        line-height: 50px;
+        padding: 0 10px;
+    }
+    .top-nav {
+        width: 100%;
+        left: 0;
+        transform: translate(0%, 0%);       
+    }
+    /* don't display Logo in menu on mobile */
+    li#home-logo.top-nav-item, li.top-nav-separator {
+        display: none;  
+    }
+    /* display Home in menu on mobile */
+    ul.top-nav-menu li:first-child {
+        display: list-item;
+    }
+    ul.top-nav-menu {
+        line-height: 50px;
+        display: none;
+        list-style-image: url('../../storage/app/images/diamond-gray.png');
+        list-style-position: inside;
+    }    
+    ul.top-nav-menu li {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        border-bottom: solid 2px #222222;
+    }
+    ul.top-nav-menu li:hover, ul.top-nav-menu li:active, ul.top-nav-menu li:hover a, ul.top-nav-menu li:active a {
+        background: #0a0a0a;
+        color: #F1DB6E;
+    }
+    /* display Menu and nav icon on mobile */
+    nav a#pull {
+        display: block;
+        width: 100%;
+        position: relative;
+        color: #888888;
+    }
+    nav a#pull:after {
+        content: "";
+        background: url('../../storage/app/images/nav-icon-gray.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 10px;
+    }
+    nav a#pull:hover, nav a#pull:active {
+        color: #F1DB6E;
+    }
+    nav a#pull:hover:after, nav a#pull:active:after {
+        background: url('../../storage/app/images/nav-icon-gold.png') no-repeat;
+    }
+}
+
+/* Tablet Landscape */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #header-section.fullwidth {
+        padding: 0 10px;
+    }
+}
