@@ -23,7 +23,24 @@
         <link rel="stylesheet" type="text/css" href="css/footer.style.css" />
         <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
         <script type="text/javascript" src="js/header.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <!--Include the YT API Library-->
+         <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
         
+         <script>
+            $(function() {
+                $('a[href*=#]:not([href=#])').click(function() {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+                    if (target.length) {
+                        $('html,body').animate({
+                          scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                });
+            });
+        </script>
         <!-- za svaku stranicu treba definisati sekciju scripts koja uvozi css i js fajlove potrebne za tu stranicu -->
         @yield('scripts')
     </head>
@@ -78,4 +95,22 @@
         @show
         
     </body>
+         <script type="text/javascript">
+        (function() {
+
+        var quotes = $(".quotes");
+        var quoteIndex = -1;
+
+        function showNextQuote() {
+            ++quoteIndex;
+            quotes.eq(quoteIndex % quotes.length)
+                .fadeIn(2000)
+                .delay(2000)
+                .fadeOut(2000, showNextQuote);
+        }
+
+        showNextQuote();
+
+        })();
+    </script>
 </html>
