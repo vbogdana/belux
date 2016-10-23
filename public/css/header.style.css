@@ -115,6 +115,7 @@ ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
     #header-section.fullwidth {
         line-height: 50px;
         padding: 0 10px;
+        //background: rgb(2,2,2);
     }
     .top-nav {
         width: 100%;

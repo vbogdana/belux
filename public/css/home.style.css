@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 23, 2016, 1:47:53 AM
+    Author     : Bogdana
+*/
+.video-section {
+    position: absolute;
+    float: top;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 56.25vw;
+    overflow: hidden;
+}
+
+video-section iframe::-webkit-media-controls {
+  display: none;
+}
+
+.video-section iframe {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 56.25vw;
+    overflow: hidden;
+}
+
+.video-section .widescreen {
+  padding-bottom: 100%;
+}
+
+.video-section .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 56.25vw;
+    background: url(../../storage/app/images/subtle-dots.png) repeat;
+}
+
+.video-section .overlay-text {
+    line-height: 60px;
+    width: 100vw;
+}
+
+.quotes {
+    display: none;
+}
+    
+.video-section h1.overlay-text {
+    top:40%;
+    text-align: center;
+    position: absolute;
+    color: #f9f9f9;
+    z-index: 3;
+    font-size: 3vw;    
+}
+
+.video-section h2 {  
+    top:45%;
+    text-align: center; 
+    font-size: 4vw;
+    position:absolute;
+    color:#f9f9f9;
+    z-index: 3;
+    width: 100vw;
+}
+
+.scroll-sign {
+    position: absolute;
+    bottom: 10px;   
+    line-height: 60px;
+    z-index: 3;
+    text-align: center;    
+    width: 100%;
+}
+
+.video-section .scroll-sign img {
+    //srediti u zavisnosti od ikonice
+   //transform: translate(-50%, 0%);
+}
+
+.about-us-section {
+    position: absolute;
+    top: 56.25vw;
+    float:bottom;
+    width: 100%;
+    height: 400px;
+    background-color: white !important;
+    //background: url(../../storage/app/images/subtle-dots.png) repeat;
+     text-align: center;
+}
+
+.about-us-section h2 {
+    position:relative;
+    padding-top:100px;
+    text-align: center;
+}
+
+.about-us-section p {
+    text-align: center !important;
+}
+
+.about-us-section span {
+    padding-top: 10px;
+     display: block;
+      margin: auto;
+     display: inline-block;
+    width: 400px !important;
+    height: 50px;     
+}
+
+ .about-us-section span h2 {
+     padding-top: 0px;
+     width:400px;
+     margin-right:0px;
+     position:absolute;
+     text-align: center;
+}
+
