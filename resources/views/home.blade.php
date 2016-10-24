@@ -4,21 +4,59 @@
 
 @section('scripts')
 <!-- ubaciti sve css i js fajlove potrebne za home page -->
+<link rel="stylesheet" type="text/css" href="css/header.style.css" />
 <link rel="stylesheet" type="text/css" href="css/home.style.css" />
 <script type="text/javascript" src="js/home.js"></script>
+@stop
+
+<!-- 
+    redefinicija menija jer ce za home biti drugaciji 
+    (bice providan na vrhu zbog videa, na ostalim stranicama nece)
+-->
+@section('sidebar')
+    <header id="header-section" class="ha-header ha-transparent fullwidth"> 
+        <nav class="top-nav">
+            <ul class="top-nav-menu" id="navigation">
+                <li class="top-nav-item" ><a href="<?php echo url('/') ?>">HOME</a></li>
+                <li class="top-nav-separator"></li>
+                <li class="top-nav-item"><a href="#">SERVICES</a></li>
+                <li class="top-nav-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
+                <li class="top-nav-item"><a href="#">CONTACT</a></li>
+                <li class="top-nav-separator"></li>
+                <li class="top-nav-item" id="home-logo">
+                    <div class="site-logo">
+                        <a href="<?php echo url('/') ?>" >
+                            <img id="site-logo" src="../storage/app/images/logo2.png" alt="Belgrade Luxury">
+                        </a>
+                    </div>
+                </li>
+                <li class="top-nav-separator"></li>
+                <li class="top-nav-item"><a href="#">PLACES</a></li>
+                <li class="top-nav-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
+                <li class="top-nav-item"><a href="#">VISIT</a></li>
+                <li class="top-nav-separator"></li>
+            </ul>
+            <a href="#" id="pull">MENU</a>
+        </nav>             
+    </header>
 @stop
 
 @section('content')
 <!-- za sve ove klase treba napisati css -->
 <div class="video-section [widescreen]">
-    
+    <!--
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/FLKXSgXNl8w?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
+    -->
+    <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src=''></iframe>      
+    
     <div class="overlay"></div>
     
-    <h1 class="overlay-text" > VIP EXPERIENCE BELGRADE NIGHTLIFE </h1> 
-    <h2 class="overlay-text quotes"> Belgrade Luxury </h2>
-    <h2 class="overlay-text quotes"> VIP places </h2>
-    <h2 class="overlay-text quotes"> Luxury apartments </h2>
+    <div class="overlay-text">
+        <h1 class="overlay-text-row" > VIP EXPERIENCE - BELGRADE NIGHTLIFE </h1> 
+        <h2 class="overlay-text-row quotes"> Belgrade Luxury </h2>
+        <h2 class="overlay-text-row quotes"> VIP places </h2>
+        <h2 class="overlay-text-row quotes"> Luxury apartments </h2>
+    </div>
     
     <div class="scroll-sign">
         <a href="#aboutus">

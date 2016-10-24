@@ -40,24 +40,6 @@
     transition: background 0.5s;
 } 
 
-/* #Center Logo
-================================================== */
-
-.site-logo {
-        box-sizing: border-box;
-	text-align: center;
-	margin: 0;
-	height: 90px;
-	line-height: 90px;
-	position: relative;
-        //border: solid 1px #EDD468; 
-        //border: solid 1px #CFB53B;
-}
-.site-logo img {
-	max-height: 90px;
-	vertical-align: middle;
-}
-
 /* #Navigation
 ================================================== */
 .top-nav {
@@ -105,6 +87,22 @@ ul.top-nav-menu li a {
 }
 ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
     color: #F1DB6E;
+}
+
+/* #Center Logo
+================================================== */
+
+.site-logo {
+        box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+	height: 90px;
+	line-height: 90px;
+	position: relative;
+}
+.site-logo img {
+	max-height: 90px;
+	vertical-align: middle;
 }
 
 /* #Media Queries
