@@ -18,10 +18,11 @@ menu: hover {
 
 TEMA 3:  - za sada odabrana
 pozadina: #0a0a0a;
+bela pozadina: #fffef7;
 menu: transparent;
 menu: hover {
     background: rgb(2,2,2);
-    background: rgba(2,2,2,0.5);
+    background: rgba(2,2,2,0.7);
 }
 
 svetla (default) boja texta: #888888;

@@ -7,7 +7,8 @@
 ================================================== */
 
 #header-section {
-    line-height: 90px;
+    line-height: 100px;
+    display: none;
 }
 .ha-header {
     position: fixed;
@@ -34,7 +35,7 @@
 }
 .ha-header.ha-transparent:hover {
     background: rgb(2,2,2);
-    background: rgba(2,2,2,0.5);
+    background: rgba(2,2,2,0.7);
     -webkit-transition: background 0.5s;
     -moz-transition: background 0.5s;
     transition: background 0.5s;
@@ -50,26 +51,26 @@
     transform: translate(-50%, 0%);
     width: 656px;
 }
-.top-nav-item {
+.top-nav-menu-item {
    text-align: center;
    width: 130px;
 }
-.top-nav-separator {
+.top-nav-menu-separator {
     width: 20px;
-    line-height: 90px;   
+    line-height: 100px;   
     text-align: center;
     background: #F1DB6E;
     width: 1px;
     height: 30px;
     position: relative;
-    top: 30px;
+    top: 35px;
 }
-.top-nav-separator img {
+.top-nav-menu-separator img {
     position: relative;
-    bottom: 37px;
+    bottom: 42px;
 }
 /* don't display Menu and Home in menu on desktops */
-nav a#pull, ul.top-nav-menu li:first-child {
+a#pull, ul.top-nav-menu li:first-child {
     display: none;
 }
 ul.top-nav-menu {
@@ -81,12 +82,40 @@ ul.top-nav-menu {
 ul.top-nav-menu li {
     float: left;
 }
-ul.top-nav-menu li a {
+ul.top-nav-menu li div {
     display: inline-block;
+}
+li.top-nav-menu-item div a {  
     color: #888888;
 }
-ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
+li.top-nav-menu-item div a:hover, li.top-nav-menu-item div a:active {
     color: #F1DB6E;
+}
+
+.top-nav-submenu-item {
+   text-align: center;
+   min-width: 130px;
+}
+ul.top-nav-submenu {
+    display: none;
+    position: relative;
+    left: -1px;
+    //background: rgb(7,7,7);
+    list-style-type: none;
+    margin: 0;
+    margin-top: -35px;
+    padding: 0;
+    font-size: 12px;
+    line-height: 40px;
+    width: 132px;
+    border: 1px solid #F1DB6E;
+    border-top: none;
+}
+ul.top-nav-submenu li {
+    float: left;
+}
+ul.top-nav-submenu li:first-child {
+    display: list-item;
 }
 
 /* #Center Logo
@@ -96,12 +125,12 @@ ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
         box-sizing: border-box;
 	text-align: center;
 	margin: 0;
-	height: 90px;
-	line-height: 90px;
+	height: 100px;
+	line-height: 100px;
 	position: relative;
 }
 .site-logo img {
-	max-height: 90px;
+	max-height: 100px;
 	vertical-align: middle;
 }
 
@@ -113,15 +142,21 @@ ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
     #header-section.fullwidth {
         line-height: 50px;
         padding: 0 10px;
+        max-height: 310px;
+        
         //background: rgb(2,2,2);
     }
     .top-nav {
+        max-height: 260px;
         width: 100%;
         left: 0;
-        transform: translate(0%, 0%);       
+        transform: translate(0%, 0%);
+        height: auto;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
     /* don't display Logo in menu on mobile */
-    li#home-logo.top-nav-item, li.top-nav-separator {
+    li#home-logo.top-nav-menu-item, li.top-nav-menu-separator {
         display: none;  
     }
     /* display Home in menu on mobile */
@@ -139,19 +174,20 @@ ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
         width: 100%;
         text-align: left;
         border-bottom: solid 2px #222222;
+        padding-left: 20px;
     }
-    ul.top-nav-menu li:hover, ul.top-nav-menu li:active, ul.top-nav-menu li:hover a, ul.top-nav-menu li:active a {
+    ul.top-nav-menu li:hover, ul.top-nav-menu li:active, ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
         background: #0a0a0a;
         color: #F1DB6E;
     }
     /* display Menu and nav icon on mobile */
-    nav a#pull {
+    a#pull {
         display: block;
         width: 100%;
         position: relative;
         color: #888888;
     }
-    nav a#pull:after {
+    a#pull:after {
         content: "";
         background: url('../../storage/app/images/nav-icon-gray.png') no-repeat;
         width: 30px;
@@ -161,11 +197,34 @@ ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
         right: 0px;
         top: 10px;
     }
-    nav a#pull:hover, nav a#pull:active {
+    a#pull:hover, nav a#pull:active {
         color: #F1DB6E;
     }
-    nav a#pull:hover:after, nav a#pull:active:after {
+    a#pull:hover:after, nav a#pull:active:after {
         background: url('../../storage/app/images/nav-icon-gold.png') no-repeat;
+    }
+    
+    ul.top-nav-submenu {
+        width: 100%;
+        line-height: 40px;
+        display: none;
+        list-style:square inside;
+        border: none;
+        left: -1px;
+        margin: 0;
+    }    
+    ul.top-nav-submenu li {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        border: none;
+        color: #888888;
+        padding-left: 20px;
+        //border-top: solid 2px #222222;
+    }
+    ul.top-nav-submenu li:hover, ul.top-nav-submenu li:active, ul.top-nav-submenu li:hover a, ul.top-nav-submenu li:active a {
+        background: #0a0a0a;
+        color: #F1DB6E;
     }
 }
 
