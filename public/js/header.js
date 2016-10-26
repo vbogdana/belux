@@ -8,15 +8,37 @@ $(function() {
     menu = $('ul.top-nav-menu');
     menuHeight  = menu.height();
  
-  $(pull).on('click', function(e) {
-    e.preventDefault();
-    if (menu.is(':hidden'))
-        $('.ha-header').css("background", "rgb(2,2,2)");
-    else
-        $('.ha-header').removeAttr('style');
-    menu.slideToggle();
+    $(pull).on('click', function(e) {
+      e.preventDefault();
+      if (menu.is(':hidden'))
+          $('.ha-header').css("background", "rgb(2,2,2)");
+      else
+          $('.ha-header').removeAttr('style');
+      menu.slideToggle();
+
+    });
+  
+    var services = $('#services');
+    s_submenu = $('#services-submenu');
+    $(services).on({
+        mouseenter: function () {
+            s_submenu.slideToggle();
+        },
+        mouseleave: function () {
+            s_submenu.slideToggle();
+        }
+    });
     
-  });
+    var places = $('#places');
+    p_submenu = $('#places-submenu');
+    $(places).on({
+        mouseenter: function () {
+            p_submenu.slideToggle();
+        },
+        mouseleave: function () {
+            p_submenu.slideToggle();
+        }
+    });
 });
 
 $(window).resize(function(){
@@ -31,11 +53,11 @@ $(function () {
     $(logo).on({
         mouseenter: function () {
             logo.fadeIn();
-            logo.attr('src', '../storage/app/images/logo1.png');
+            logo.attr('src', '../storage/app/images/logo2.png');
         },
         mouseleave: function () {
             logo.fadeIn();
-            logo.attr('src', '../storage/app/images/logo2.png');
+            logo.attr('src', '../storage/app/images/logo1.png');
         }
     });
 });
@@ -43,11 +65,11 @@ $(function () {
 
 function showMenu(hidden) {
     if (hidden === false) {
-        $('.top-nav-item').css("visibility", "hidden");
-        $('.top-nav-separator').css("visibility", "hidden");
+        $('.top-nav-menu-item').css("visibility", "hidden");
+        $('.top-nav-menu-separator').css("visibility", "hidden");
     } else {
-        $('.top-nav-item').css("visibility", "visible");
-        $('.top-nav-separator').css("visibility", "visible");
+        $('.top-nav-menu-item').css("visibility", "visible");
+        $('.top-nav-menu-separator').css("visibility", "visible");
     }
     hidden = !hidden;
 }

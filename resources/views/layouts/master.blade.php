@@ -17,6 +17,7 @@
             ovde treba da budu navedeni svi css i js fajlovi zajednicki za sve stranice
             skladiste se u folderu public/css i public/js (u odnosu na root)        
         -->
+        <!-- Include style sheets common for all pages -->
         <link rel="stylesheet" type="text/css" href="css/standard.style.css" />
         <link rel="stylesheet" type="text/css" href="css/header.style.css" />
         <link rel="stylesheet" type="text/css" href="css/container.style.css" />
@@ -26,7 +27,10 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <!-- Include the YT API Library -->
         <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
-        <script type="text/javascript" src="js/header.js"></script>      
+        <!-- Include scripts common for all pages -->
+        <script type="text/javascript" src="js/skrollr.js"></script>
+        <script type="text/javascript" src="js/header.js"></script> 
+        <script type="text/javascript" src="js/_main.js"></script>
         <!-- za svaku stranicu treba definisati sekciju scripts koja uvozi css i js fajlove potrebne za tu stranicu -->
         @yield('scripts')
     </head>
@@ -36,28 +40,44 @@
         <!-- menu se definise ovde jer ce biti isti za sve stranice -->
         @section('sidebar')
             <header id="header-section" class="ha-header ha-transparent fullwidth"> 
+                <a href="#" id="pull">MENU</a>
                 <nav class="top-nav">
+
                     <ul class="top-nav-menu" id="navigation">
-                        <li class="top-nav-item" ><a href="<?php echo url('/') ?>">HOME</a></li>
-                        <li class="top-nav-separator"></li>
-                        <li class="top-nav-item"><a href="#">SERVICES</a></li>
-                        <li class="top-nav-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
-                        <li class="top-nav-item"><a href="#">CONTACT</a></li>
-                        <li class="top-nav-separator"></li>
-                        <li class="top-nav-item" id="home-logo">
+                        <li class="top-nav-menu-item" ><div><a href="<?php echo url('/') ?>">HOME</a></div></li>
+                        <li class="top-nav-menu-separator"></li>
+                        <li class="top-nav-menu-item"><div><a href="#">CONTACT</a></div></li>
+                        <li class="top-nav-menu-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
+                        <li class="top-nav-menu-item" id="services" ><div><a href="#">SERVICES</a></div>                   
+                            <ul class="top-nav-submenu" id="services-submenu">
+                                <li class="top-nav-submenu-item"><div><a href="#">packages</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="#">custom package</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="#">all services</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="#">ultra VIP services</a></div></li>
+                            </ul>                    
+                        </li>
+                        <li class="top-nav-menu-separator"></li>
+                        <li class="top-nav-menu-item" id="home-logo">
                             <div class="site-logo">
-                                <a href="<?php echo url('/') ?>">
-                                    <img src="../storage/app/images/logo1.png" alt="Belgrade Luxury">
+                                <a href="<?php echo url('/') ?>" >
+                                    <img id="site-logo" src="../storage/app/images/logo1.png" alt="Belgrade Luxury">
                                 </a>
                             </div>
                         </li>
-                        <li class="top-nav-separator"></li>
-                        <li class="top-nav-item"><a href="#">PLACES</a></li>
-                        <li class="top-nav-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
-                        <li class="top-nav-item"><a href="#">VISIT</a></li>
-                        <li class="top-nav-separator"></li>
-                    </ul>
-                    <a href="#" id="pull">MENU</a>
+                        <li class="top-nav-menu-separator"></li>
+                        <li class="top-nav-menu-item" id="places"><div><a href="#">PLACES</a></div>
+                            <ul class="top-nav-submenu" id="places-submenu">
+                                <li class="top-nav-submenu-item"><div><a href="#">hotels</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="#">restaurants</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="#">bars</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="#">clubs</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="#">kafane</a></div></li>
+                            </ul>
+                        </li>
+                        <li class="top-nav-menu-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
+                        <li class="top-nav-menu-item"><div><a href="#">VISIT</a></div></li>
+                        <li class="top-nav-menu-separator"></li>
+                    </ul>           
                 </nav>             
             </header>
         @show
