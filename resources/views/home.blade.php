@@ -5,6 +5,7 @@
 @section('scripts')
 <!-- ubaciti sve css i js fajlove potrebne za home page -->
 <link rel="stylesheet" type="text/css" href="css/home.style.css" />
+<script type="text/javascript" src="js/reflection.js"></script>
 <script type="text/javascript" src="js/home.js"></script>
 @stop
 
@@ -113,15 +114,33 @@
     <div class="packages-container">
         <div class="carousel-container">
             <div id="carousel">
-              <figure>1</figure>
-              <figure>2</figure>
-              <figure>3</figure>
-              <figure>4</figure>
-              <figure>5</figure>
-              <figure>6</figure>
-              <figure>7</figure>
-              <figure>8</figure>
-              <figure>9</figure>
+                <figure id="0">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                            </div>
+                            <div class="back">
+                             A
+                            </div>
+                        </div>
+                    </div>                  
+                </figure>
+                <figure id="1">
+                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                </figure>
+                <figure id="2">
+                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                </figure>
+                <figure id="3">
+                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                </figure>
+                <figure id="4">
+                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                </figure>
+                <figure id="5">
+                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                </figure>
             </div>
         </div>
     </div>
