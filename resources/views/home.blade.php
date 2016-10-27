@@ -62,9 +62,9 @@
 @section('content')
 <!-- za sve ove klase treba napisati css -->
 <section class="video-section [widescreen]">
-    <!--
+    
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/FLKXSgXNl8w?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
-    -->
+  
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src=''></iframe>      
     
     <div class="overlay"></div>
@@ -97,7 +97,7 @@
         
     </div>
     
-    <!--
+  
     <div > <h2> About Us </h2> </div>
     
     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,<br> and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
@@ -106,7 +106,7 @@
         <h2>LUXURY AUTOMOBILE</h2>
         <img class="diamond" src="../storage/app/images/dijamantdesno.png"style="width: 10%; float:right">
     </span>
-    -->
+ 
 </section>
 
 <section id="content" class="packages-section">
