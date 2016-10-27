@@ -110,6 +110,22 @@
 
 <section id="content" class="packages-section">
     
+    <div class="packages-container">
+        <div class="carousel-container">
+            <div id="carousel">
+              <figure>1</figure>
+              <figure>2</figure>
+              <figure>3</figure>
+              <figure>4</figure>
+              <figure>5</figure>
+              <figure>6</figure>
+              <figure>7</figure>
+              <figure>8</figure>
+              <figure>9</figure>
+            </div>
+        </div>
+    </div>
+    
 </section>
 
 <div class="benefits-section">
