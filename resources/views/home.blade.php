@@ -62,9 +62,9 @@
 @section('content')
 <!-- za sve ove klase treba napisati css -->
 <section class="video-section [widescreen]">
-    
+    <!--
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/FLKXSgXNl8w?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
-  
+    -->
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src=''></iframe>      
     
     <div class="overlay"></div>
@@ -118,28 +118,78 @@
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
-                                <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                                <img src="../storage/app/images/card-front.png" class="card" height="180px" width="300px" />
                             </div>
                             <div class="back">
-                             A
+                                <img src="../storage/app/images/card-back.png" class="card" height="180px" width="300px" />
                             </div>
+                            <!--
+                            <div class="bottom">
+                                A
+                            </div>
+                            -->
                         </div>
                     </div>                  
                 </figure>
                 <figure id="1">
-                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="../storage/app/images/card-front.png" class="card" height="180px" width="300px" />
+                            </div>
+                            <div class="back">
+                                <img src="../storage/app/images/card-back.png" class="card" height="180px" width="300px" />
+                            </div>
+                        </div>
+                    </div> 
                 </figure>
                 <figure id="2">
-                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="../storage/app/images/card-front.png" class="card" height="180px" width="300px" />
+                            </div>
+                            <div class="back">
+                                <img src="../storage/app/images/card-back.png" class="card" height="180px" width="300px" />
+                            </div>
+                        </div>
+                    </div> 
                 </figure>
                 <figure id="3">
-                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="../storage/app/images/card-front.png" class="card" height="180px" width="300px" />
+                            </div>
+                            <div class="back">
+                                <img src="../storage/app/images/card-back.png" class="card" height="180px" width="300px" />
+                            </div>
+                        </div>
+                    </div> 
                 </figure>
                 <figure id="4">
-                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="../storage/app/images/card-front.png" class="card" height="180px" width="300px" />
+                            </div>
+                            <div class="back">
+                                <img src="../storage/app/images/card-back.png" class="card" height="180px" width="300px" />
+                            </div>
+                        </div>
+                    </div> 
                 </figure>
                 <figure id="5">
-                    <img src="../storage/app/images/card.png" class="card" height="180px" width="300px" />
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="../storage/app/images/card-front.png" class="card" height="180px" width="300px" />
+                            </div>
+                            <div class="back">
+                                <img src="../storage/app/images/card-back.png" class="card" height="180px" width="300px" />
+                            </div>
+                        </div>
+                    </div> 
                 </figure>
             </div>
         </div>

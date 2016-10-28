@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-$(function() {
+$(window).on("load", function() {
     $('a[href*=#]:not([href=#])').click(function() {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
@@ -17,7 +17,7 @@ $(function() {
 });
   
   /* changing quotes on video */
-$(function() {
+$(window).on("load", function() {
     var quotes = $(".quotes");
     var quoteIndex = -1;
 
@@ -49,22 +49,47 @@ function onPlayerReady(event) {
 }
 
 /* packages-section */
-$( document ).ready(function() {
+$(window).on("load", function() {
     // reflections
     var $cards = $('.card');
     $.each($cards, function() {
         var $element = $(this);
         $element.reflect({
             height: 0.5,
-            opacity: 0.2
+            opacity: 0.1
         });
     })
     
+    // flip
+    var $front = $('.flip-container .flipper .front .card img');
+    $front.on("mouseenter mouseleave", function(ev) {
+        ev.preventDefault();
+        var $flipper = $(this).closest(".flipper");
+        if ($flipper.closest("figure").attr("id") == 0) {
+            $flipper.css({
+                "-webkit-transform" : "rotateX(-180deg)",
+                transform: "rotateX(-180deg)"
+            })
+        }
+    })
+    
+    var $back = $('.flip-container .flipper .back');
+    $back.on({
+        mouseleave: function() {
+            var $flipper = $(this).closest(".flipper");
+            if ($flipper.closest("figure").attr("id") == 0) {
+                $flipper.css({
+                    "-webkit-transform" : "rotateX(0deg)",
+                    transform: "rotateX(0deg)"
+                })  
+            }
+        }
+    })
     
     
 })
 
-$(function() {
+$(window).on("load", function() {
     //var ids = { id: ["front", "right-front", "right-back", "back", "left-back", "left-front"] };
     var translate = { value: ["0, 0, 0", "440px, 0, -20px", "240px, 0, -40px", "0, 0, -60px", "-240px, 0, -40px", "-440px, 0, -20px"] };
     var scale = { value: ["1", "0.75", "0.4", "0.3", "0.4", "0.75"] };
@@ -74,6 +99,19 @@ $(function() {
         var figures = $('#carousel figure');
         var id = parseInt($(this).attr("id"));
         var delay_time = 0;
+        
+        $.each(figures, function() {
+            var $element = $(this);
+            var $curr_id = parseInt($element.attr("id"));
+            // flip back the center one
+            if ($curr_id == 0) {
+                var $flipper = $element.find(".flipper");
+                $flipper.css({
+                    "-webkit-transform" : "rotateX(0deg)",
+                    transform: "rotateX(0deg)"
+                })  
+            }
+        })
         
         if (id == 2 || id == 4) {           
             $.each(figures, function() {
@@ -109,28 +147,5 @@ $(function() {
             });                        
         })
         
-    })
-    
-    
-    // flip
-    var $front = $('.flip-container .flipper .front .card img');
-    $front.on("mouseenter mouseleave", function(ev) {
-        ev.preventDefault();
-        var $flipper = $('.flip-container .flipper');
-        $flipper.css({
-            "-webkit-transform" : "rotateX(-180deg)",
-            transform: "rotateX(-180deg)"
-        })
-    })
-    
-    var $back = $('.flip-container .flipper .back ');
-    $back.on({
-        mouseleave: function() {
-            var $flipper = $('.flip-container .flipper');
-            $flipper.css({
-                "-webkit-transform" : "rotateY(0deg)",
-                transform: "rotateY(0deg)"
-            })   
-        }
     })
 })

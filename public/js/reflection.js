@@ -50,7 +50,7 @@ $.fn.extend({
 							filter: "FlipV progid:DXImageTransform.Microsoft.Alpha(Opacity=" + (options.opacity * 100) + ", FinishOpacity=0, Style=1, StartX=0, StartY=0, FinishX=0, FinishY=" + (reflectionHeight / imageHeight * 100) + ")"
 						})[0];
 					}
-					$(reflection).css({display: "block", border: 0, "border-radius": "10px", "margin-top": distance + "px"});
+					$(reflection).css({display: "block", border: 0, /*"border-radius": "10px", */"margin-top": distance + "px"});
 
 					wrapper = $(/^a$/i.test(img.parentNode.tagName) ? "<span />" : "<div />").insertAfter(img).append([img, reflection])[0];
 					wrapper.className = img.className;
