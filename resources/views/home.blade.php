@@ -6,6 +6,7 @@
 <!-- ubaciti sve css i js fajlove potrebne za home page -->
 <link rel="stylesheet" type="text/css" href="css/home.style.css" />
 <link rel="stylesheet" type="text/css" href="css/benefits.style.css" />
+<link rel="stylesheet" type="text/css" href="css/events.style.css" />
 <script type="text/javascript" src="js/reflection.js"></script>
 <script type="text/javascript" src="js/home.js"></script>
 <script type="text/javascript"  src="js/jquery.sldr.js"></script>
@@ -64,9 +65,9 @@
 @section('content')
 <!-- za sve ove klase treba napisati css -->
 <section class="video-section [widescreen]">
-    <!--
+   
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/FLKXSgXNl8w?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
-    -->
+   
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src=''></iframe>      
     
     <div class="overlay"></div>
@@ -200,6 +201,7 @@
 </section>
 
 <div class="events-section">
+    
     
 </div>
 

@@ -9,30 +9,6 @@ and open the template in the editor.
 */
 
 
-
-ul {
-	color: #F1DB6E;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-p {
-	max-width: 450px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-a {
-	color: #F1DB6E;
-	-webkit-transition: color 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
-       -moz-transition: color 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
-         -o-transition: color 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
-            transition: color 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
-}
-
-
 ul.animate {
 	-webkit-transition: -webkit-transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
        -moz-transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
