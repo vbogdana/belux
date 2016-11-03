@@ -93,17 +93,22 @@ video-section iframe::-webkit-media-controls {
 .scroll-sign {
     position: absolute;
     bottom: 10px;   
-    line-height: 5vh;
-    z-index: 3;
-    text-align: center;    
+    z-index: 3;     
     width: 100%;
 }
 
+.scroll-sign a {
+    position: relative;
+    left: 48%;
+    text-align: center;
+}
+
 .video-section .scroll-sign img {
-    //srediti u zavisnosti od ikonice
-   //transform: translate(-50%, 0%);
-   height: 5vh;
-   width: 7vh;
+   //height: 5vh;
+   //width: 7vh;
+   position: relative;
+   height: 9vh; 
+   width: 10vh;
 }
 
 /*      About us section
@@ -194,12 +199,12 @@ animation-element.slide-left.module {
 
 .packages-container {
     position: relative;
-    top: 200px;
+    top: 35%;
 }
 
 .carousel-container {
   width: 324px;
-  height: 204px;
+  height: 205px;
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
   left: 50%;
@@ -223,9 +228,8 @@ animation-element.slide-left.module {
   position: absolute;
   width: 300px;
   height: 180px;
-  left: 20px;
-  top: 20px;
-  //border-radius: 5px;
+  left: 12px;
+  top: 12.5px;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
@@ -290,7 +294,7 @@ animation-element.slide-left.module {
   width: 300px;
   height: 180px;
   //border-radius: 10px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 #carousel figure:nth-child(1) {
@@ -320,6 +324,13 @@ animation-element.slide-left.module {
 
 /* #Media Queries
 ================================================== */
+@media screen and (min-width: 768px) and (max-width: 1120px) {
+    .packages-container {
+        left: 50%;
+        -webkit-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);       
+    }
+}
 
 /* Phone & Small Tablets */
 @media screen and (max-width: 767px) {

@@ -15,13 +15,13 @@
 } )( jQuery );
 */
 
-/* slide in from left */
 $(window).on("load", function() {
     // Animate loader off screen
     $(".se-pre-con").fadeOut("slow");
     $("#header-section").fadeIn("slow");
     $(".container").fadeIn("slow");
     
+    /* slide in from left */
     var $animation_elements = $('.animation-element');
     var $window = $(window);
 

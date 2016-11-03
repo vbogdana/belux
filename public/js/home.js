@@ -3,13 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+// scroll header
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > $('#aboutus').offset().top) {
+        $(".ha-header").addClass("ha-non-transparent");
+        $(".ha-header").removeClass("ha-transparent");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".ha-header").removeClass("ha-non-transparent");
+       $(".ha-header").addClass("ha-transparent");
+    }
+});
+
+// about us link
 $(window).on("load", function() {
     $('a[href*=#]:not([href=#])').click(function() {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
         if (target.length) {
             $('html,body').animate({
-              scrollTop: target.offset().top
+              scrollTop: target.offset().top + 2
             }, 1000);
             return false;
         }
@@ -73,6 +86,7 @@ $(window).on("load", function() {
         }
     })
     
+    // flip back
     var $back = $('.flip-container .flipper .back');
     $back.on({
         mouseleave: function() {
@@ -89,6 +103,7 @@ $(window).on("load", function() {
     
 })
 
+// rotate ring
 $(window).on("load", function() {
     //var ids = { id: ["front", "right-front", "right-back", "back", "left-back", "left-front"] };
     var translate = { value: ["0, 0, 0", "440px, 0, -20px", "240px, 0, -40px", "0, 0, -60px", "-240px, 0, -40px", "-440px, 0, -20px"] };
