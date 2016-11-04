@@ -26,7 +26,7 @@
                 <li class="top-nav-menu-item"><div><a href="#">CONTACT</a></div></li>
                 <li class="top-nav-menu-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
                 <li class="top-nav-menu-item" id="services" ><div><a href="#">SERVICES</a></div>                   
-                    <ul class="top-nav-submenu" id="services-submenu">
+                    <ul class="top-nav-submenu" id="services-submenu" style="height: 160px;">
                         <li class="top-nav-submenu-item"><div><a href="#">packages</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="#">custom package</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="#">all services</a></div></li>
@@ -43,7 +43,7 @@
                 </li>
                 <li class="top-nav-menu-separator"></li>
                 <li class="top-nav-menu-item" id="places"><div><a href="#">PLACES</a></div>
-                    <ul class="top-nav-submenu" id="places-submenu">
+                    <ul class="top-nav-submenu" id="places-submenu" style="height: 200px;">
                         <li class="top-nav-submenu-item"><div><a href="#">hotels</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="#">restaurants</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="#">bars</a></div></li>
@@ -91,18 +91,22 @@
 
 <section class="about-us-section" id="aboutus" >
     <div class="background"
-         data-center="background-position: 50% 0px;"
-         data-top-bottom="background-position: 50% -100px;"
+         data-center="background-position: center 100px;"
+         data-top-bottom="background-position: center -100px;"
          data-anchor-target="#aboutus" >
+        
         
         <div class="animation-element slide-left module">
             <img src="../storage/app/images/big-diamond-reverse.png" />
-        </div>            
+            
+        </div>
+        
+      
     </div>
     
   <!--
-    <div > <h2> About Us </h2> </div>
     
+    <div > <h2> About Us </h2> </div>
     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,<br> and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
     <span> 
         <img class="diamond" src="../storage/app/images/dijamantlevo.png" style="width: 10%; float:left">
@@ -113,91 +117,94 @@
 </section>
 
 <section id="content" class="packages-section">
-    
-    <div class="packages-container">
-        <div class="carousel-container">
-            <div id="carousel">
-                <figure id="0">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front">
-                                <img src="../storage/app/images/cards/card-front.png" class="card" height="180px" width="300px" />
+    <div class="background"
+         data-center="background-position: center 100px;"
+         data-top-bottom="background-position: center -100px;"
+         data-anchor-target="#aboutus" >
+        <div class="packages-container">
+            <div class="carousel-container">
+                <div id="carousel">
+                    <figure id="0">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img src="../storage/app/images/cards/card-front-1.png" class="card" height="227px" width="363px" />
+                                </div>
+                                <div class="back">
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                </div>
+                                <!--
+                                <div class="bottom">
+                                    A
+                                </div>
+                                -->
                             </div>
-                            <div class="back">
-                                <img src="../storage/app/images/cards/card-back.png" class="card" height="180px" width="300px" />
+                        </div>                  
+                    </figure>
+                    <figure id="1">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img src="../storage/app/images/cards/card-front-2.png" class="card" height="227px" width="363px" />
+                                </div>
+                                <div class="back">
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                </div>
                             </div>
-                            <!--
-                            <div class="bottom">
-                                A
+                        </div> 
+                    </figure>
+                    <figure id="2">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img src="../storage/app/images/cards/card-front-3.png" class="card" height="227px" width="363px" />
+                                </div>
+                                <div class="back">
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                </div>
                             </div>
-                            -->
-                        </div>
-                    </div>                  
-                </figure>
-                <figure id="1">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front">
-                                <img src="../storage/app/images/cards/card-front.png" class="card" height="180px" width="300px" />
+                        </div> 
+                    </figure>
+                    <figure id="3">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img src="../storage/app/images/cards/card-front-4.png" class="card" height="227px" width="363px" />
+                                </div>
+                                <div class="back">
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                </div>
                             </div>
-                            <div class="back">
-                                <img src="../storage/app/images/cards/card-back.png" class="card" height="180px" width="300px" />
+                        </div> 
+                    </figure>
+                    <figure id="4">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img src="../storage/app/images/cards/card-front-5.png" class="card" height="227px" width="363px" />
+                                </div>
+                                <div class="back">
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                </div>
                             </div>
-                        </div>
-                    </div> 
-                </figure>
-                <figure id="2">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front">
-                                <img src="../storage/app/images/cards/card-front.png" class="card" height="180px" width="300px" />
+                        </div> 
+                    </figure>
+                    <figure id="5">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img src="../storage/app/images/cards/card-front-6.png" class="card" height="227px" width="363px" />
+                                </div>
+                                <div class="back">
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                </div>
                             </div>
-                            <div class="back">
-                                <img src="../storage/app/images/cards/card-back.png" class="card" height="180px" width="300px" />
-                            </div>
-                        </div>
-                    </div> 
-                </figure>
-                <figure id="3">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front">
-                                <img src="../storage/app/images/cards/card-front.png" class="card" height="180px" width="300px" />
-                            </div>
-                            <div class="back">
-                                <img src="../storage/app/images/cards/card-back.png" class="card" height="180px" width="300px" />
-                            </div>
-                        </div>
-                    </div> 
-                </figure>
-                <figure id="4">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front">
-                                <img src="../storage/app/images/cards/card-front.png" class="card" height="180px" width="300px" />
-                            </div>
-                            <div class="back">
-                                <img src="../storage/app/images/cards/card-back.png" class="card" height="180px" width="300px" />
-                            </div>
-                        </div>
-                    </div> 
-                </figure>
-                <figure id="5">
-                    <div class="flip-container">
-                        <div class="flipper">
-                            <div class="front">
-                                <img src="../storage/app/images/cards/card-front.png" class="card" height="180px" width="300px" />
-                            </div>
-                            <div class="back">
-                                <img src="../storage/app/images/cards/card-back.png" class="card" height="180px" width="300px" />
-                            </div>
-                        </div>
-                    </div> 
-                </figure>
+                        </div> 
+                    </figure>
+                </div>
             </div>
         </div>
     </div>
-    
 </section>
 
 <div class="benefits-section">

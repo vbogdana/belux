@@ -55,7 +55,7 @@ $.fn.extend({
 					wrapper = $(/^a$/i.test(img.parentNode.tagName) ? "<span />" : "<div />").insertAfter(img).append([img, reflection])[0];
 					wrapper.className = img.className;
 					$.data(img, "reflected", wrapper.style.cssText = img.style.cssText);
-					$(wrapper).css({width: imageWidth, height: imageHeight + reflectionHeight + distance, overflow: "hidden"});
+					$(wrapper).css({width: imageWidth, height: imageHeight + reflectionHeight + distance/*, overflow: "hidden"*/});
 					img.style.cssText = "display: block; border: 0px;";
 					img.className = "reflected";
 				}

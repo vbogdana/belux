@@ -13,8 +13,10 @@ $(window).on("load", function() {
       e.preventDefault();
       if (menu.is(':hidden'))
           $('.ha-header').css("background", "rgb(2,2,2)");
-      else
+      else {
           $('.ha-header').removeAttr('style');
+          $('.ha-header').css("display", "block");
+      }
       menu.slideToggle();
 
     });
