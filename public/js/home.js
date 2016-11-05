@@ -248,8 +248,8 @@ $(window).on("load", function() {
                 next(); 
             });                        
         });
-    })
+    });
     */
-    
 });
+
 

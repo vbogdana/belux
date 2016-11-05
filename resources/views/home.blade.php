@@ -204,12 +204,12 @@
     
 </section>
 
-<div class="benefits-section">
+<div class="events-section">
     
 </div>
 
-<div class="events-section">
-    
+<div class="benefits-section">
+
 </div>
 
 <div class="social-section">
