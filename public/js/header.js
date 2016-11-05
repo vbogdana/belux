@@ -13,8 +13,10 @@ $(window).on("load", function() {
       e.preventDefault();
       if (menu.is(':hidden'))
           $('.ha-header').css("background", "rgb(2,2,2)");
-      else
+      else {
           $('.ha-header').removeAttr('style');
+          $('.ha-header').css("display", "block");
+      }
       menu.slideToggle();
 
     });
@@ -38,19 +40,6 @@ $(window).on("load", function() {
         },
         mouseleave: function () {
             p_submenu.slideToggle();
-        }
-    });
-    
-    // hover logo
-    var logo = $('#site-logo');
-    $(logo).on({
-        mouseenter: function () {
-            logo.fadeIn();
-            logo.attr('src', '../storage/app/images/logo2.png');
-        },
-        mouseleave: function () {
-            logo.fadeIn();
-            logo.attr('src', '../storage/app/images/logo1.png');
         }
     });
 });

@@ -47,9 +47,9 @@
                         <li class="top-nav-menu-item" ><div><a href="<?php echo url('/') ?>">HOME</a></div></li>
                         <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item"><div><a href="#">CONTACT</a></div></li>
-                        <li class="top-nav-menu-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
+                        <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item" id="services" ><div><a href="#">SERVICES</a></div>                   
-                            <ul class="top-nav-submenu" id="services-submenu">
+                            <ul class="top-nav-submenu" id="services-submenu" style="height: 120px;">
                                 <li class="top-nav-submenu-item"><div><a href="#">packages</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="#">custom package</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="#">all services</a></div></li>
@@ -60,13 +60,13 @@
                         <li class="top-nav-menu-item" id="home-logo">
                             <div class="site-logo">
                                 <a href="<?php echo url('/') ?>" >
-                                    <img id="site-logo" src="../storage/app/images/logo1.png" alt="Belgrade Luxury">
+                                    <img id="site-logo" src="../storage/app/images/logo.svg" alt="Belgrade Luxury">
                                 </a>
                             </div>
                         </li>
                         <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item" id="places"><div><a href="#">PLACES</a></div>
-                            <ul class="top-nav-submenu" id="places-submenu">
+                            <ul class="top-nav-submenu" id="places-submenu" style="height: 150px;">
                                 <li class="top-nav-submenu-item"><div><a href="#">hotels</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="#">restaurants</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="#">bars</a></div></li>
@@ -74,7 +74,7 @@
                                 <li class="top-nav-submenu-item"><div><a href="#">kafane</a></div></li>
                             </ul>
                         </li>
-                        <li class="top-nav-menu-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
+                        <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item"><div><a href="#">VISIT</a></div></li>
                         <li class="top-nav-menu-separator"></li>
                     </ul>           

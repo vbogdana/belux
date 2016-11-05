@@ -3,25 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
+
 ( function( $ ) {
+    
+} )( jQuery );
+
+
+$(window).on("load", function() {
     // Init Skrollr
+    
     var s = skrollr.init({
         render: function(data) {
             //Debugging - Log the current scroll position.
             //console.log(data.curTop);
         }
     });
-} )( jQuery );
-*/
-
-/* slide in from left */
-$(window).on("load", function() {
+    
+    
     // Animate loader off screen
     $(".se-pre-con").fadeOut("slow");
     $("#header-section").fadeIn("slow");
     $(".container").fadeIn("slow");
     
+    /* fade-in */
     var $animation_elements = $('.animation-element');
     var $window = $(window);
 
