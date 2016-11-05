@@ -24,9 +24,9 @@
                 <li class="top-nav-menu-item" ><div><a href="<?php echo url('/') ?>">HOME</a></div></li>
                 <li class="top-nav-menu-separator"></li>
                 <li class="top-nav-menu-item"><div><a href="#">CONTACT</a></div></li>
-                <li class="top-nav-menu-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
+                <li class="top-nav-menu-separator"></li>
                 <li class="top-nav-menu-item" id="services" ><div><a href="#">SERVICES</a></div>                   
-                    <ul class="top-nav-submenu" id="services-submenu" style="height: 160px;">
+                    <ul class="top-nav-submenu" id="services-submenu" style="height: 120px;">
                         <li class="top-nav-submenu-item"><div><a href="#">packages</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="#">custom package</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="#">all services</a></div></li>
@@ -37,13 +37,13 @@
                 <li class="top-nav-menu-item" id="home-logo">
                     <div class="site-logo">
                         <a href="<?php echo url('/') ?>" >
-                            <img id="site-logo" src="../storage/app/images/logo1.png" alt="Belgrade Luxury">
+                            <img id="site-logo" src="../storage/app/images/logo.svg" alt="Belgrade Luxury">
                         </a>
                     </div>
                 </li>
                 <li class="top-nav-menu-separator"></li>
                 <li class="top-nav-menu-item" id="places"><div><a href="#">PLACES</a></div>
-                    <ul class="top-nav-submenu" id="places-submenu" style="height: 200px;">
+                    <ul class="top-nav-submenu" id="places-submenu" style="height: 150px;">
                         <li class="top-nav-submenu-item"><div><a href="#">hotels</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="#">restaurants</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="#">bars</a></div></li>
@@ -51,7 +51,7 @@
                         <li class="top-nav-submenu-item"><div><a href="#">kafane</a></div></li>
                     </ul>
                 </li>
-                <li class="top-nav-menu-separator"><!--<img src="../storage/app/images/diamond-gray.png">--></li>
+                <li class="top-nav-menu-separator"></li>
                 <li class="top-nav-menu-item"><div><a href="#">VISIT</a></div></li>
                 <li class="top-nav-menu-separator"></li>
             </ul>           
@@ -71,56 +71,53 @@
     
     <div class="overlay-text">
         <h1 class="overlay-text-row" > VIP EXPERIENCE - BELGRADE NIGHTLIFE </h1> 
-        <h2 class="overlay-text-row quotes"> Belgrade Luxury </h2>
-        <h2 class="overlay-text-row quotes"> VIP places </h2>
-        <h2 class="overlay-text-row quotes"> Luxury apartments </h2>
+        <h2 class="overlay-text-row quotes"> BELGRADE <span> LUXURY </span> </h2>
+        <h2 class="overlay-text-row quotes"> <span> VIP </span> PLACES </h2>
+        <h2 class="overlay-text-row quotes"> LUXURY <span> APARTMENTS </span> </h2>
     </div>
     
     <div class="scroll-sign">
         <a href="#aboutus">
             <img src="../storage/app/images/3-diamonds.png" />
-            <!--
-            <img src="../storage/app/images/diamond-gold.png" style="height:4vh; width: 6vh;" />           
-            <img src="../storage/app/images/diamond-gold.png" style="height:3vh; width: 4.5vh;" />
-            <img src="../storage/app/images/diamond-gold.png" style="height:2vh; width: 3vh;" />
-            -->
         </a>
     </div>
     
 </section>
 
 <section class="about-us-section" id="aboutus" >
-    <div class="background"
-         data-center="background-position: center 100px;"
-         data-top-bottom="background-position: center -100px;"
-         data-anchor-target="#aboutus" >
-        
-        
+
+        <div class="background">
+        <!--
         <div class="animation-element slide-left module">
-            <img src="../storage/app/images/big-diamond-reverse.png" />
-            
+            <img src="../storage/app/images/big-diamond-reverse.png" />           
+        </div>
+        -->
+        <div class="about-us-title animation-element fade-in">
+            <h2> ABOUT US </h2>
         </div>
         
-      
-    </div>
+        <div class="about-us-container animation-element fade-in">
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+            </p>
+            <span> 
+                
+            </span>
+        </div>
+        </div>
     
   <!--
+   
     
-    <div > <h2> About Us </h2> </div>
-    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,<br> and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-    <span> 
-        <img class="diamond" src="../storage/app/images/dijamantlevo.png" style="width: 10%; float:left">
-        <h2>LUXURY AUTOMOBILE</h2>
-        <img class="diamond" src="../storage/app/images/dijamantdesno.png"style="width: 10%; float:right">
-    </span>
   -->
 </section>
 
 <section id="content" class="packages-section">
-    <div class="background"
-         data-center="background-position: center 100px;"
-         data-top-bottom="background-position: center -100px;"
-         data-anchor-target="#aboutus" >
+    
         <div class="packages-container">
             <div class="carousel-container">
                 <div id="carousel">
@@ -128,10 +125,10 @@
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-1.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <!--
                                 <div class="bottom">
@@ -145,10 +142,10 @@
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-2.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -157,10 +154,10 @@
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-3.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -169,10 +166,10 @@
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-4.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -181,10 +178,10 @@
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-5.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -193,10 +190,10 @@
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-6.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363px" />
+                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -204,7 +201,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 </section>
 
 <div class="benefits-section">

@@ -42,19 +42,6 @@ $(window).on("load", function() {
             p_submenu.slideToggle();
         }
     });
-    
-    // hover logo
-    var logo = $('#site-logo');
-    $(logo).on({
-        mouseenter: function () {
-            logo.fadeIn();
-            logo.attr('src', '../storage/app/images/logo2.png');
-        },
-        mouseleave: function () {
-            logo.fadeIn();
-            logo.attr('src', '../storage/app/images/logo1.png');
-        }
-    });
 });
 
 $(window).on("resize", function(){

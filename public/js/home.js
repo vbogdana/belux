@@ -39,9 +39,9 @@ $(window).on("load", function() {
     function showNextQuote() {
         ++quoteIndex;
         quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(2000)
-            .delay(2000)
-            .fadeOut(2000, showNextQuote);
+            .fadeIn(1000)
+            .delay(1000)
+            .fadeOut(1000, showNextQuote);
     }
 
     showNextQuote();

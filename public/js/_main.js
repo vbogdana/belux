@@ -11,21 +11,21 @@
 
 $(window).on("load", function() {
     // Init Skrollr
-    /*
+    
     var s = skrollr.init({
         render: function(data) {
             //Debugging - Log the current scroll position.
             //console.log(data.curTop);
         }
     });
-    */
+    
     
     // Animate loader off screen
     $(".se-pre-con").fadeOut("slow");
     $("#header-section").fadeIn("slow");
     $(".container").fadeIn("slow");
     
-    /* slide in from left */
+    /* fade-in */
     var $animation_elements = $('.animation-element');
     var $window = $(window);
 
