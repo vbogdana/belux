@@ -206,11 +206,10 @@
 </section>
 
     	<!-- =============== START EVENTS SECTION ================ -->
-        
-	<section style="padding-bottom:0; padding-top:0;" class="events-section">
-              <div class="about-us-title animation-element fade-in">
-                         <h2> EVENTS </h2>
-                      </div>
+<section style="padding-bottom:0; padding-top:0;" class="events-section">
+     <div class="about-us-title animation-element fade-in">
+          <h2> EVENTS </h2>
+             </div>
 		<div class="gallerySection">
 			<div class="container-fluid" style="padding:0;">
 				<div class="col-sm-12">
@@ -348,7 +347,7 @@
 				</div>
 			</div><!-- end container -->
 		</div>
-	</section>
+</section>
 	<!-- =============== END EVENTS SECTION ================ -->
     
 
