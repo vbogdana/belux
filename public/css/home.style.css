@@ -18,6 +18,33 @@ and open the template in the editor.
     width: 100%;
 }
 
+.section-title {
+    position: relative;
+    left: 0%;
+    width: 200px;
+    height: 35px;
+    line-height: 100%;
+    border-bottom: #F1DB6E 1px solid;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+/* animation element fading in */
+.section-title.animation-element {    
+    opacity: 0;   
+}
+
+.section-title.animation-element.fade-in {
+    opacity: 0;
+    -webkit-transition: all 1000ms linear;
+    transition: all 1000ms linear;
+}
+
+.section-title.animation-element.fade-in.in-view {
+    opacity: 1;
+}
+
 /*      Video section
 ================================================================================*/
 .video-section {
@@ -70,10 +97,10 @@ video-section iframe::-webkit-media-controls {
 
 .video-section .overlay-text {
     position: absolute;
-    top: 230px;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, 0);
-    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
     width: 100vw;
 }
 
@@ -152,37 +179,34 @@ video-section iframe::-webkit-media-controls {
     position: relative;
     top: 0;
     width: 100%;
-    height: 100%;
-    background-color: #fffef7 !important;
+    height: 550px;
+    background-color: white !important;
     text-align: center;
 }
 
 .about-us-section .background {
-    background-position: center 50px;
+    //background-size: 1920px 1470px;
+    background-size: 1440px 1102.5px;
+    background-position: center 0px;
     background-image: url(../../storage/app/images/big-diamond.png);
 }
 
-.about-us-section .about-us-title {
-    position: relative;
-    top: 20%;
-    left: 0%;
-    width: 20%;
-    height: 7%;
-    line-height: 100%;
-    border-bottom: #F1DB6E 1px solid;
-    margin: 0 40% 0 40%;
-    box-sizing: border-box;
+.about-us-section .section-title {
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
 }
 
 .about-us-section .about-us-container {
     position: relative;
-    top: 23%;
+    top: 160px;
     left: 10%;
     width: 80%;
-    height: 35%;
+    height: auto;
     padding: 50px 40px 50px 40px;
-    border: solid 3px #F1DB6E;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    //border: solid 1px #F1DB6E;
+    //box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     word-wrap: break-word;   
     line-height: 20px;
 }
@@ -208,12 +232,19 @@ video-section iframe::-webkit-media-controls {
     position: relative;
     top: 0;
     height: 690px;
-    background-color: #fffef7 !important;
+    background-color: white !important;
 }
 
 .packages-section .background {   
-    background-position: center 100px;
-    background-image: url(../../storage/app/images/big-diamond.png);
+    background-position: center center;
+    //background-image: url(../../storage/app/images/bckgrnd.jpg);
+}
+
+.packages-section .section-title {
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
 }
 
 .packages-container {
@@ -348,18 +379,6 @@ video-section iframe::-webkit-media-controls {
     opacity: 1;
 }
 
-/* Benefits section
-================================================================================ */
-.benefits-section {
-  height: 45%;  
-}
-
-.benefits-section .background {
-    background-color: #0a0a0a !important;
-    background-position: center 100px;
-    background-image: url(../../storage/app/images/big-diamond.png);
-}
-
 /* #Media Queries
 ================================================================================ */
 @media screen and (min-width: 768px) and (max-width: 1120px) {  
@@ -409,12 +428,43 @@ video-section iframe::-webkit-media-controls {
     .video-section h2.overlay-text-row { 
         font-size: 40px;
     }
+    
+    /*      About us section
+    ================================================================================*/
+
+    .about-us-section {
+        height: 500px;
+    }
+
+    .about-us-section .background {
+        //background-size: 1920px 1470px;
+        background-size: 1440px 1102.5px;
+        background-position: center 0px;
+    }
+
+    .about-us-section .section-title {
+        top: 70px;
+    }
+
+    .about-us-section .about-us-container {
+        position: relative;
+        top: 110px;
+        left: 10%;
+        width: 80%;
+        height: auto;
+        padding: 50px 40px 50px 40px;
+        //border: solid 1px #F1DB6E;
+        //box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        word-wrap: break-word;   
+        line-height: 15px;
+        font-size: 12px;
+    }
 }
 
 /* Phones */
 @media screen and (max-width: 450px) {
     .video-section .overlay-text {
-        top: 30%;
+        top: 35%;
     }
     
     .video-section h1.overlay-text-row {
@@ -423,6 +473,37 @@ video-section iframe::-webkit-media-controls {
    
     .video-section h2.overlay-text-row { 
         font-size: 40px;
+    }
+    
+    /*      About us section
+    ================================================================================*/
+
+    .about-us-section {
+        height: 100vh;
+    }
+
+    .about-us-section .background {
+        //background-size: 1920px 1470px;
+        background-size: 960px 735px;
+        background-position: center 0px;
+    }
+
+    .about-us-section .section-title {
+        top: 70px;
+    }
+
+    .about-us-section .about-us-container {
+        position: relative;
+        top: 100px;
+        left: 10%;
+        width: 80%;
+        height: auto;
+        padding: 20px 15px 20px 15px;
+        //border: solid 1px #F1DB6E;
+        //box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        word-wrap: break-word;   
+        line-height: 15px;
+        font-size: 12px;
     }
 }
 

@@ -90,27 +90,111 @@
 <section class="about-us-section" id="aboutus" >
 
         <div class="background">
-        <!--
-        <div class="animation-element slide-left module">
-            <img src="../storage/app/images/big-diamond-reverse.png" />           
-        </div>
-        -->
-        <div class="about-us-title animation-element fade-in">
-            <h2> ABOUT US </h2>
-        </div>
-        
-        <div class="about-us-container animation-element fade-in">
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-            </p>
-            <span> 
-                
-            </span>
-        </div>
+            <!--
+            <div class="animation-element slide-left module">
+                <img src="../storage/app/images/big-diamond-reverse.png" />           
+            </div>
+            -->
+            <div class="section-title animation-element fade-in">
+                <h2> ABOUT US </h2>
+            </div>
+
+            <div class="about-us-container animation-element fade-in">
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                </p>
+            </div>
+            
+            <div class="row">
+                <nav class="shop-products">
+                    <ul class="clearfix">
+                        <li class="col-sm-3">
+                                <figure>
+                                        <figcaption>
+                                                <img src="assets/img/shop/shopProduct.png" alt="">
+                                        </figcaption>
+                                        <div class="content">
+                                                <div class="shopHover">
+                                                        <div class="price">
+                                                                £ 15,99
+                                                        </div>
+                                                        <div class="proTitle">
+                                                                <a href="shopSingle.html">Original T. Brothers</a>
+                                                        </div>
+                                                        <div class="product">Hoodie Aqura</div>
+                                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
+                                                         <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
+                                                </div>
+                                        </div>
+                                </figure>
+                        </li>
+                        <li class="col-sm-3">
+                            <figure>
+                                <figcaption>
+                                    <img src="assets/img/shop/shopProduct.png" alt="">
+                                </figcaption>
+                                <div class="content">
+                                    <div class="shopHover">
+                                        <div class="price">
+                                                £ 15,99
+                                        </div>
+                                        <div class="proTitle">
+                                                <a href="shopSingle.html">Original T. Brothers</a>
+                                        </div>
+                                        <div class="product">Hoodie Aqura</div>
+                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
+                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
+                                    </div>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="col-sm-3">
+                            <figure>
+                                <figcaption>
+                                    <img src="assets/img/shop/shopProduct.png" alt="">
+                                </figcaption>
+                                <div class="content">
+                                    <div class="shopHover">
+                                        <div class="price">
+                                                £ 15,99
+                                        </div>
+                                        <div class="proTitle">
+                                                <a href="shopSingle.html">Original T. Brothers</a>
+                                        </div>
+                                        <div class="product">Hoodie Aqura</div>
+                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
+                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
+                                    </div>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="col-sm-3">
+                            <figure>
+                                <figcaption>
+                                    <img src="assets/img/shop/shopProduct.png" alt="">
+                                </figcaption>
+                                <div class="content">
+                                    <div class="shopHover">
+                                        <div class="price">
+                                                £ 15,99
+                                        </div>
+                                        <div class="proTitle">
+                                                <a href="shopSingle.html">Original T. Brothers</a>
+                                        </div>
+                                        <div class="product">Hoodie Aqura</div>
+                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
+                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
+                                    </div>
+                                </div>
+                            </figure>
+                        </li>
+                    </ul>
+                </nav><!-- end shop-products -->
+            </div>
         </div>
     
   <!--
@@ -120,7 +204,10 @@
 </section>
 
 <section id="content" class="packages-section">
-    
+    <div class="background">
+        <div class="section-title animation-element fade-in">
+          <h2> PACKAGES </h2>
+        </div>
         <div class="packages-container">
             <div class="carousel-container">
                 <div id="carousel">
@@ -131,7 +218,7 @@
                                     <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
+                                    <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <!--
                                 <div class="bottom">
@@ -148,7 +235,7 @@
                                     <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
+                                    <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -160,7 +247,7 @@
                                     <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
+                                    <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -172,7 +259,7 @@
                                     <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
+                                    <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -184,7 +271,7 @@
                                     <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
+                                    <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -196,7 +283,7 @@
                                     <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                                 <div class="back">
-                                    <img src="../storage/app/images/cards/card-back.png" class="card" height="227px" width="363.5px" />
+                                    <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
                                 </div>
                             </div>
                         </div> 
@@ -204,12 +291,12 @@
                 </div>
             </div>
         </div>
-    
+    </div>
 </section>
 
     	<!-- =============== START EVENTS SECTION ================ -->
 <section style="padding-bottom:0; padding-top:0;" class="events-section">
-     <div class="about-us-title animation-element fade-in">
+     <div class="section-title animation-element fade-in">
           <h2> EVENTS </h2>
              </div>
 		<div class="gallerySection">
@@ -474,8 +561,8 @@
 
 
 <section class="benefits-section">
-    <div class="about-us-title animation-element fade-in">
-          <h2> CLIENTS EXPIRICENCE </h2>
+    <div class="section-title animation-element fade-in">
+          <h2> CLIENT EXPERIENCE </h2>
              </div>
     
     <div class="stage">

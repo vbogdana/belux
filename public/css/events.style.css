@@ -11,20 +11,13 @@ and open the template in the editor.
 /***********************************************************************************************/
 /* EVENT SECTION */
 /***********************************************************************************************/
-.events-section .about-us-title {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    width: 20%;
-    height: 5%;
-    line-height: 100%;
-    border-bottom: #F1DB6E 1px solid;
-    margin: 0 40% 0 40%;
-    box-sizing: border-box;
-    text-align: center;
-    margin-bottom: 30px;
-
+.events-section .section-title {
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
 }
+
 .events-section{
     width: 100%;
     height: 1500px;
@@ -36,6 +29,11 @@ and open the template in the editor.
   font-weight: 300;
     display: block;
         background-color: #fffef7 !important;
+}
+
+.gallerySection {
+    position: relative;
+    top: 170px;
 }
 
 .eventinfo {
