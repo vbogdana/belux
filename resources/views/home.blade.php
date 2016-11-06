@@ -5,8 +5,11 @@
 @section('scripts')
 <!-- ubaciti sve css i js fajlove potrebne za home page -->
 <link rel="stylesheet" type="text/css" href="css/home.style.css" />
+<link rel="stylesheet" type="text/css" href="css/events.style.css" />
+<link rel="stylesheet" type="text/css" href="css/benefits.style.css" />
 <script type="text/javascript" src="js/reflection.js"></script>
 <script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript"  src="js/jquery.sldr.js"></script>
 @stop
 
 <!-- 
@@ -204,16 +207,264 @@
     
 </section>
 
-<div class="events-section">
+    	<!-- =============== START EVENTS SECTION ================ -->
+<section style="padding-bottom:0; padding-top:0;" class="events-section">
+     <div class="about-us-title animation-element fade-in">
+          <h2> EVENTS </h2>
+             </div>
+		<div class="gallerySection">
+			<div class="container-fluid" style="padding:0;">
+				<div class="col-sm-12">
+					<!-- Content Container -->
+					<div class="content-container clearfix">
+						<!-- Single Album Container -->
+						<div class="single-photo-album-container">
+							<div class="row">
+								<!-- Single Album Article -->
+								<article class="col-sm-12 col-md-6 col-xs-12">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+										<!-- Single Album View Button -->
+										 
+									</figure>
+                                                                        
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event4.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event5.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event6.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event7.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-12 col-md-6 col-xs-12">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- end container -->
+		</div>
+</section>
+	<!-- =============== END EVENTS SECTION ================ -->
     
-</div>
 
-<div class="benefits-section">
 
-</div>
+<section class="benefits-section">
+    <div class="about-us-title animation-element fade-in">
+          <h2> CLIENTS EXPIRICENCE </h2>
+             </div>
+    
+    <div class="stage">
+
+
+	<div id="SLDR-ONE" class="sldr">
+		<ul class="wrp animate">
+			<li class="elmnt-one"><div class="skew"><div class="wrap"><img src="../storage/app/images/Klijent1.png" width="500" height="250"></div></div></li>
+			<li class="elmnt-two"><div class="skew"><div class="wrap"><img src="../storage/app/images/Klijent2.png" width="500" height="250"></div></div></li>
+			<li class="elmnt-three"><div class="skew"><div class="wrap"><img src="../storage/app/images/Klijent1.png" width="500" height="250"></div></div></li>
+			<li class="elmnt-four"><div class="skew"><div class="wrap"><img src="../storage/app/images/Klijent2.png" width="500" height="250"></div></div></li>
+		</ul>
+	</div>
+
+	<div class="clear"></div>
+
+        <!--
+	<ul class="selectors">
+		<li class="focalPoint"><a href="">•</a></li><li><a href="">•</a></li><li><a href="">•</a></li><li><a href="">•</a></li>
+	</ul>
+        !-->
+	
+
+	<br>
+
+    </div>
+</section>
+
 
 <div class="social-section">
     
 </div>
+  <script>
+
+$( window ).load( function() {
+
+	$( '.sldr' ).each( function() {
+		var th = $( this );
+		th.sldr({
+			focalClass    : 'focalPoint',
+			offset        : th.width() / 2,
+			sldrWidth     : 'responsive',
+			nextSlide     : th.nextAll( '.sldr-nav.next:first' ),
+			previousSlide : th.nextAll( '.sldr-nav.prev:first' ),
+			selectors     : th.nextAll( '.selectors:first' ).find( 'li' ),
+			toggle        : th.nextAll( '.captions:first' ).find( 'div' ),
+			sldrInit      : sliderInit,
+			sldrStart     : slideStart,
+			sldrComplete  : slideComplete,
+			sldrLoaded    : sliderLoaded,
+			sldrAuto      : true,
+			sldrTime      : 5000,
+			hasChange     : true
+		});
+	});
+
+});
+
+/**
+ * Sldr Callbacks
+ */
+
+/**
+ * When the sldr is initiated, before the DOM is manipulated
+ * @param {object} args the slides, callback, and config of the slider
+ * @return null
+ */
+function sliderInit( args ) {
+
+}
+
+/**
+ * When individual slides are loaded
+ * @param {object} args the slides, callback, and config of the slider
+ * @return null
+ */
+function slideLoaded( args ) {
+
+}
+
+/**
+ * When the full slider is loaded, after the DOM is manipulated
+ * @param {object} args the slides, callback, and config of the slider
+ * @return null
+ */
+function sliderLoaded( args ) {
+
+}
+
+/**
+ * Before the slides change focal points
+ * @param {object} args the slides, callback, and config of the slider
+ * @return null
+ */
+function slideStart( args ) {
+
+}
+
+/**
+ * After the slides are done changing focal points
+ * @param {object} args the slides, callback, and config of the slider
+ * @return null
+ */
+function slideComplete( args ) {
+
+}
+
+</script>
+
 
 @stop
