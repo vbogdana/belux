@@ -5,6 +5,7 @@
 @section('scripts')
 <!-- ubaciti sve css i js fajlove potrebne za home page -->
 <link rel="stylesheet" type="text/css" href="css/home.style.css" />
+<link rel="stylesheet" type="text/css" href="css/events.style.css" />
 <script type="text/javascript" src="js/reflection.js"></script>
 <script type="text/javascript" src="js/home.js"></script>
 @stop
@@ -204,9 +205,153 @@
     
 </section>
 
-<div class="events-section">
+    	<!-- =============== START EVENTS SECTION ================ -->
+        
+	<section style="padding-bottom:0; padding-top:0;" class="events-section">
+              <div class="about-us-title animation-element fade-in">
+                         <h2> EVENTS </h2>
+                      </div>
+		<div class="gallerySection">
+			<div class="container-fluid" style="padding:0;">
+				<div class="col-sm-12">
+					<!-- Content Container -->
+					<div class="content-container clearfix">
+						<!-- Single Album Container -->
+						<div class="single-photo-album-container">
+							<div class="row">
+								<!-- Single Album Article -->
+								<article class="col-sm-12 col-md-6 col-xs-12">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+										<!-- Single Album View Button -->
+										 
+									</figure>
+                                                                        
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event4.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event5.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event6.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event7.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-12 col-md-6 col-xs-12">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+												<img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                                                                <div class="overlay">
+                                                                                                    </div>
+                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                </div>
+                                                                                                
+											</div>
+                                                                                       
+                                                                                        
+										</figcaption>
+									</figure>
+								</article>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- end container -->
+		</div>
+	</section>
+	<!-- =============== END EVENTS SECTION ================ -->
     
-</div>
+
 
 <div class="benefits-section">
 
