@@ -231,7 +231,27 @@
 												<img class="" src="../storage/app/images/event2.jpg" alt="">
                                                                                                 <div class="overlay">
                                                                                                     </div>
-                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                <div class=" eventinfo">
+                                                                                                    <div class="content">
+                                                                                                    	<div class="shopHover">
+                                                                                                                <div class="price">
+                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                                                                </div>
+                                                                                                            <div class="lajna"></div> 
+                                                                                                                <div  class="proTitle">
+                                                                                                                        Summer Jam
+                                                                                                                </div>
+                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                                                                <div class="stasveima">
+                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                                                                </div>
+                                                                                                        </div>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                </div>
                                                                                                 </div>
                                                                                                 
 											</div>
@@ -254,7 +274,27 @@
 												<img class="" src="../storage/app/images/event4.jpg" alt="">
                                                                                                 <div class="overlay">
                                                                                                     </div>
-                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                <div class=" eventinfo">
+                                                                                                    <div class="content">
+                                                                                                    	<div class="shopHover">
+                                                                                                                <div class="price">
+                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                                                                </div>
+                                                                                                            <div class="lajna"></div> 
+                                                                                                                <div  class="proTitle">
+                                                                                                                        Summer Jam
+                                                                                                                </div>
+                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                                                                <div class="stasveima">
+                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                                                                </div>
+                                                                                                        </div>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                </div>
                                                                                                 </div>
                                                                                                 
 											</div>
@@ -274,7 +314,27 @@
 												<img class="" src="../storage/app/images/event5.jpg" alt="">
                                                                                                 <div class="overlay">
                                                                                                     </div>
-                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                <div class=" eventinfo">
+                                                                                                    <div class="content">
+                                                                                                    	<div class="shopHover">
+                                                                                                                <div class="price">
+                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                                                                </div>
+                                                                                                            <div class="lajna"></div> 
+                                                                                                                <div  class="proTitle">
+                                                                                                                        Summer Jam
+                                                                                                                </div>
+                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                                                                <div class="stasveima">
+                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                                                                </div>
+                                                                                                        </div>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                </div>
                                                                                                 </div>
                                                                                                 
 											</div>
@@ -294,7 +354,27 @@
 												<img class="" src="../storage/app/images/event6.jpg" alt="">
                                                                                                 <div class="overlay">
                                                                                                     </div>
-                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                <div class=" eventinfo">
+                                                                                                    <div class="content">
+                                                                                                    	<div class="shopHover">
+                                                                                                                <div class="price">
+                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                                                                </div>
+                                                                                                            <div class="lajna"></div> 
+                                                                                                                <div  class="proTitle">
+                                                                                                                        Summer Jam
+                                                                                                                </div>
+                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                                                                <div class="stasveima">
+                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                                                                </div>
+                                                                                                        </div>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                </div>
                                                                                                 </div>
                                                                                                 
 											</div>
@@ -314,9 +394,28 @@
 												<img class="" src="../storage/app/images/event7.jpg" alt="">
                                                                                                 <div class="overlay">
                                                                                                     </div>
-                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                <div class=" eventinfo">
+                                                                                                    <div class="content">
+                                                                                                    	<div class="shopHover">
+                                                                                                                <div class="price">
+                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                                                                </div>
+                                                                                                            <div class="lajna"></div> 
+                                                                                                                <div  class="proTitle">
+                                                                                                                        Summer Jam
+                                                                                                                </div>
+                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                                                                <div class="stasveima">
+                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                                                                </div>
+                                                                                                        </div>
+                                                                                                    
+                                                                                                    
+                                                                                                    
                                                                                                 </div>
-                                                                                                
+                                                                                                </div>
 											</div>
                                                                                        
                                                                                         
@@ -334,7 +433,27 @@
 												<img class="" src="../storage/app/images/event3.jpg" alt="">
                                                                                                 <div class="overlay">
                                                                                                     </div>
-                                                                                                <div class=" eventinfo">  <img src="../storage/app/images/eventdetails.png" class="card" height="100%" width="100%" />     
+                                                                                                <div class=" eventinfo">
+                                                                                                    <div class="content">
+                                                                                                    	<div class="shopHover">
+                                                                                                                <div class="price">
+                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                                                                </div>
+                                                                                                            <div class="lajna"></div> 
+                                                                                                                <div  class="proTitle">
+                                                                                                                        Summer Jam
+                                                                                                                </div>
+                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                                                                <div class="stasveima">
+                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                                                                </div>
+                                                                                                        </div>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                </div>
                                                                                                 </div>
                                                                                                 
 											</div>
