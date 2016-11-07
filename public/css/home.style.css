@@ -258,14 +258,32 @@ video-section iframe::-webkit-media-controls {
 }
 
 .about-us-section .ribbon {
-    background: white;   
+    background: white; 
+    border-top: 1px solid #bb9b69;
+    border-bottom: 1px solid #bb9b69;
 }
 
 .about-us-section .center-quote {
     left: 50%;
     transform: translate(-50%, 0%);
     -webkit-transform: translate(-50%, 0%);
-    margin: 80px 0 50px 0;
+    margin: 60px 0 40px 0;
+}
+
+.about-us-section blockquote.center-quote {
+    width: 700px;
+    font-size: 20px;
+}
+
+.about-us-section h3 {
+    color: #222222;
+    font-size: 18px;   
+    text-align: center;
+}
+
+.about-us-section h3 span {
+   font-family: Georgia, serif; 
+   color: #bb9b69;
 }
 
 .about-us-section .about-us-container {
@@ -290,6 +308,7 @@ video-section iframe::-webkit-media-controls {
     top: 0;
     height: 690px;
     background-color: white !important;
+    border-top: 1px solid #bb9b69;
 }
 
 .packages-section .background {   
@@ -298,15 +317,17 @@ video-section iframe::-webkit-media-controls {
 }
 
 .packages-section .section-title {
-    top: 120px;
+    top: 150px;
     left: 50%;
     transform: translate(-50%, 0%);
     -webkit-transform: translate(-50%, 0%);
 }
 
 .packages-container {
-    position: relative;
-    top: 35%;
+    position: absolute;
+    top: 195px;
+    width: 100%;
+    padding-top: 80px;
 }
 
 .carousel-container {
@@ -439,7 +460,19 @@ video-section iframe::-webkit-media-controls {
 /* #Media Queries
 ================================================================================ */
 @media screen and (min-width: 768px) and (max-width: 1120px) {  
-    // for packages section
+    /* About us section
+    ============================================================================ */
+    .about-us-section blockquote.center-quote {
+        width: 600px;
+        font-size: 18px;
+    }
+    
+    /* Packages section
+    ============================================================================ */
+    .packages-container {
+        padding-top: 60px;
+    }
+
     #carousel figure:nth-child(1) {
         -webkit-transform:  translate3d(0, 0, 0) scale(0.78);
         transform: translate3d(0, 0, 0) scale(0.78);
@@ -528,6 +561,9 @@ video-section iframe::-webkit-media-controls {
         left: 10%;
         width: 80%;
     }
+    
+    /*      Packages section
+    ================================================================================*/
 }
 
 /* Phones */
@@ -580,5 +616,8 @@ video-section iframe::-webkit-media-controls {
         line-height: 15px;
         font-size: 12px;
     }
+    
+    /*      Packages section
+    ================================================================================*/
 }
 
