@@ -11,20 +11,13 @@ and open the template in the editor.
 /***********************************************************************************************/
 /* EVENT SECTION */
 /***********************************************************************************************/
-.events-section .about-us-title {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    width: 20%;
-    height: 5%;
-    line-height: 100%;
-    border-bottom: #F1DB6E 1px solid;
-    margin: 0 40% 0 40%;
-    box-sizing: border-box;
-    text-align: center;
-    margin-bottom: 30px;
-
+.events-section .section-title {
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
 }
+
 .events-section{
     width: 100%;
     height: 1500px;
@@ -36,6 +29,11 @@ and open the template in the editor.
   font-weight: 300;
     display: block;
         background-color: #fffef7 !important;
+}
+
+.gallerySection {
+    position: relative;
+    top: 170px;
 }
 
 .eventinfo {
@@ -370,6 +368,96 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   min-height: 1px;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.content {
+ position:relative;
+ top:0%;
+ left:0%;
+ width:100%;
+ height: 100%;
+}
+
+.shopHover {
+ position:relative;
+ top:0%;
+ left:0%;
+ width:100%;
+ height: 100%;
+}
+
+
+.price {
+ position:relative;
+ top:0%;
+ left:0%;
+ width:100%;
+ height: 40%;
+}
+
+.eventklub{
+ top:10%;
+ width:250px !important;
+ height: 100%;
+ text-align: center;
+ display: table;
+ margin: 0 auto;
+}
+
+.lajna{
+  position:relative;
+  content: '';
+  width: 4rem;
+  height: 0.1rem;
+  background-color: #f5f8fa;
+  top:10%;
+  display: table;
+  margin: 0 auto;
+}
+.proTitle{
+ position:relative;
+ top:15%;
+ left:0%;
+ width:100%;
+ height: 20%;  
+ font-size: 1.8rem;
+ text-transform: uppercase;
+ color:#f5f8fa;
+ font-weight: 600;
+ margin-bottom: 0.5rem;
+ text-decoration: none;
+    
+}
+
+.proSubtitle{
+      color: #adacac;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+ position:relative;
+ top:0%;
+ left:0%;
+ width:100%;
+ height: 10%;  
+ text-align: center;
+}
+
+.stasveima{
+     position:relative;
+
+     width:20%;
+     height: 10%; 
+     left:15px;
+     top:13%;
+     display: table;
+     text-align: left;
+    
+}
+
+.slicice{
+    width: 30px !important;
+    height: 30px !important;
+    float:left; 
 }
 /***********************************************************************************************/
 /* END HOME GALLERY SECTION */
