@@ -107,6 +107,13 @@ $(window).on("load", function() {
                 transform: "rotateX(-180deg) scale(1.3) translateX(40px)"
             });
         }
+        /*
+        $img = $flipper.find(".back img");
+        $img.attr({
+            height: "295.1px",
+            width: "472.55px"
+        });
+        */
     });
     
     // flip back

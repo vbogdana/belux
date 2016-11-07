@@ -40,6 +40,13 @@
     transition: background 0.5s;
 }
 
+.ha-transparent a {
+    color: #888888;
+}
+.ha-non-transparent a {
+    color: #222222;
+}
+
 /* #Navigation
 ================================================== */
 .top-nav {
@@ -59,7 +66,7 @@
     width: 20px;
     line-height: 80px;   
     text-align: center;
-    background: #F1DB6E;
+    background: #bb9b69;
     width: 1px;
     height: 30px;
     position: relative;
@@ -86,11 +93,11 @@ ul.top-nav-menu li div {
     display: inline-block;
 }
 li.top-nav-menu-item div a {  
-    color: #888888;
+    //color: #888888;
     font-size: 13px;
 }
 li.top-nav-menu-item div a:hover, li.top-nav-menu-item div a:active {
-    color: #F1DB6E;
+    color: #bb9b69;
 }
 
 .top-nav-submenu-item {
@@ -109,7 +116,7 @@ ul.top-nav-submenu {
     font-size: 12px;
     line-height: 30px;
     width: 132px;
-    border: 1px solid #F1DB6E;
+    border: 1px solid #bb9b69;
     border-top: none;
 }
 ul.top-nav-submenu li {
@@ -160,6 +167,9 @@ ul.top-nav-submenu li:first-child {
         
         //background: rgb(2,2,2);
     }
+    .ha-non-transparent a {
+        color: #888888;
+    }
     .top-nav {
         max-height: 260px;
         width: 100%;
@@ -183,18 +193,23 @@ ul.top-nav-submenu li:first-child {
         display: none;
         list-style-image: url('../../storage/app/images/diamond-gray.png');
         list-style-position: inside;
+        list-style: none;
     }    
     ul.top-nav-menu li {
         box-sizing: border-box;
         width: 100%;
         text-align: left;
-        border-bottom: solid 2px #222222;
+        border-bottom: solid 1px #bb9b69;
         padding-left: 20px;
     }
-    ul.top-nav-menu li:hover, ul.top-nav-menu li:active, ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
-        background: #0a0a0a;
-        color: #F1DB6E;
+    ul.top-nav-menu li:nth-child(11) {
+        border: none; 
     }
+    /*ul.top-nav-menu li:hover, ul.top-nav-menu li:active, ul.top-nav-menu li a:hover, ul.top-nav-menu li a:active {
+        background: #251f15;
+        color: #bb9b69;
+    }*/
+    
     /* display Menu and nav icon on mobile */
     a#pull {
         display: block;
@@ -213,7 +228,7 @@ ul.top-nav-submenu li:first-child {
         top: 10px;
     }
     a#pull:hover, nav a#pull:active {
-        color: #F1DB6E;
+        color: #bb9b69;
     }
     a#pull:hover:after, nav a#pull:active:after {
         background: url('../../storage/app/images/nav-icon-gold.png') no-repeat;
@@ -223,7 +238,7 @@ ul.top-nav-submenu li:first-child {
         width: 100%;
         line-height: 30px;
         display: none;
-        list-style:square inside;
+        list-style: none;
         border: none;
         left: -1px;
         margin: 0;
@@ -239,7 +254,7 @@ ul.top-nav-submenu li:first-child {
     }
     ul.top-nav-submenu li:hover, ul.top-nav-submenu li:active, ul.top-nav-submenu li:hover a, ul.top-nav-submenu li:active a {
         background: #0a0a0a;
-        color: #F1DB6E;
+        color: #bb9b69;
     }
 }
 
