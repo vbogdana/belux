@@ -89,124 +89,48 @@
 
 <section class="about-us-section" id="aboutus" >
 
-        <div class="background">
-            <!--
-            <div class="animation-element slide-left module">
-                <img src="../storage/app/images/big-diamond-reverse.png" />           
-            </div>
-            -->
-            <div class="section-title animation-element fade-in">
-                <h2> ABOUT US </h2>
+    <div class="background">
+        <div class="section-title animation-element fade-in">
+            <h2> ABOUT US </h2>
+            <div class="horizontal-line"></div>
+        </div>
+        <div class="wrapper" >
+            <div class="ribbon">
+                <blockquote class="center-quote animation-element fade-in">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <cite>Somebody famous</cite>
+                </blockquote>
             </div>
 
-            <div class="about-us-container animation-element fade-in">
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            
+            <div class="about-us-container">
+                <h3 class="animation-element fade-in"> 
+                    BELGRADE 
+                    <span> LUXURY </span> 
+                </h3>
+                <div class="horizontal-line"></div>
+                <p class="animation-element fade-in"> 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
                 </p>
-            </div>
+                <div class="horizontal-line"></div>
+            </div> 
             
-            <div class="row">
-                <nav class="shop-products">
-                    <ul class="clearfix">
-                        <li class="col-sm-3">
-                                <figure>
-                                        <figcaption>
-                                                <img src="assets/img/shop/shopProduct.png" alt="">
-                                        </figcaption>
-                                        <div class="content">
-                                                <div class="shopHover">
-                                                        <div class="price">
-                                                                £ 15,99
-                                                        </div>
-                                                        <div class="proTitle">
-                                                                <a href="shopSingle.html">Original T. Brothers</a>
-                                                        </div>
-                                                        <div class="product">Hoodie Aqura</div>
-                                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
-                                                         <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
-                                                </div>
-                                        </div>
-                                </figure>
-                        </li>
-                        <li class="col-sm-3">
-                            <figure>
-                                <figcaption>
-                                    <img src="assets/img/shop/shopProduct.png" alt="">
-                                </figcaption>
-                                <div class="content">
-                                    <div class="shopHover">
-                                        <div class="price">
-                                                £ 15,99
-                                        </div>
-                                        <div class="proTitle">
-                                                <a href="shopSingle.html">Original T. Brothers</a>
-                                        </div>
-                                        <div class="product">Hoodie Aqura</div>
-                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
-                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
-                                    </div>
-                                </div>
-                            </figure>
-                        </li>
-                        <li class="col-sm-3">
-                            <figure>
-                                <figcaption>
-                                    <img src="assets/img/shop/shopProduct.png" alt="">
-                                </figcaption>
-                                <div class="content">
-                                    <div class="shopHover">
-                                        <div class="price">
-                                                £ 15,99
-                                        </div>
-                                        <div class="proTitle">
-                                                <a href="shopSingle.html">Original T. Brothers</a>
-                                        </div>
-                                        <div class="product">Hoodie Aqura</div>
-                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
-                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
-                                    </div>
-                                </div>
-                            </figure>
-                        </li>
-                        <li class="col-sm-3">
-                            <figure>
-                                <figcaption>
-                                    <img src="assets/img/shop/shopProduct.png" alt="">
-                                </figcaption>
-                                <div class="content">
-                                    <div class="shopHover">
-                                        <div class="price">
-                                                £ 15,99
-                                        </div>
-                                        <div class="proTitle">
-                                                <a href="shopSingle.html">Original T. Brothers</a>
-                                        </div>
-                                        <div class="product">Hoodie Aqura</div>
-                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-shopping-cart"></i><span></span></a>
-                                        <a href="shopSingle.html" class="icon-button shopIcon"><i class="fa fa-info"></i><span></span></a>
-                                    </div>
-                                </div>
-                            </figure>
-                        </li>
-                    </ul>
-                </nav><!-- end shop-products -->
-            </div>
+            
         </div>
+    </div>
     
-  <!--
-   
-    
-  -->
 </section>
 
 <section id="content" class="packages-section">
     <div class="background">
         <div class="section-title animation-element fade-in">
           <h2> PACKAGES </h2>
+          <div class="horizontal-line"></div>
         </div>
         <div class="packages-container">
             <div class="carousel-container">
@@ -296,9 +220,10 @@
 
     	<!-- =============== START EVENTS SECTION ================ -->
 <section style="padding-bottom:0; padding-top:0;" class="events-section">
-     <div class="section-title animation-element fade-in">
-          <h2> EVENTS </h2>
-             </div>
+    <div class="section-title animation-element fade-in">
+        <h2> EVENTS </h2>
+        <div class="horizontal-line"></div>
+    </div>
 		<div class="gallerySection">
 			<div class="container-fluid" style="padding:0;">
 				<div class="col-sm-12">

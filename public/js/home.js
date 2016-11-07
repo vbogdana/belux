@@ -65,23 +65,65 @@ function onPlayerReady(event) {
 
 /* packages-section */
 var isLaptop = false;
+var isTablet = false;
 var isMobile = false;
+//var ids = { id: ["front", "right-front", "right-back", "back", "left-back", "left-front"] };
+var translateD = { value: ["0, 0, 0", "440px, 0, -20px", "240px, 0, -40px", "0, 0, -60px", "-240px, 0, -40px", "-440px, 0, -20px"] };
+var scaleD = { value: ["1", "0.65", "0.4", "0.25", "0.4", "0.65"] };
+var translateL = { value: ["0, 0, 0", "270px, 0, -20px", "135px, 0, -40px", "0, 0, -60px", "-135px, 0, -40px", "-270px, 0, -20px"] };
+var scaleL = { value: ["0.78", "0.58", "0.3", "0.2", "0.3", "0.58"] };
+var opacity = { value: ["1", "1", "0.9", "0.9", "0.9", "1"] };
 
 function checkMedia() {
+    isLaptop = false;
+    isTablet = false;
+    isMobile = false;
     if (window.matchMedia) {
         isLaptop = window.matchMedia('(min-width: 768px)').matches;
         isLaptop = isLaptop && window.matchMedia('(max-width: 1120px)').matches;
-        if (!isLaptop)
-            isMobile = window.matchMedia('(max-width: 767px)').matches;
+        if (!isLaptop) {
+            isTablet = window.matchMedia('(max-width: 767px)').matches;
+            isTablet = isTablet && window.matchMedia('(min-width: 451px)').matches;
+            if (!isTablet)
+                isMobile = window.matchMedia('(max-width: 450px)').matches;
+        }
     } else {
         isLaptop = screen.width >= 768 && screen.width <= 1120 ;
-        if (!isLaptop)
-            isMobile = screen.width < 768;
+        if (!isLaptop) {
+            isTablet = screen.width > 450 && screen.width < 768;
+            if (!isTablet)
+                isMobile = screen.width <= 450;
+        }
     }
 }
     
 $(window).on("resize", function() {
-   checkMedia();    
+   checkMedia();
+   var figures = $('#carousel figure');
+   $.each(figures, function() {
+        var $element = $(this);
+        var $id = parseInt($element.attr("id"));
+        if (isMobile) {
+            // TO DO mobile
+            
+        } else if (isTablet) {
+            // TO DO tablet
+            
+        }
+        else if (isLaptop) {
+            $element.css({
+                "-webkit-transform": "translate3d(" + translateL.value[$id] + ") scale(" + scaleL.value[$id] + ")",
+                "transform": "translate3d(" + translateL.value[$id] + ") scale(" + scaleL.value[$id] + ")",
+                opacity: opacity.value[$id]
+            });    
+        } else {
+            $element.css({
+                "-webkit-transform": "translate3d(" + translateD.value[$id] + ") scale(" + scaleD.value[$id] + ")",
+                "transform": "translate3d(" + translateD.value[$id] + ") scale(" + scaleD.value[$id] + ")",
+                opacity: opacity.value[$id]
+            });
+        }
+    });
 });
 
 
@@ -107,6 +149,13 @@ $(window).on("load", function() {
                 transform: "rotateX(-180deg) scale(1.3) translateX(40px)"
             });
         }
+        /*
+        $img = $flipper.find(".back img");
+        $img.attr({
+            height: "295.1px",
+            width: "472.55px"
+        });
+        */
     });
     
     // flip back
@@ -126,12 +175,6 @@ $(window).on("load", function() {
 
 // rotate ring
 $(window).on("load", function() {
-    //var ids = { id: ["front", "right-front", "right-back", "back", "left-back", "left-front"] };
-    var translateD = { value: ["0, 0, 0", "440px, 0, -20px", "240px, 0, -40px", "0, 0, -60px", "-240px, 0, -40px", "-440px, 0, -20px"] };
-    var scaleD = { value: ["1", "0.65", "0.4", "0.25", "0.4", "0.65"] };
-    var translateL = { value: ["0, 0, 0", "270px, 0, -20px", "135px, 0, -40px", "0, 0, -60px", "-135px, 0, -40px", "-270px, 0, -20px"] };
-    var scaleL = { value: ["0.78", "0.58", "0.3", "0.2", "0.3", "0.58"] };
-    var opacity = { value: ["1", "1", "0.9", "0.9", "0.9", "1"] };
     
     checkMedia();
     
@@ -152,72 +195,80 @@ $(window).on("load", function() {
             return;
         }
         
-        $.each(figures, function() {
-            var $element = $(this);
-            var $curr_id = parseInt($element.attr("id"));
+        if (isMobile) {
+            // TO DO mobile
+            
+        } else if (isTablet) {
+            // TO DO tablet
+            
+        } else {
             // flip back the center one
-            if ($curr_id == 0) {
-                var $flipper = $element.find(".flipper");
-                $flipper.css({
-                    "-webkit-transform" : "rotateX(0deg)",
-                    transform: "rotateX(0deg)"
-                })  
-            };
-        });
-        
-        if (id == 2 || id == 4) {           
             $.each(figures, function() {
                 var $element = $(this);
                 var $curr_id = parseInt($element.attr("id"));
-                var $new_id;
-                if (id == 2)
-                    $new_id = ($curr_id - 1 + 6) % 6;
-                else if (id == 4)
-                    $new_id = ($curr_id + 1) % 6;
-                $element.attr("id", $new_id);
-                if (isLaptop) {
-                    $element.css({
-                        "-webkit-transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
-                        "transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
-                        opacity: opacity.value[$new_id]
-                    });    
-                } else {
-                    $element.css({
-                        "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
-                        "transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
-                        opacity: opacity.value[$new_id]
-                    });
-                }
+                if ($curr_id == 0) {
+                    var $flipper = $element.find(".flipper");
+                    $flipper.css({
+                        "-webkit-transform" : "rotateX(0deg)",
+                        transform: "rotateX(0deg)"
+                    })  
+                };
             });
-            if (id == 2) id = 1;
-            if (id == 4) id = 5;
-            delay_time = 500;          
-        }
-         
-        $.each(figures, function() {
-            var $element = $(this);
-            var $curr_id = parseInt($element.attr("id"));
-            var $new_id = ((6 - id) + $curr_id) % 6;
-            $element.attr("id", $new_id);
-            $element.delay(delay_time).queue(function (next) { 
-                if (isLaptop) {
-                    $element.css({
-                        "-webkit-transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
-                        "transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
-                        opacity: opacity.value[$new_id]
-                    });
-                } else {
-                    $element.css({
-                        "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
-                        "transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
-                        opacity: opacity.value[$new_id]
-                    });
-                }
-                
-                next(); 
-            });                        
-        });
-        
+            
+            // if need to rotate by 2 cards
+            if (id == 2 || id == 4) {           
+                $.each(figures, function() {
+                    var $element = $(this);
+                    var $curr_id = parseInt($element.attr("id"));
+                    var $new_id;
+                    if (id == 2)
+                        $new_id = ($curr_id - 1 + 6) % 6;
+                    else if (id == 4)
+                        $new_id = ($curr_id + 1) % 6;
+                    $element.attr("id", $new_id);
+                    if (isLaptop) {
+                        $element.css({
+                            "-webkit-transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
+                            "transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
+                            opacity: opacity.value[$new_id]
+                        });    
+                    } else {
+                        $element.css({
+                            "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
+                            "transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
+                            opacity: opacity.value[$new_id]
+                        });
+                    }
+                });
+                if (id == 2) id = 1;
+                if (id == 4) id = 5;
+                delay_time = 500;          
+            }
+            
+            // rotate by one card
+            $.each(figures, function() {
+                var $element = $(this);
+                var $curr_id = parseInt($element.attr("id"));
+                var $new_id = ((6 - id) + $curr_id) % 6;
+                $element.attr("id", $new_id);
+                $element.delay(delay_time).queue(function (next) { 
+                    if (isLaptop) {
+                        $element.css({
+                            "-webkit-transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
+                            "transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
+                            opacity: opacity.value[$new_id]
+                        });
+                    } else {
+                        $element.css({
+                            "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
+                            "transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
+                            opacity: opacity.value[$new_id]
+                        });
+                    }
+                    next(); 
+                });                        
+            });
+        }      
     });
     
     /*

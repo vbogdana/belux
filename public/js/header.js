@@ -45,8 +45,17 @@ $(window).on("load", function() {
 });
 
 $(window).on("resize", function(){
-  var w = $(window).width();
-  if(w > 320 && menu.is(':hidden')) {
-    menu.removeAttr('style');
-  }
+    var w = $(window).width();
+    if (w > 320) {
+        //menu.hide();
+        if (menu.is(':hidden'))
+            menu.removeAttr('style');
+    } /*else if (w > 767) {
+        $('.ha-header').removeAttr('style');
+        $('.ha-header').css("display", "block");
+        if (!menu.is(':hidden'))
+            menu.hide();
+        
+        //$('.ha-header').css("background", "rgba(253,253,253,0.8)");
+    }*/
 }); 
