@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-( function( $ ) {
-    
-} )( jQuery );
 
+$( document ).on( "pageinit", function( event ) {
+  //alert( "This page was just enhanced by jQuery Mobile!" );
+});
 
 $(window).on("load", function() {
     // Init Skrollr
@@ -19,11 +19,13 @@ $(window).on("load", function() {
         }
     });
     */
-    
+      
     // Animate loader off screen
     $(".se-pre-con").fadeOut("slow");
     $("#header-section").fadeIn("slow");
     $(".container").fadeIn("slow");
+    // $('.contact-toolbar').fadeIn("slow");
+    // show contact toolbar
     
     /* fade-in */
     var $animation_elements = $('.animation-element');

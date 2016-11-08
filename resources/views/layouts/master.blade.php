@@ -23,8 +23,9 @@
         <link rel="stylesheet" type="text/css" href="css/container.style.css" />
         <link rel="stylesheet" type="text/css" href="css/footer.style.css" />
         <!-- Include jQuery -->
-        <script type="text/javascript" src="js/jquery-3.1.1.js"></script>    
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <!--<script type="text/javascript" src="js/jquery-3.1.1.js"></script>-->        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
         <!-- Include the YT API Library -->
         <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
         <!-- Include scripts common for all pages -->
@@ -36,7 +37,7 @@
     </head>
 
     <body>
-        
+              
         <!-- menu se definise ovde jer ce biti isti za sve stranice -->
         @section('sidebar')
             <header id="header-section" class="ha-header ha-transparent fullwidth"> 
@@ -93,11 +94,27 @@
             @yield('content')
         </div>
         
+        @section('contact')
+            <div class="contact-toolbar">
+                nemam pojma gde toolbar da strpam nigde ne ide
+                <div class="phone-wrapper">
+                +381641234567    
+                </div>
+                <div class="email-wrapper">
+                office@belgradeluxury.com   
+                </div>
+                <div class="social-wrapper">
+                    
+                </div>
+            </div>
+        @show      
+        
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
-            <div class="footer">
+            <section class="footer">
                 <!-- TO DO footer -->
-            </div>
+                
+            </section>
         @show
         
     </body>
