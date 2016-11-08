@@ -19,7 +19,7 @@ $.fn.extend({
 				function doReflect() {
 					var imageWidth = img.width, imageHeight = img.height, reflection, reflectionHeight, wrapper, context, gradient;
 					reflectionHeight = Math.floor((options.height > 1) ? Math.min(imageHeight, options.height) : imageHeight * options.height);
-                                        var distance = 30;
+                                        var distance = 20;
 					reflection = $("<canvas />")[0];
 					if (reflection.getContext) {
 						context = reflection.getContext("2d");

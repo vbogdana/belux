@@ -64,6 +64,8 @@
 
 @section('content')
 <!-- za sve ove klase treba napisati css -->
+
+<!-- =============== START VIDEO SECTION ================= -->
 <section class="video-section [widescreen]">
     <!--
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/FLKXSgXNl8w?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
@@ -86,7 +88,9 @@
     </div>
     
 </section>
+<!-- =============== END VIDEO SECTION =================== -->
 
+<!-- =============== START ABOUT US SECTION ============== -->
 <section class="about-us-section" id="aboutus" >
 
     <div class="background">
@@ -101,7 +105,6 @@
                     <cite>Somebody famous</cite>
                 </blockquote>
             </div>
-
             
             <div class="about-us-container">
                 <h3 class="animation-element fade-in"> 
@@ -120,12 +123,55 @@
                 <div class="horizontal-line"></div>
             </div> 
             
-            
+            <!--
+            <div class="services-container">
+                <ul class="services-list">
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
+            -->
         </div>
     </div>
     
 </section>
+<!-- =============== END ABOUT US SECTION ================ -->
 
+<!-- =============== START PROMOTIONS SECTION ============== -->
+<section class="promotions-section">
+    <div class="background">       
+        <div class="cards-container">
+                <div id="cards">
+                    <figure >
+                        <img class="card floating" src="../storage/app/images/cards/card-front-6.svg" width="300.5px" height="187px" />
+                    </figure> 
+                    <figure>
+                        <img class="card floating" src="../storage/app/images/cards/card-front-5.svg" width="300.5px" height="187px" />
+                    </figure>
+                </div>
+        </div>
+        
+        <div class="promotions-container">
+            <h2 class="animation-element fade-in"> New Year in Belgrade? </h2>
+            <p>
+                treba da pise jos nesto, treba formatirati
+            </p>
+        </div>
+    </div>
+</section>
+<!-- =============== END PROMOTIONS SECTION ================ -->
+
+<!-- =============== START PACKAGES SECTION ============== -->
 <section id="content" class="packages-section">
     <div class="background">
         <div class="section-title animation-element fade-in">
@@ -133,6 +179,12 @@
           <div class="horizontal-line"></div>
         </div>
         <div class="packages-container">
+            <div class="previous-btn">
+                <img src="../storage/app/images/next.svg" />
+            </div>
+            <div class="next-btn">
+                <img src="../storage/app/images/next.svg" />
+            </div>
             <div class="carousel-container">
                 <div id="carousel">
                     <figure id="0">
@@ -217,8 +269,9 @@
         </div>
     </div>
 </section>
+<!-- =============== END PACKAGES SECTION ================ -->
 
-    	<!-- =============== START EVENTS SECTION ================ -->
+<!-- =============== START EVENTS SECTION ================ -->
 <section style="padding-bottom:0; padding-top:0;" class="events-section">
     <div class="section-title animation-element fade-in">
         <h2> EVENTS </h2>
@@ -481,10 +534,9 @@
 			</div><!-- end container -->
 		</div>
 </section>
-	<!-- =============== END EVENTS SECTION ================ -->
+<!-- =============== END EVENTS SECTION ================== -->
     
-
-
+<!-- =============== START BENEFITS SECTION ============== -->
 <section class="benefits-section">
     <div class="section-title animation-element fade-in">
           <h2> CLIENT EXPERIENCE </h2>
@@ -515,11 +567,15 @@
 
     </div>
 </section>
+<!-- =============== END BENEFITS SECTION ================ -->
 
-
+<!-- =============== START SOCIAL SECTION ================ -->
 <div class="social-section">
     
 </div>
+<!-- =============== END SOCIAL SECTION ================== -->
+
+
   <script>
 
 $( window ).load( function() {
@@ -599,3 +655,4 @@ function slideComplete( args ) {
 
 
 @stop
+
