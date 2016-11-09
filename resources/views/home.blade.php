@@ -94,62 +94,65 @@
 <section class="about-us-section" id="aboutus" >
 
     <div class="background">
-        <div class="section-title animation-element fade-in">
-            <h2> ABOUT US </h2>
-            <div class="horizontal-line"></div>
-        </div>
-        <div class="wrapper" >
-            <div class="ribbon">
-                <blockquote class="center-quote animation-element fade-in">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    <cite>Somebody famous</cite>
-                </blockquote>
-            </div>
-            
-            <div class="about-us-container">
-                <h3 class="animation-element fade-in"> 
-                    BELGRADE 
-                    <span> LUXURY </span> 
-                </h3>
+        <div class="content">
+            <div class="section-title animation-element fade-in">
+                <h2> ABOUT US </h2>
                 <div class="horizontal-line"></div>
-                <p class="animation-element fade-in"> 
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-                </p>
-                <div class="horizontal-line"></div>
-            </div> 
-            
-            <!--
-            <div class="services-container">
-                <ul class="services-list">
-                    <li>
-                        
-                    </li>
-                    <li>
-                        
-                    </li>
-                    <li>
-                        
-                    </li>
-                    <li>
-                        
-                    </li>
-                </ul>
             </div>
-            -->
+            <div class="wrapper" >
+                <div class="ribbon">
+                    <blockquote class="center-quote animation-element fade-in">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <cite>Somebody famous</cite>
+                    </blockquote>
+                </div>
+
+                <div class="about-us-container">
+                    <h3 class="animation-element fade-in"> 
+                        BELGRADE 
+                        <span> LUXURY </span> 
+                    </h3>
+                    <div class="horizontal-line"></div>
+                    <p class="animation-element fade-in"> 
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                    </p>
+                    <div class="horizontal-line"></div>
+                </div> 
+
+                <!--
+                <div class="services-container">
+                    <ul class="services-list">
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+                -->
+            </div>
         </div>
     </div>
-    
 </section>
 <!-- =============== END ABOUT US SECTION ================ -->
 
 <!-- =============== START PROMOTIONS SECTION ============== -->
 <section class="promotions-section">
-    <div class="background">       
+    <div class="background"></div>
+    <div class="overlay"></div>
+    <div class="content">
         <div class="cards-container">
                 <div id="cards">
                     <figure >
@@ -162,9 +165,20 @@
         </div>
         
         <div class="promotions-container">
-            <h2 class="animation-element fade-in"> New Year in Belgrade? </h2>
+            <h1 class="animation-element fade-in"> <span> New Year </span> in Belgrade <span> ? </span> </h1>
+            <!--
             <p>
-                treba da pise jos nesto, treba formatirati
+                A <span> New Year's Eve </span> you are definitely going to remember!
+                Belgrade is <span> THE </span> place to be when clock strikes 12,
+                and <span> we are here </span> to make this happen.
+            </p>
+            -->
+            <p id="promotion">
+                Take a look at our
+                <a id="lux" href="#"> NEW YEAR LUXURY </a>
+                and
+                <a id="viplux" href="#"> NEW YEAR VIP LUXURY </a>
+                packages, and don't forget to make a wish!
             </p>
         </div>
     </div>
@@ -174,96 +188,98 @@
 <!-- =============== START PACKAGES SECTION ============== -->
 <section id="content" class="packages-section">
     <div class="background">
-        <div class="section-title animation-element fade-in">
-          <h2> PACKAGES </h2>
-          <div class="horizontal-line"></div>
-        </div>
-        <div class="packages-container">
-            <div class="previous-btn">
-                <img src="../storage/app/images/next.svg" />
+        <div class="content">
+            <div class="section-title animation-element fade-in">
+              <h2> PACKAGES </h2>
+              <div class="horizontal-line"></div>
             </div>
-            <div class="next-btn">
-                <img src="../storage/app/images/next.svg" />
-            </div>
-            <div class="carousel-container">
-                <div id="carousel">
-                    <figure id="0">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+            <div class="packages-container">
+                <div class="previous-btn">
+                    <img src="../storage/app/images/next.svg" />
+                </div>
+                <div class="next-btn">
+                    <img src="../storage/app/images/next.svg" />
+                </div>
+                <div class="carousel-container">
+                    <div id="carousel">
+                        <figure id="0">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <!--
+                                    <div class="bottom">
+                                        A
+                                    </div>
+                                    -->
                                 </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+                            </div>                  
+                        </figure>
+                        <figure id="1">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                                <!--
-                                <div class="bottom">
-                                    A
+                            </div> 
+                        </figure>
+                        <figure id="2">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                                -->
-                            </div>
-                        </div>                  
-                    </figure>
-                    <figure id="1">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
+                            </div> 
+                        </figure>
+                        <figure id="3">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
+                            </div> 
+                        </figure>
+                        <figure id="4">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                            </div>
-                        </div> 
-                    </figure>
-                    <figure id="2">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
+                            </div> 
+                        </figure>
+                        <figure id="5">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                            </div>
-                        </div> 
-                    </figure>
-                    <figure id="3">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                            </div>
-                        </div> 
-                    </figure>
-                    <figure id="4">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                            </div>
-                        </div> 
-                    </figure>
-                    <figure id="5">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                            </div>
-                        </div> 
-                    </figure>
+                            </div> 
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
@@ -273,6 +289,7 @@
 
 <!-- =============== START EVENTS SECTION ================ -->
 <section style="padding-bottom:0; padding-top:0;" class="events-section">
+    <div class="content">
     <div class="section-title animation-element fade-in">
         <h2> EVENTS </h2>
         <div class="horizontal-line"></div>
@@ -533,6 +550,7 @@
 				</div>
 			</div><!-- end container -->
 		</div>
+    </div>
 </section>
 <!-- =============== END EVENTS SECTION ================== -->
     
