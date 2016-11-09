@@ -156,10 +156,10 @@
         <div class="cards-container">
                 <div id="cards">
                     <figure >
-                        <img class="card floating" src="../storage/app/images/cards/card-front-6.svg" width="300.5px" height="187px" />
+                        <img class="card floating" src="../storage/app/images/cards/front-6.svg" width="300.5px" height="187px" />
                     </figure> 
                     <figure>
-                        <img class="card floating" src="../storage/app/images/cards/card-front-5.svg" width="300.5px" height="187px" />
+                        <img class="card floating" src="../storage/app/images/cards/front-5.svg" width="300.5px" height="187px" />
                     </figure>
                 </div>
         </div>
@@ -178,7 +178,7 @@
                 <a id="lux" href="#"> NEW YEAR LUXURY </a>
                 and
                 <a id="viplux" href="#"> NEW YEAR VIP LUXURY </a>
-                packages, and don't forget to make a wish!
+                packages, and don't forget to make <span> a wish </span> !
             </p>
         </div>
     </div>
@@ -206,7 +206,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
@@ -223,7 +223,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
@@ -235,7 +235,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
@@ -247,7 +247,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
@@ -259,7 +259,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
@@ -271,7 +271,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
