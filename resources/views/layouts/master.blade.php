@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 
-        <link rel="shortcut icon" href="../storage/app/images/logoico.ico" type="image/x-icon" /> 
+        <link rel="shortcut icon" href="../storage/app/images/logo-bl-white.ico" type="image/x-icon" /> 
         <title> Belgrade Luxury - VIP experience Belgrade nightlife  </title>
         
         <!-- 
@@ -94,6 +94,7 @@
             @yield('content')
         </div>
         
+        <!--
         @section('contact')
             <div class="contact-toolbar">
                 nemam pojma gde toolbar da strpam nigde ne ide
@@ -107,7 +108,8 @@
                     
                 </div>
             </div>
-        @show      
+        @show 
+        -->
         
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
