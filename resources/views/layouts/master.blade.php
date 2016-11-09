@@ -115,6 +115,17 @@
         @section ('footer')
             <section class="footer">
                 <!-- TO DO footer -->
+                <div class="content">
+                    <div class="column">
+                        a
+                    </div>
+                    <div class="column">
+                        a
+                    </div>
+                    <div class="column">
+                        a
+                    </div>
+                </div>
                 
             </section>
         @show

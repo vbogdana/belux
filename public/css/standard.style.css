@@ -119,11 +119,11 @@ body {
 // color of the selected text
 ::-moz-selection {
     background: #bb9b69;
-    color: #222222;
+    color: #f9f9f9;
 }
 ::selection {
     background: #bb9b69;
-    color: #222222;
+    color: #f9f9f9;
 }
 
 /* #Typography & HTML Standard Tags
@@ -135,7 +135,7 @@ h3,
 h4, 
 h5, 
 h6 {
-	color: #222222;
+	color: #888888;
 	line-height: 150%;
 	font-weight: normal;
 	margin-top:0;
@@ -234,7 +234,7 @@ address {
 	color:#222222;
 }
 q {
-	color:#222222;
+	color:#888888;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -242,7 +242,7 @@ q {
 	quotes: none;
 }
 blockquote {
-	color:#222222;
+	color:#888888;
 	position:relative;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;

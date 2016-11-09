@@ -58,7 +58,7 @@ and open the template in the editor.
     -webkit-transform: translate(-50%, 0%);
     height: 1px;
     width: 65px;
-    background-color: #bb9b69;
+    background-color: #bb9b50;
     margin: 20px 0 20px 0;
 }
 
@@ -240,7 +240,7 @@ video-section iframe::-webkit-media-controls {
     color: #f9f9f9;   
     font-size: 12px;
     font-weight: 200;
-    border-bottom: 2px solid #bb9b69;
+    border-bottom: 2px solid #bb9b50;
     padding: 10px 0px 10px 0px;
     margin: 0px 8% 0px 8%;
 }
@@ -298,7 +298,8 @@ video-section iframe::-webkit-media-controls {
     top: 0;
     width: 100%;
     height: auto;
-    background-color: rgb(253,253,253) !important;
+    //background-color: rgb(253,253,253) !important;
+    background-color: #0a0a0a !important;
     text-align: center;
 }
 
@@ -343,9 +344,9 @@ video-section iframe::-webkit-media-controls {
 }
 
 .about-us-section .ribbon {
-    background: white; 
-    border-top: 1px solid #bb9b69;
-    border-bottom: 1px solid #bb9b69;
+    background: #0f0f0f; 
+    border-top: 1px solid #bb9b50;
+    border-bottom: 1px solid #bb9b50;
 }
 
 .about-us-section .center-quote {
@@ -361,7 +362,7 @@ video-section iframe::-webkit-media-controls {
 }
 
 .about-us-section h3 {
-    color: #222222;
+    color: #888888;
     font-size: 18px;   
     text-align: center;
     letter-spacing: 0px;
@@ -422,8 +423,8 @@ ul.services-list li {
     top: 0;
     height: 324px;
     width: 100%;
-    background-color: white !important;
-    border-top: 1px solid #bb9b69;
+    //background-color: white !important;
+    border-top: 1px solid #bb9b50;
     overflow: hidden;
 }
 
@@ -539,9 +540,11 @@ ul.services-list li {
 
 .promotions-section .promotions-container p {
     margin: 10px 0 auto 0;
+    padding-left: 15px;
+    border-left: 2px solid #bb9b50;
     text-align: left;
     font-size: 16px;
-    color: #f9f9f9;
+    color: #888888;
 }
 
 .promotions-section .promotions-container #promotion {
@@ -552,12 +555,12 @@ ul.services-list li {
 
 .promotions-section .promotions-container p span {
     font-style: italic;
-    color: #bb9b69;
+    color: #888888;
     font-family: Georgia, serif;
 }
 
 .promotions-section .promotions-container p a {
-   color: #222222;
+   color: #888888;
    font-weight: bold;
 }
 
@@ -581,8 +584,8 @@ ul.services-list li {
     position: relative;
     top: 0;
     height: auto;
-    background-color: white !important;
-    border-top: 1px solid #bb9b69;
+    background-color: #0a0a0a !important;
+    border-top: 1px solid #bb9b50;
 }
 
 .packages-section .background {   
@@ -854,7 +857,7 @@ ul.services-list li {
     .promotions-section {
         height: 648px;
     }
-
+  
     .cards-container {
         float: none;
         margin: 80px 0 0 0;
@@ -879,6 +882,8 @@ ul.services-list li {
     .promotions-section .promotions-container p {
         margin-top: 10px;
         text-align: center;
+        padding-right: 15px;
+        border-right: 2px solid #bb9b50;
     }
     
     /*      Packages section

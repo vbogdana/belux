@@ -4,9 +4,13 @@
  * and open the template in the editor.
  */
 
+$( document ).on( "mobileinit", function() {
+    $.mobile.loading( "hide" );
+});
 
 $( document ).on( "pageinit", function( event ) {
   //alert( "This page was just enhanced by jQuery Mobile!" );
+  $.mobile.loading().hide();
 });
 
 $(window).on("load", function() {
