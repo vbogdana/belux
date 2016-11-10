@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/home.style.css" />
 <link rel="stylesheet" type="text/css" href="css/events.style.css" />
 <link rel="stylesheet" type="text/css" href="css/benefits.style.css" />
+<link rel="stylesheet" type="text/css" href="css/quote.style.css" />
 <script type="text/javascript" src="js/reflection.js"></script>
 <script type="text/javascript" src="js/home.js"></script>
 <script type="text/javascript"  src="js/jquery.sldr.js"></script>
@@ -99,6 +100,7 @@
                 <h2> ABOUT US </h2>
                 <div class="horizontal-line"></div>
             </div>
+            <!--
             <div class="wrapper" >
                 <div class="ribbon">
                     <blockquote class="center-quote animation-element fade-in">
@@ -106,7 +108,7 @@
                         <cite>Somebody famous</cite>
                     </blockquote>
                 </div>
-
+            !-->
                 <div class="about-us-container">
                     <h3 class="animation-element fade-in"> 
                         BELGRADE 
@@ -193,6 +195,18 @@
               <h2> PACKAGES </h2>
               <div class="horizontal-line"></div>
             </div>
+            
+        <div class="title">
+         <p id="promotion">
+                There is some great
+                <a id="lux" href="#"> packages </a>
+                that we are prepared for You, chose Your favorite, or 
+                
+              <a id="lux" href="#">   make new</a> 
+               
+                according to your taste !
+            </p>
+        </div>
             <div class="packages-container">
                 <div class="previous-btn">
                     <img src="../storage/app/images/next.svg" />
@@ -292,10 +306,19 @@
     <div class="content">
     <div class="section-title animation-element fade-in">
         <h2> EVENTS </h2>
-        <div class="horizontal-line"></div>
+        <div class="horizontal-line"></div>     
     </div>
+        <div class="title">
+         <p id="promotion">
+                If You are in 
+                <a id="lux" href="#"> Belgrade </a>
+                ,You can not miss this 
+               
+                <a id="lux" href="#"> events </a> !
+            </p>
+        </div>
 		<div class="gallerySection">
-			<div class="container-fluid" style="padding:0;">
+			<div class="container-fluid" style="padding:0; height:auto; display:inline-block;">
 				<div class="col-sm-12">
 					<!-- Content Container -->
 					<div class="content-container clearfix">
@@ -553,7 +576,22 @@
     </div>
 </section>
 <!-- =============== END EVENTS SECTION ================== -->
-    
+<!-- =============== START QUOTE SECTION ============== -->
+<section class="quote-section">
+    <div class="background">
+        <div class="content">
+            <div class="wrapper" ></div>
+                <div class="ribbon">
+                 <blockquote class="center-quote animation-element fade-in">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    <cite>Somebody famous</cite>
+                  </blockquote>
+                </div>
+        </div>
+    </div>
+  
+</section>  
+<!-- =============== END QUOTE SECTION ============== -->
 <!-- =============== START BENEFITS SECTION ============== -->
 <section class="benefits-section">
     <div class="section-title animation-element fade-in">

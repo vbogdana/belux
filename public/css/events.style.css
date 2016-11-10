@@ -11,6 +11,29 @@ and open the template in the editor.
 /***********************************************************************************************/
 /* EVENT SECTION */
 /***********************************************************************************************/
+
+.events-section #promotion {
+    font-size: 22px;
+    color: #bb9b69;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.events-section #lux{
+     color: #888888;
+    font-weight: bold;   
+    
+}
+
+.events-section .title{
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    
+    
+}
+
 .events-section .section-title {
     left: 50%;
     transform: translate(-50%, 0%);
@@ -31,7 +54,8 @@ and open the template in the editor.
 }
 
 .events-section .content {
-    padding-top: 150px;
+    padding-top: 0px;
+    height: auto;
 }
 
 .gallerySection {
