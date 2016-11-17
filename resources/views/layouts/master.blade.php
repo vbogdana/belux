@@ -117,13 +117,28 @@
                 <!-- TO DO footer -->
                 <div class="content">
                     <div class="column">
-                        a
+                        <a href="#"> © code 581, 2016 </a>
                     </div>
                     <div class="column">
-                        a
+                        <nav class="social-icons">
+                            <ul>
+                                <li>
+                                    <img src="" alt="Facebook" />
+                                </li>
+                                <li>
+                                    <img src="" alt="Instagram" />
+                                </li>
+                                <li>
+                                    <img src="" alt="Twitter" />
+                                </li>
+                                <li>
+                                    <img src="" alt="Youtube" />
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                     <div class="column">
-                        a
+                        Go to the top
                     </div>
                 </div>
                 

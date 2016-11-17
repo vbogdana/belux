@@ -33,9 +33,30 @@
     display: block;
     float: left;
     line-height: 30px;
-    min-width: 256px;
+    min-width: 33.333%;
     margin: 5px auto 5px auto;
     background-color: #0a0a0a;
+    text-align: center;
+}
+
+.footer .social-icons {
+    display: inline-block;
+    width: 250px;
+    background: red;
+   /* left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+   */
+}
+
+.footer .social-icons li {
+    float: left;
+    width: 50px;
+}
+
+.footer .social-icons li img {
+    height: 32px;
+    width: 32px;
 }
 /*
 .footer .column:first-child {
@@ -54,6 +75,7 @@
      }
 
     .footer .column {
+        min-width: 300px;
         display:inline-block;
         float: none;
     } 
