@@ -16,63 +16,104 @@
 }
 
 .footer {
+   display: none;
    position: relative;
    height: auto;
    width: 100%;
    overflow: hidden;
-   background-color: #bb9b69;
+   //background-color: #bb9b69;
+   background-color: #030303;
+   
+}
+
+.footer .horizontal-line {
+    margin: 0;
+    width: 100px;
 }
 
 .footer .content {
     padding: 0 0 0 0;
+    margin-top: 20px;
     overflow: hidden;
+}
+
+.footer .social-icons ul {
+    margin: 0;
+}
+
+.footer .row {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.footer .row .content {
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+.footer .row img.logo-image {
+    height: 100px;
+    width: 100px;
+}
+
+.footer .row .social-icons {
+    display: inline-block;
+    width: 250px;
+}
+
+.footer .row .social-icons li {
+    float: left;
+    width: 50px;
+}
+
+.footer .row .social-icons li img {
+    height: 30px;
+    width: 30px;
+    margin: 10px 0 10px 0;
 }
 
 .footer .column {
     position: relative;
     display: block;
     float: left;
-    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
     min-width: 33.333%;
     margin: 5px auto 5px auto;
-    background-color: #0a0a0a;
     text-align: center;
 }
 
-.footer .social-icons {
+.footer .column .social-icons {
     display: inline-block;
-    width: 250px;
-    background: red;
-   /* left: 50%;
-    transform: translate(-50%, 0);
-    -webkit-transform: translate(-50%, 0);
-   */
+    width: 160px;
 }
 
-.footer .social-icons li {
+.footer .column .social-icons li {
     float: left;
-    width: 50px;
+    width: 40px;
 }
 
-.footer .social-icons li img {
-    height: 32px;
-    width: 32px;
+.footer .column .social-icons li img {
+    height: 20px;
+    width: 20px;
+    margin: 2.5px 0 2.5px 0;
 }
-/*
-.footer .column:first-child {
-    margin-right: 0px;
-}
-
-.footer .column:last-child {
-    margin-right: 0px;
-}
-*/
 
 /* Phone & Small Tablets */
 @media screen and (max-width: 785px) {
     .footer {
          text-align: center;
      }
+     
+     .footer .row {
+        height: 70px;
+    }
+
+    .footer .logo img.logo-image {
+        height: 70px;
+        width: 70px;
+    }
 
     .footer .column {
         min-width: 300px;

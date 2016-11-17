@@ -67,7 +67,7 @@
 <!-- za sve ove klase treba napisati css -->
 
 <!-- =============== START VIDEO SECTION ================= -->
-<section class="video-section [widescreen]">
+<section id="top" class="video-section [widescreen]">
     <!--
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/FLKXSgXNl8w?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
     
@@ -100,8 +100,9 @@
                 <h2> ABOUT US </h2>
                 <div class="horizontal-line"></div>
             </div>
-            <!--
+            
             <div class="wrapper" >
+            <!--
                 <div class="ribbon">
                     <blockquote class="center-quote animation-element fade-in">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -110,9 +111,8 @@
                 </div>
             !-->
                 <div class="about-us-container">
-                    <h3 class="animation-element fade-in"> 
-                        BELGRADE 
-                        <span> LUXURY </span> 
+                    <h3 class="animation-element fade-in belux-logo"> 
+                        BELGRADE<span>LUXURY</span> 
                     </h3>
                     <div class="horizontal-line"></div>
                     <p class="animation-element fade-in"> 
@@ -175,11 +175,11 @@
                 and <span> we are here </span> to make this happen.
             </p>
             -->
-            <p id="promotion">
+            <p id="promotion" class="animation-element fade-in" >
                 Take a look at our
-                <a id="lux" href="#"> NEW YEAR LUXURY </a>
+                <a class="light" href="#"> NEW YEAR LUXURY </a>
                 and
-                <a id="viplux" href="#"> NEW YEAR VIP LUXURY </a>
+                <a class="light" href="#"> NEW YEAR VIP LUXURY </a>
                 packages, and don't forget to make <span> a wish </span> !
             </p>
         </div>
@@ -196,17 +196,16 @@
               <div class="horizontal-line"></div>
             </div>
             
-        <div class="title">
-         <p id="promotion">
-                There is some great
-                <a id="lux" href="#"> packages </a>
-                that we are prepared for You, chose Your favorite, or 
-                
-              <a id="lux" href="#">   make new</a> 
-               
-                according to your taste !
-            </p>
-        </div>
+            <div class="section-description">
+                <p class="animation-element fade-in">
+                    Take a look at our <a class="light" href="#">special packages</a> that we have prepared for <span>You</span>. 
+                    Each one has been carefully selected by 
+                    <a class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> 
+                    team to meet <span>all of Your needs</span>.
+                    Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
+                </p>
+            </div>
+            
             <div class="packages-container">
                 <div class="previous-btn">
                     <img src="../storage/app/images/next.svg" />
@@ -303,20 +302,21 @@
 
 <!-- =============== START EVENTS SECTION ================ -->
 <section style="padding-bottom:0; padding-top:0;" class="events-section">
+    <div class="background">
     <div class="content">
-    <div class="section-title animation-element fade-in">
-        <h2> EVENTS </h2>
-        <div class="horizontal-line"></div>     
-    </div>
-        <div class="title">
-         <p id="promotion">
-                If You are in 
-                <a id="lux" href="#"> Belgrade </a>
-                ,You can not miss this 
-               
-                <a id="lux" href="#"> events </a> !
-            </p>
+        <div class="section-title animation-element fade-in">
+            <h2> EVENTS </h2>
+            <div class="horizontal-line"></div>     
         </div>
+        
+        <div class="section-description">
+                <p class="animation-element fade-in">
+                    Here in <a class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> we are giving our best to make your stay in our city <span>unforgettable</span>.
+                    If You are planning a trip to <a class="light">Belgrade</a>, you must not miss these <span>events</span>!
+                    This is our <span>selected choice</span> of interesting happenings for the upcoming weeks.
+                </p>
+        </div>
+
 		<div class="gallerySection">
 			<div class="container-fluid" style="padding:0; height:auto; display:inline-block;">
 				<div class="col-sm-12">
@@ -337,7 +337,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -380,7 +380,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -420,7 +420,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -460,7 +460,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -500,7 +500,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -539,7 +539,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -574,19 +574,21 @@
 			</div><!-- end container -->
 		</div>
     </div>
+    </div>
 </section>
 <!-- =============== END EVENTS SECTION ================== -->
 <!-- =============== START QUOTE SECTION ============== -->
 <section class="quote-section">
     <div class="background">
         <div class="content">
-            <div class="wrapper" ></div>
+            <div class="wrapper" >
                 <div class="ribbon">
                  <blockquote class="center-quote animation-element fade-in">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     <cite>Somebody famous</cite>
                   </blockquote>
                 </div>
+            </div>
         </div>
     </div>
   
