@@ -116,29 +116,63 @@
             <section class="footer">
                 <!-- TO DO footer -->
                 <div class="content">
+                    <div class="row">
+                        <img class="logo-image" src="../storage/app/images/logo.svg" alt="Belgrade Luxury" />
+                    </div>
+                    
+                    <div class="row">
+                        <div class="content">
+                            <div class="horizontal-line"></div>
+                            <div style="margin-top: 10px">- You can find us on -</div>
+                            <nav class="social-icons">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                    </li>
+                                    <li>
+                                        <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                    </li>
+                                    <li>
+                                        <img src="../storage/app/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
+                                    </li>
+                                    <li>
+                                        
+                                        <img src="../storage/app/images/social/gold/viber-logo.svg" alt="Viber" />
+                                    </li>
+                                </ul>
+                            </nav>    
+                            <div class="horizontal-line"></div>
+                        </div>     
+                    </div>
+                    
                     <div class="column">
-                        <a href="#"> © code 581, 2016 </a>
+                        <a class="light" href="#"> © code 581, 2016 </a>
                     </div>
                     <div class="column">
                         <nav class="social-icons">
                             <ul>
                                 <li>
-                                    <img src="" alt="Facebook" />
+                                    <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
                                 </li>
                                 <li>
-                                    <img src="" alt="Instagram" />
+                                    <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
                                 </li>
                                 <li>
-                                    <img src="" alt="Twitter" />
+                                    <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
                                 </li>
                                 <li>
-                                    <img src="" alt="Youtube" />
+                                    <img src="../storage/app/images/social/gold/youtube-logo.svg" alt="Youtube" />
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div class="column">
-                        Go to the top
+                        <a class="light" href="#top">Go to the top</a>
                     </div>
                 </div>
                 

@@ -363,13 +363,20 @@ a {
 	-moz-transition:0.2s color linear;
 	transition:0.2s color linear;
 	cursor:pointer;
+        color: #888888;
 }
 a:hover {
 	color: #222222;
 	cursor:pointer;
 }
-.light a:hover {
-    color:#FFFFFF;
+a.light:hover {
+    color: #f9f9f9;
+}
+a.dark:hover {
+    color: #222222;  
+}
+a.gold:hover {
+    color: #bb9b69;
 }
 a img {
 	border: none;
