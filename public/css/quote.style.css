@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/11/2016, 10:17:23 PM
+    Author     : DuleNBA
+*/
+
+/*      About us section
+================================================================================*/
+
+.quote-section {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+    //background-color: rgb(253,253,253) !important;
+    background-color: #0a0a0a !important;
+    text-align: center;
+}
+
+.quote-section .ribbon {
+    height: 180px;
+    background: #0f0f0f; 
+    border-top: 1px solid #bb9b50;
+    border-bottom: 1px solid #bb9b50;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.quote-section .center-quote {
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    margin: 60px 0 40px 0;
+}
+
+.quote-section blockquote.center-quote {
+    width: 700px;
+    font-size: 20px;
+}
+
+.quote-section h3 {
+    color: #888888;
+    font-size: 18px;   
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.quote-section h3 span {
+    font-size: 18px;
+    font-family: Georgia, serif; 
+    color: #bb9b69;
+}
+
+/* #Media Queries
+================================================================================ */
+@media screen and (min-width: 768px) and (max-width: 1120px) {  
+    /* About us section
+    ============================================================================ */
+    .quote-section blockquote.center-quote {
+        width: 600px;
+        font-size: 18px;
+    }
+}
+
+/* Phone & Small Tablets */
+@media screen and (max-width: 767px) {
+    .quote-section .center-quote {
+        margin: 50px 0 20px 0;
+    }
+    
+    .quote-section blockquote.center-quote {
+        width: 350px;
+        font-size: 18px;
+    }
+    
+    .quote-section blockquote.center-quote:before {
+        font-size: 70px;
+        left: -10px;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 450px) {
+    /*      About us section
+    ================================================================================*/
+    
+    .quote-section .center-quote {
+        margin: 50px 0 20px 0;
+    }
+    
+    .quote-section blockquote.center-quote {
+        width: 250px;
+        font-size: 15px;
+    }
+    
+    .quote-section blockquote.center-quote cite {
+        font-size: 10px;
+    }
+    
+    .quote-section blockquote.center-quote:before {
+        font-size: 60px;
+        left: -10px;
+    }
+}

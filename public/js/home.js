@@ -4,19 +4,26 @@
  * and open the template in the editor.
  */
 // scroll header
-$(window).on("scroll", function() {
-    if($(window).scrollTop() > $('#aboutus').offset().top) {
-        $(".ha-header").addClass("ha-non-transparent");
-        $(".ha-header").removeClass("ha-transparent");
-    } else {
-        //remove the background property so it comes transparent again (defined in your css)
-       $(".ha-header").removeClass("ha-non-transparent");
-       $(".ha-header").addClass("ha-transparent");
-    }
-});
+
 
 // about us link
 $(window).on("load", function() {
+    
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > $('#aboutus').offset().top) {
+            $(".ha-header").addClass("ha-non-transparent");
+            $(".ha-header").removeClass("ha-transparent");
+            $('.contact-toolbar').fadeIn();
+            //$('.ha-header').css('top', '30px');
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".ha-header").removeClass("ha-non-transparent");
+           $(".ha-header").addClass("ha-transparent");
+           $('.contact-toolbar').fadeOut();
+           //$('.ha-header').css('top', '0px');
+        }
+    });
+    
     
     $('a[href*=#]:not([href=#])').click(function() {
         var target = $(this.hash);
@@ -72,6 +79,8 @@ var translateD = { value: ["0, 0, 0", "440px, 0, -20px", "240px, 0, -40px", "0, 
 var scaleD = { value: ["1", "0.65", "0.4", "0.25", "0.4", "0.65"] };
 var translateL = { value: ["0, 0, 0", "270px, 0, -20px", "135px, 0, -40px", "0, 0, -60px", "-135px, 0, -40px", "-270px, 0, -20px"] };
 var scaleL = { value: ["0.78", "0.58", "0.3", "0.2", "0.3", "0.58"] };
+var translateT = { value: ["0, 0, 0", "270px, 0, -20px", "135px, 0, -40px", "0, 0, -60px", "-135px, 0, -40px", "-270px, 0, -20px"] };
+var scaleT = { value: ["1", "0.9", "0.8", "0.7", "0.8", "0.9"] };
 var opacity = { value: ["1", "1", "0.9", "0.9", "0.9", "1"] };
 
 function checkMedia() {
@@ -103,14 +112,14 @@ $(window).on("resize", function() {
    $.each(figures, function() {
         var $element = $(this);
         var $id = parseInt($element.attr("id"));
-        if (isMobile) {
-            // TO DO mobile
-            
-        } else if (isTablet) {
-            // TO DO tablet
-            
-        }
-        else if (isLaptop) {
+        if (isMobile || isTablet) {
+            // TO DO mobile & tablet
+            $element.css({
+                "-webkit-transform": "translate3d(" + translateD.value[$id] + ") scale(" + scaleD.value[$id] + ")",
+                "transform": "translate3d(" + translateD.value[$id] + ") scale(" + scaleD.value[$id] + ")",
+                opacity: "1"
+            });
+        } else if (isLaptop) {
             $element.css({
                 "-webkit-transform": "translate3d(" + translateL.value[$id] + ") scale(" + scaleL.value[$id] + ")",
                 "transform": "translate3d(" + translateL.value[$id] + ") scale(" + scaleL.value[$id] + ")",
@@ -134,31 +143,31 @@ $(window).on("load", function() {
         var $element = $(this);
         $element.reflect({
             height: 0.5,
-            opacity: 0.1
+            opacity: 0.2
         });
     });
     
-    // flip
+    // flip on hover
     var $front = $('.flip-container .flipper .front .card img');
     $front.on("mouseenter mouseleave", function(ev) {
         ev.preventDefault();
         var $flipper = $(this).closest(".flipper");
         if ($flipper.closest("figure").attr("id") == 0) {
-            $flipper.css({
-                "-webkit-transform" : "rotateX(-180deg)",
-                transform: "rotateX(-180deg) scale(1.3) translateX(40px)"
-            });
+            if (isTablet || isMobile) {
+                $flipper.css({
+                    "-webkit-transform" : "rotateX(-180deg)",
+                    transform: "rotateX(-180deg)"
+                });
+            } else {
+                $flipper.css({
+                    "-webkit-transform" : "rotateX(-180deg)",
+                    transform: "rotateX(-180deg) scale(1.3) translateX(40px)"
+                });
+            }
         }
-        /*
-        $img = $flipper.find(".back img");
-        $img.attr({
-            height: "295.1px",
-            width: "472.55px"
-        });
-        */
     });
     
-    // flip back
+    // flip back on mouseleave
     var $back = $('.flip-container .flipper .back');
     $back.on({
         mouseleave: function() {
@@ -177,13 +186,52 @@ $(window).on("load", function() {
 $(window).on("load", function() {
     
     checkMedia();
+    var $figures = $('#carousel figure');
     
-    $('#carousel figure').on('click', function(ev) {
+    // FOR TABLETS AND MOBILES
+    $('.next-btn').on('click', swipeleftHandler);   
+    $('.previous-btn').on('click', swiperightHandler);
+    $('.carousel-container').on('swipeleft', swipeleftHandler);   
+    $('.carousel-container').on('swiperight', swiperightHandler);
+    
+    function swiperightHandler( ev ){
         ev.preventDefault();
-        // $(this).css("background", "blue");       
-        var figures = $('#carousel figure');
+        $.each($figures, function() {
+            var $element = $(this);
+            var $curr_id = parseInt($element.attr("id"));
+            var $new_id = ($curr_id + 1) % 6;
+            $element.attr("id", $new_id);
+            
+            $element.css({
+                "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
+                "transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
+                opacity: opacity.value[$new_id]
+            });                                      
+        });
+    }
+    
+    function swipeleftHandler( ev ){
+        ev.preventDefault();
+        $.each($figures, function() {
+            var $element = $(this);
+            var $curr_id = parseInt($element.attr("id"));
+            var $new_id = ($curr_id - 1 + 6) % 6;
+            $element.attr("id", $new_id);
+            
+            $element.css({
+                "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
+                "transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
+                opacity: opacity.value[$new_id]
+            });                                       
+        });
+    }
+    
+    // FOR LAPTOPS AND DESKTOPS
+    $('#carousel figure').on('click', function(ev) {
+        ev.preventDefault();       
         var id = parseInt($(this).attr("id"));
         var delay_time = 0;
+        
         
         if (id == 0) {
             // kliknut sredisnji
@@ -194,16 +242,10 @@ $(window).on("load", function() {
             });
             return;
         }
-        
-        if (isMobile) {
-            // TO DO mobile
-            
-        } else if (isTablet) {
-            // TO DO tablet
-            
-        } else {
+                
+        if (!isMobile && !isTablet) {
             // flip back the center one
-            $.each(figures, function() {
+            $.each($figures, function() {
                 var $element = $(this);
                 var $curr_id = parseInt($element.attr("id"));
                 if ($curr_id == 0) {
@@ -217,7 +259,7 @@ $(window).on("load", function() {
             
             // if need to rotate by 2 cards
             if (id == 2 || id == 4) {           
-                $.each(figures, function() {
+                $.each($figures, function() {
                     var $element = $(this);
                     var $curr_id = parseInt($element.attr("id"));
                     var $new_id;
@@ -246,7 +288,7 @@ $(window).on("load", function() {
             }
             
             // rotate by one card
-            $.each(figures, function() {
+            $.each($figures, function() {
                 var $element = $(this);
                 var $curr_id = parseInt($element.attr("id"));
                 var $new_id = ((6 - id) + $curr_id) % 6;
@@ -270,37 +312,6 @@ $(window).on("load", function() {
             });
         }      
     });
-    
-    /*
-    var $se = $('#0');
-    $se.on("swiperight", function() {
-        var figures = $('#carousel figure');
-        var delay_time = 0;
-        $.each(figures, function() {
-            var $element = $(this);
-            var $curr_id = parseInt($element.attr("id"));
-            var $new_id = ((6 - 1) + $curr_id) % 6;
-            $element.attr("id", $new_id);
-            $element.delay(delay_time).queue(function (next) { 
-                if (isLaptop) {
-                    $element.css({
-                        "-webkit-transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
-                        "transform": "translate3d(" + translateL.value[$new_id] + ") scale(" + scaleL.value[$new_id] + ")",
-                        opacity: opacity.value[$new_id]
-                    });
-                } else {
-                    $element.css({
-                        "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
-                        "transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
-                        opacity: opacity.value[$new_id]
-                    });
-                }
-                
-                next(); 
-            });                        
-        });
-    });
-    */
 });
 
 

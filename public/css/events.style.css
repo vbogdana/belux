@@ -11,32 +11,43 @@ and open the template in the editor.
 /***********************************************************************************************/
 /* EVENT SECTION */
 /***********************************************************************************************/
-.events-section .section-title {
-    top: 120px;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    -webkit-transform: translate(-50%, 0%);
+
+.events-section {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+    font: inherit;
+    font-weight: 300;
+    display: block;
+    background-color: #0a0a0a !important;
 }
 
-.events-section{
-    width: 100%;
-    height: 1500px;
-    margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 1rem;
-  font: inherit;
-  font-weight: 300;
-    display: block;
-        background-color: #fffef7 !important;
+.events-section .content {
+    padding-bottom: 0;
+}
+
+.events-section .background {
+    //background-size: 1920px 1470px;
+    background-size: 1440px 1102.5px;
+    background-position: center 0px;
+    background-image: url(../../storage/app/images/big-diamond.png);
 }
 
 .gallerySection {
     position: relative;
-    top: 170px;
+    margin-top: 30px;
+}
+
+.container-fluid {
+    border-top: 1px solid #bb9b50;
+    border-bottom: 1px solid #bb9b50;
 }
 
 .eventinfo {
+    z-index: 3;
     top:0%;
     left:0%;
     position:absolute;
@@ -50,12 +61,9 @@ and open the template in the editor.
     transition: all 500ms ease-in-out;
 }
 
-.eventinfo:hover {
-    
+.eventinfo:hover {   
     opacity: 1.0;
 }
-
-
 
 .galleryIndex {
   position: relative;
@@ -370,7 +378,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   padding-right: 0px;
 }
 
-.content {
+.event-content {
  position:relative;
  top:0%;
  left:0%;

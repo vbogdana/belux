@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 
-        <link rel="shortcut icon" href="../storage/app/images/logoico.ico" type="image/x-icon" /> 
+        <link rel="shortcut icon" href="../storage/app/images/logo-bl-white.ico" type="image/x-icon" /> 
         <title> Belgrade Luxury - VIP experience Belgrade nightlife  </title>
         
         <!-- 
@@ -23,8 +23,9 @@
         <link rel="stylesheet" type="text/css" href="css/container.style.css" />
         <link rel="stylesheet" type="text/css" href="css/footer.style.css" />
         <!-- Include jQuery -->
-        <script type="text/javascript" src="js/jquery-3.1.1.js"></script>    
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <!--<script type="text/javascript" src="js/jquery-3.1.1.js"></script>-->        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
         <!-- Include the YT API Library -->
         <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
         <!-- Include scripts common for all pages -->
@@ -36,7 +37,7 @@
     </head>
 
     <body>
-        
+              
         <!-- menu se definise ovde jer ce biti isti za sve stranice -->
         @section('sidebar')
             <header id="header-section" class="ha-header ha-transparent fullwidth"> 
@@ -93,11 +94,89 @@
             @yield('content')
         </div>
         
+        <!--
+        @section('contact')
+            <div class="contact-toolbar">
+                nemam pojma gde toolbar da strpam nigde ne ide
+                <div class="phone-wrapper">
+                +381641234567    
+                </div>
+                <div class="email-wrapper">
+                office@belgradeluxury.com   
+                </div>
+                <div class="social-wrapper">
+                    
+                </div>
+            </div>
+        @show 
+        -->
+        
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
-            <div class="footer">
+            <section class="footer">
                 <!-- TO DO footer -->
-            </div>
+                <div class="content">
+                    <div class="row">
+                        <img class="logo-image" src="../storage/app/images/logo.svg" alt="Belgrade Luxury" />
+                    </div>
+                    
+                    <div class="row">
+                        <div class="content">
+                            <div class="horizontal-line"></div>
+                            <div style="margin-top: 10px">- You can find us on -</div>
+                            <nav class="social-icons">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                    </li>
+                                    <li>
+                                        <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                    </li>
+                                    <li>
+                                        <img src="../storage/app/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
+                                    </li>
+                                    <li>
+                                        
+                                        <img src="../storage/app/images/social/gold/viber-logo.svg" alt="Viber" />
+                                    </li>
+                                </ul>
+                            </nav>    
+                            <div class="horizontal-line"></div>
+                        </div>     
+                    </div>
+                    
+                    <div class="column">
+                        <a class="light" href="#"> © code 581, 2016 </a>
+                    </div>
+                    <div class="column">
+                        <nav class="social-icons">
+                            <ul>
+                                <li>
+                                    <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
+                                </li>
+                                <li>
+                                    <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                </li>
+                                <li>
+                                    <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                </li>
+                                <li>
+                                    <img src="../storage/app/images/social/gold/youtube-logo.svg" alt="Youtube" />
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="column">
+                        <a class="light" href="#top">Go to the top</a>
+                    </div>
+                </div>
+                
+            </section>
         @show
         
     </body>

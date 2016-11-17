@@ -4,10 +4,14 @@
  * and open the template in the editor.
  */
 
-( function( $ ) {
-    
-} )( jQuery );
+$( document ).on( "mobileinit", function() {
+    $.mobile.loading( "hide" );
+});
 
+$( document ).on( "pageinit", function( event ) {
+  //alert( "This page was just enhanced by jQuery Mobile!" );
+  $.mobile.loading().hide();
+});
 
 $(window).on("load", function() {
     // Init Skrollr
@@ -19,11 +23,14 @@ $(window).on("load", function() {
         }
     });
     */
-    
+      
     // Animate loader off screen
     $(".se-pre-con").fadeOut("slow");
     $("#header-section").fadeIn("slow");
     $(".container").fadeIn("slow");
+    $(".footer").fadeIn("slow");
+    // $('.contact-toolbar').fadeIn("slow");
+    // show contact toolbar
     
     /* fade-in */
     var $animation_elements = $('.animation-element');
@@ -41,8 +48,8 @@ $(window).on("load", function() {
             var element_bottom_position = (element_top_position + element_height);
 
             //check to see if this current container is within viewport
-            if ((element_bottom_position >= (window_top_position + 50)) &&
-                (element_top_position <= window_bottom_position + 50)) {
+            if ((element_bottom_position >= (window_top_position + 100)) &&
+                (element_top_position <= window_bottom_position - 50)) {
                 $element.addClass('in-view');
             } else {
                 $element.removeClass('in-view');

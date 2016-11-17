@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/home.style.css" />
 <link rel="stylesheet" type="text/css" href="css/events.style.css" />
 <link rel="stylesheet" type="text/css" href="css/benefits.style.css" />
+<link rel="stylesheet" type="text/css" href="css/quote.style.css" />
 <script type="text/javascript" src="js/reflection.js"></script>
 <script type="text/javascript" src="js/home.js"></script>
 <script type="text/javascript"  src="js/jquery.sldr.js"></script>
@@ -64,7 +65,9 @@
 
 @section('content')
 <!-- za sve ove klase treba napisati css -->
-<section class="video-section [widescreen]">
+
+<!-- =============== START VIDEO SECTION ================= -->
+<section id="top" class="video-section [widescreen]">
     <!--
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/FLKXSgXNl8w?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
     
@@ -86,146 +89,236 @@
     </div>
     
 </section>
+<!-- =============== END VIDEO SECTION =================== -->
 
+<!-- =============== START ABOUT US SECTION ============== -->
 <section class="about-us-section" id="aboutus" >
 
     <div class="background">
-        <div class="section-title animation-element fade-in">
-            <h2> ABOUT US </h2>
-            <div class="horizontal-line"></div>
-        </div>
-        <div class="wrapper" >
-            <div class="ribbon">
-                <blockquote class="center-quote animation-element fade-in">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    <cite>Somebody famous</cite>
-                </blockquote>
+        <div class="content">
+            <div class="section-title animation-element fade-in">
+                <h2> ABOUT US </h2>
+                <div class="horizontal-line"></div>
             </div>
+            
+            <div class="wrapper" >
+            <!--
+                <div class="ribbon">
+                    <blockquote class="center-quote animation-element fade-in">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <cite>Somebody famous</cite>
+                    </blockquote>
+                </div>
+            !-->
+                <div class="about-us-container">
+                    <h3 class="animation-element fade-in belux-logo"> 
+                        BELGRADE<span>LUXURY</span> 
+                    </h3>
+                    <div class="horizontal-line"></div>
+                    <p class="animation-element fade-in"> 
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                    </p>
+                    <div class="horizontal-line"></div>
+                </div> 
 
-            
-            <div class="about-us-container">
-                <h3 class="animation-element fade-in"> 
-                    BELGRADE 
-                    <span> LUXURY </span> 
-                </h3>
-                <div class="horizontal-line"></div>
-                <p class="animation-element fade-in"> 
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-                </p>
-                <div class="horizontal-line"></div>
-            </div> 
-            
-            
+                <!--
+                <div class="services-container">
+                    <ul class="services-list">
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+                -->
+            </div>
         </div>
     </div>
-    
 </section>
+<!-- =============== END ABOUT US SECTION ================ -->
 
+<!-- =============== START PROMOTIONS SECTION ============== -->
+<section class="promotions-section">
+    <div class="background"></div>
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="cards-container">
+                <div id="cards">
+                    <figure >
+                        <img class="card floating" src="../storage/app/images/cards/front-6.svg" width="300.5px" height="187px" />
+                    </figure> 
+                    <figure>
+                        <img class="card floating" src="../storage/app/images/cards/front-5.svg" width="300.5px" height="187px" />
+                    </figure>
+                </div>
+        </div>
+        
+        <div class="promotions-container">
+            <h1 class="animation-element fade-in"> <span> New Year </span> in Belgrade <span> ? </span> </h1>
+            <!--
+            <p>
+                A <span> New Year's Eve </span> you are definitely going to remember!
+                Belgrade is <span> THE </span> place to be when clock strikes 12,
+                and <span> we are here </span> to make this happen.
+            </p>
+            -->
+            <p id="promotion" class="animation-element fade-in" >
+                Take a look at our
+                <a class="light" href="#"> NEW YEAR LUXURY </a>
+                and
+                <a class="light" href="#"> NEW YEAR VIP LUXURY </a>
+                packages, and don't forget to make <span> a wish </span> !
+            </p>
+        </div>
+    </div>
+</section>
+<!-- =============== END PROMOTIONS SECTION ================ -->
+
+<!-- =============== START PACKAGES SECTION ============== -->
 <section id="content" class="packages-section">
     <div class="background">
-        <div class="section-title animation-element fade-in">
-          <h2> PACKAGES </h2>
-          <div class="horizontal-line"></div>
-        </div>
-        <div class="packages-container">
-            <div class="carousel-container">
-                <div id="carousel">
-                    <figure id="0">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+        <div class="content">
+            <div class="section-title animation-element fade-in">
+              <h2> PACKAGES </h2>
+              <div class="horizontal-line"></div>
+            </div>
+            
+            <div class="section-description">
+                <p class="animation-element fade-in">
+                    Take a look at our <a class="light" href="#">special packages</a> that we have prepared for <span>You</span>. 
+                    Each one has been carefully selected by 
+                    <a class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> 
+                    team to meet <span>all of Your needs</span>.
+                    Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
+                </p>
+            </div>
+            
+            <div class="packages-container">
+                <div class="previous-btn">
+                    <img src="../storage/app/images/next.svg" />
+                </div>
+                <div class="next-btn">
+                    <img src="../storage/app/images/next.svg" />
+                </div>
+                <div class="carousel-container">
+                    <div id="carousel">
+                        <figure id="0">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <!--
+                                    <div class="bottom">
+                                        A
+                                    </div>
+                                    -->
                                 </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+                            </div>                  
+                        </figure>
+                        <figure id="1">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/1Zeng.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                                <!--
-                                <div class="bottom">
-                                    A
+                            </div> 
+                        </figure>
+                        <figure id="2">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/2Zeng.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                                -->
-                            </div>
-                        </div>                  
-                    </figure>
-                    <figure id="1">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
+                            </div> 
+                        </figure>
+                        <figure id="3">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/3Zeng.png" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
+                            </div> 
+                        </figure>
+                        <figure id="4">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/4Zeng.png" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                            </div>
-                        </div> 
-                    </figure>
-                    <figure id="2">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
+                            </div> 
+                        </figure>
+                        <figure id="5">
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <img src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
+                                    </div>
+                                    <div class="back">
+                                        <img src="../storage/app/images/cards/5Zeng.png" class="card" height="227px" width="363.5px" />
+                                    </div>
                                 </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                            </div>
-                        </div> 
-                    </figure>
-                    <figure id="3">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                            </div>
-                        </div> 
-                    </figure>
-                    <figure id="4">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                            </div>
-                        </div> 
-                    </figure>
-                    <figure id="5">
-                        <div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                                <div class="back">
-                                    <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
-                                </div>
-                            </div>
-                        </div> 
-                    </figure>
+                            </div> 
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!-- =============== END PACKAGES SECTION ================ -->
 
-    	<!-- =============== START EVENTS SECTION ================ -->
+<!-- =============== START EVENTS SECTION ================ -->
 <section style="padding-bottom:0; padding-top:0;" class="events-section">
-    <div class="section-title animation-element fade-in">
-        <h2> EVENTS </h2>
-        <div class="horizontal-line"></div>
-    </div>
+    <div class="background">
+    <div class="content">
+        <div class="section-title animation-element fade-in">
+            <h2> EVENTS </h2>
+            <div class="horizontal-line"></div>     
+        </div>
+        
+        <div class="section-description">
+                <p class="animation-element fade-in">
+                    Here in <a class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> we are giving our best to make your stay in our city <span>unforgettable</span>.
+                    If You are planning a trip to <a class="light">Belgrade</a>, you must not miss these <span>events</span>!
+                    This is our <span>selected choice</span> of interesting happenings for the upcoming weeks.
+                </p>
+        </div>
+
 		<div class="gallerySection">
-			<div class="container-fluid" style="padding:0;">
+			<div class="container-fluid" style="padding:0; height:auto; display:inline-block;">
 				<div class="col-sm-12">
 					<!-- Content Container -->
 					<div class="content-container clearfix">
@@ -244,7 +337,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -287,7 +380,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -327,7 +420,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -367,7 +460,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -407,7 +500,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -446,7 +539,7 @@
                                                                                                 <div class="overlay">
                                                                                                     </div>
                                                                                                 <div class=" eventinfo">
-                                                                                                    <div class="content">
+                                                                                                    <div class="event-content">
                                                                                                     	<div class="shopHover">
                                                                                                                 <div class="price">
                                                                                                                         <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
@@ -480,11 +573,28 @@
 				</div>
 			</div><!-- end container -->
 		</div>
+    </div>
+    </div>
 </section>
-	<!-- =============== END EVENTS SECTION ================ -->
-    
-
-
+<!-- =============== END EVENTS SECTION ================== -->
+<!-- =============== START QUOTE SECTION ============== -->
+<section class="quote-section">
+    <div class="background">
+        <div class="content">
+            <div class="wrapper" >
+                <div class="ribbon">
+                 <blockquote class="center-quote animation-element fade-in">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    <cite>Somebody famous</cite>
+                  </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</section>  
+<!-- =============== END QUOTE SECTION ============== -->
+<!-- =============== START BENEFITS SECTION ============== -->
 <section class="benefits-section">
     <div class="section-title animation-element fade-in">
           <h2> CLIENT EXPERIENCE </h2>
@@ -515,11 +625,15 @@
 
     </div>
 </section>
+<!-- =============== END BENEFITS SECTION ================ -->
 
-
+<!-- =============== START SOCIAL SECTION ================ -->
 <div class="social-section">
     
 </div>
+<!-- =============== END SOCIAL SECTION ================== -->
+
+
   <script>
 
 $( window ).load( function() {
@@ -599,3 +713,4 @@ function slideComplete( args ) {
 
 
 @stop
+
