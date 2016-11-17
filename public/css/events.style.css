@@ -12,35 +12,7 @@ and open the template in the editor.
 /* EVENT SECTION */
 /***********************************************************************************************/
 
-.events-section #promotion {
-    font-size: 22px;
-    color: #bb9b69;
-    font-weight: 400;
-    text-align: center;
-
-}
-
-.events-section #lux{
-     color: #888888;
-    font-weight: bold;   
-    
-}
-
-.events-section .title{
-    padding-top: 20px;
-    width: 100%;
-    height: 50px;
-    
-    
-}
-
-.events-section .section-title {
-    left: 50%;
-    transform: translate(-50%, 0%);
-    -webkit-transform: translate(-50%, 0%);
-}
-
-.events-section{
+.events-section {
     width: 100%;
     height: auto;
     margin: 0;
@@ -54,13 +26,24 @@ and open the template in the editor.
 }
 
 .events-section .content {
-    padding-top: 0px;
-    height: auto;
+    padding-bottom: 0;
+}
+
+.events-section .background {
+    //background-size: 1920px 1470px;
+    background-size: 1440px 1102.5px;
+    background-position: center 0px;
+    background-image: url(../../storage/app/images/big-diamond.png);
 }
 
 .gallerySection {
     position: relative;
     margin-top: 30px;
+}
+
+.container-fluid {
+    border-top: 1px solid #bb9b50;
+    border-bottom: 1px solid #bb9b50;
 }
 
 .eventinfo {
@@ -395,7 +378,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   padding-right: 0px;
 }
 
-.content {
+.event-content {
  position:relative;
  top:0%;
  left:0%;
