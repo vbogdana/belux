@@ -89,3 +89,55 @@ and open the template in the editor.
     font-family: Georgia, serif; 
     color: #bb9b69;
 }
+
+/* #Media Queries
+================================================================================ */
+@media screen and (min-width: 768px) and (max-width: 1120px) {  
+    /* About us section
+    ============================================================================ */
+    .quote-section blockquote.center-quote {
+        width: 600px;
+        font-size: 18px;
+    }
+}
+
+/* Phone & Small Tablets */
+@media screen and (max-width: 767px) {
+    .quote-section .center-quote {
+        margin: 50px 0 20px 0;
+    }
+    
+    .quote-section blockquote.center-quote {
+        width: 350px;
+        font-size: 18px;
+    }
+    
+    .quote-section blockquote.center-quote:before {
+        font-size: 70px;
+        left: -10px;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 450px) {
+    /*      About us section
+    ================================================================================*/
+    
+    .quote-section .center-quote {
+        margin: 50px 0 20px 0;
+    }
+    
+    .quote-section blockquote.center-quote {
+        width: 250px;
+        font-size: 15px;
+    }
+    
+    .quote-section blockquote.center-quote cite {
+        font-size: 10px;
+    }
+    
+    .quote-section blockquote.center-quote:before {
+        font-size: 60px;
+        left: -10px;
+    }
+}

@@ -240,7 +240,7 @@
                                         <img src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/card-front-2.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/1Zeng.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -252,7 +252,7 @@
                                         <img src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/card-front-3.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/2Zeng.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -264,7 +264,7 @@
                                         <img src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/card-front-4.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/3Zeng.png" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -276,7 +276,7 @@
                                         <img src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/card-front-5.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/4Zeng.png" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -288,7 +288,7 @@
                                         <img src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/card-front-6.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/5Zeng.png" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
