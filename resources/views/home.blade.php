@@ -116,12 +116,13 @@
                     </h3>
                     <div class="horizontal-line"></div>
                     <p class="animation-element fade-in"> 
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                        belgradeluxury.com predstavlja jedinstveni koncept namenjen iskljucivo osobama istancanog ukusa koji zele da
+                        kvalitet njihove posete prestonici Srbije bude po najvisim standardima. Nasim kljentima pripremili smo raznovrsne
+                        pakete koji mogu da zadovolje njihove najrazlicitije potrebe I preferencije. Profesionalna usluga naseg osoblja moze
+                        biti na raspolaganju klijentima za vreme trajanja celog aranzmana. Nudimo najekskluzivnije vile I apartmane, vip
+                        tretman u najboljim gradskim restoranima, barovima I klubovima, usluge licnog sofera I luksuznih vozila, licno
+                        obezbedjenje, iznajmljivanje brodova, obilaske grada uz pratnju licnog vodica kao I posete najzanimljivijim
+                        lokalitetima u srbiji, drustvo.
                     </p>
                     <div class="horizontal-line"></div>
                 </div> 
@@ -198,7 +199,7 @@
             
             <div class="section-description">
                 <p class="animation-element fade-in">
-                    Take a look at our <a class="light" href="#">special packages</a> that we have prepared for <span>You</span>. 
+                    These are our <a class="light" href="#">special packages</a> that we have prepared for <span>You</span>. 
                     Each one has been carefully selected by 
                     <a class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> 
                     team to meet <span>all of Your needs</span>.
@@ -222,7 +223,7 @@
                                         <img src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/card-front-1.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <!--
                                     <div class="bottom">
@@ -239,7 +240,7 @@
                                         <img src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/1Zeng.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -251,7 +252,7 @@
                                         <img src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/2Zeng.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -263,7 +264,7 @@
                                         <img src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/3Zeng.png" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -275,7 +276,7 @@
                                         <img src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/4Zeng.png" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -287,7 +288,7 @@
                                         <img src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/5Zeng.png" class="card" height="227px" width="363.5px" />
+                                        <img src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -562,6 +563,7 @@
 <!-- =============== END EVENTS SECTION ================== -->
 
 <!-- =============== START BENEFITS SECTION ============== -->
+<!--
 <section class="benefits-section">
     <div class="section-title animation-element fade-in">
           <h2> CLIENT EXPERIENCE </h2>
@@ -581,17 +583,18 @@
 
 	<div class="clear"></div>
 
-        <!--
+        
 	<ul class="selectors">
 		<li class="focalPoint"><a href="">•</a></li><li><a href="">•</a></li><li><a href="">•</a></li><li><a href="">•</a></li>
 	</ul>
-        !-->
+        
 	
 
 	<br>
 
     </div>
 </section>
+-->
 <!-- =============== END BENEFITS SECTION ================ -->
 
 <!-- =============== START SOCIAL SECTION ================ -->

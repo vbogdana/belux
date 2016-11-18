@@ -87,17 +87,18 @@ and open the template in the editor.
 }
 
 .section-description p a {
-    color: #888888;
+    color: #aaaaaa;
 }
 
 .section-description p span {
-    color: #888888;
+    color: #aaaaaa;
     font-family: Georgia, serif; 
     font-style: italic;
 }
 
 .belux-logo {
     letter-spacing: 0px;
+    font-weight: 200;
 }
 
 .belux-logo span {
@@ -370,7 +371,7 @@ video-section iframe::-webkit-media-controls {
 }
 
 .about-us-section h3 {
-    color: #888888;
+    color: #aaaaaa;
     font-size: 18px;   
     text-align: center;
 }
@@ -393,6 +394,7 @@ video-section iframe::-webkit-media-controls {
 
 .about-us-section .about-us-container p {
     margin: 0;
+    font-size: 16px;
 }
 
 .about-us-section .services-container {
@@ -534,7 +536,7 @@ ul.services-list li {
 
 .promotions-section .promotions-container h1 {
     margin: 30px 0 30px 0;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .promotions-section .promotions-container h1 span {
@@ -549,18 +551,18 @@ ul.services-list li {
     border-left: 2px solid #bb9b50;
     text-align: left;
     font-size: 16px;
-    color: #888888;
+    color: #aaaaaa;
 }
 
 .promotions-section .promotions-container #promotion {
     font-size: 22px;
     color: #bb9b69;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .promotions-section .promotions-container p span {
     font-style: italic;
-    color: #888888;
+    color: #aaaaaa;
     font-family: Georgia, serif;
 }
 
@@ -579,6 +581,14 @@ ul.services-list li {
     background-position: center center;
     //background-size: 1920px 1470px;
     //background-image: url(../../storage/app/images/big-diamond.png);
+    background: rgba(31,31,31,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(31,31,31,1)), color-stop(11%, rgba(27,27,27,1)), color-stop(54%, rgba(10,10,10,1)), color-stop(58%, rgba(10,10,10,1)), color-stop(71%, rgba(10,10,10,1)), color-stop(100%, rgba(10,10,10,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#0a0a0a', GradientType=1 );
 }
 
 .packages-container {

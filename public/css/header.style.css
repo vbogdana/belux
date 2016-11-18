@@ -42,11 +42,11 @@
 }
 
 .ha-transparent a {
-    color: #888888;
+    color: #aaaaaa;
 }
 .ha-non-transparent a {
     //color: #222222;
-    color: #888888;
+    color: #aaaaaa;
 }
 
 /* #Navigation
@@ -95,7 +95,7 @@ ul.top-nav-menu li div {
     display: inline-block;
 }
 li.top-nav-menu-item div a {  
-    //color: #888888;
+    //color: #aaaaaa;
     font-size: 13px;
 }
 li.top-nav-menu-item div a:hover, li.top-nav-menu-item div a:active {
@@ -170,7 +170,7 @@ ul.top-nav-submenu li:first-child {
         //background: rgb(2,2,2);
     }
     .ha-non-transparent a {
-        color: #888888;
+        color: #aaaaaa;
     }
     .top-nav {
         max-height: 260px;
@@ -217,7 +217,7 @@ ul.top-nav-submenu li:first-child {
         display: block;
         width: 100%;
         position: relative;
-        color: #888888;
+        color: #aaaaaa;
     }
     a#pull:after {
         content: "";
@@ -250,7 +250,7 @@ ul.top-nav-submenu li:first-child {
         width: 100%;
         text-align: left;
         border: none;
-        color: #888888;
+        color: #aaaaaa;
         padding-left: 20px;
         //border-top: solid 2px #222222;
     }
