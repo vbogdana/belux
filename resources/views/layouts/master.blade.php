@@ -116,161 +116,182 @@
             <section class="footer">
                 <!-- TO DO footer -->
                 <div class="content">
-                    <div class="row">
-                        <a href="#">
-                            <img class="logo-image" src="../storage/app/images/logo.svg" alt="Belgrade Luxury" />
-                        </a>
-                    </div>
                     
-                    <div class="row">
-                        <div class="content">
-                            <div class="section group gallerySection">
-                                <div class="col span_1_of_6">
-                                    <a href="#">
-                                        <figure>
-                                            <figcaption>
-                                                <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event1.jpg" alt="">
-                                                    <div class="overlay">
-                                                    </div>
-                                                    <div class=" eventinfo">
-
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>                                       
-                                    </a>
-                                </div>
-                                <div class="col span_1_of_6">
-                                    <a href="#">
-                                        <figure>
-                                            <figcaption>
-                                                <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event2.jpg" alt="">
-                                                    <div class="overlay">
-                                                    </div>
-                                                    <div class=" eventinfo">
-
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>                                       
-                                    </a>
-                                </div>
-                                <div class="col span_1_of_6">
-                                    <a href="#">
-                                        <figure>
-                                            <figcaption>
-                                                <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event3.jpg" alt="">
-                                                    <div class="overlay">
-                                                    </div>
-                                                    <div class=" eventinfo">
-
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>                                       
-                                    </a>
-                                </div>
-                                <div class="col span_1_of_6">
-                                    <a href="#">
-                                        <figure>
-                                            <figcaption>
-                                                <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event1.jpg" alt="">
-                                                    <div class="overlay">
-                                                    </div>
-                                                    <div class=" eventinfo">
-
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>                                       
-                                    </a>
-                                </div>
-                                <div class="col span_1_of_6">
-                                    <a href="#">
-                                        <figure>
-                                            <figcaption>
-                                                <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event2.jpg" alt="">
-                                                    <div class="overlay">
-                                                    </div>
-                                                    <div class=" eventinfo">
-
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>                                       
-                                    </a>
-                                </div>
-                                <div class="col span_1_of_6">
-                                    <a href="#">
-                                        <figure>
-                                            <figcaption>
-                                                <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event3.jpg" alt="">
-                                                    <div class="overlay">
-                                                    </div>
-                                                    <div class=" eventinfo">
-
-                                                    </div>
-                                                </div>
-                                            </figcaption>
-                                        </figure>                                       
-                                    </a>
-                                </div>                                
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="content">
+                                <a href="#">
+                                    <img class="logo-image" src="../storage/app/images/logo.svg" alt="Belgrade Luxury" />
+                                </a>
+                                <p>
+                                    <span class="belux-logo">BELGRADE <span>LUXURY</span></span> lorem ipsum amet 
+                                    mslskdmfsklalas vkfnadvknadfkj vnjdfkvnf vnfjd jfkjf fnv jfnfkdkdjnksjnvlavnjadvnkjadnv
+                                </p>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="row">
-                        <div class="content">
-                            <div style="margin-top: 10px">- You can find us on -</div>
-                            <div class="horizontal-line"></div>
-                            <nav class="social-icons">
-                                <ul>
-                                    <li>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="content">
+                                <h3>Our partners</h3>
+                                <div class="section group gallerySection">
+                                    <div class="col">
                                         <a href="#">
-                                            <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
+                                            <figure>
+                                                <figcaption>
+                                                    <div class="hovereffect">
+                                                        <img class="" src="../storage/app/images/event1.jpg" alt="">
+                                                        <div class="overlay"></div>
+                                                        <div class=" eventinfo">
+
+                                                        </div>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>                                       
                                         </a>
-                                    </li>
-                                    <li>
+                                    </div>
+                                    <div class="col">
                                         <a href="#">
-                                            <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                            <figure>
+                                                <figcaption>
+                                                    <div class="hovereffect">
+                                                        <img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                        <div class="overlay"></div>
+                                                        <div class=" eventinfo">
+
+                                                        </div>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>                                       
                                         </a>
-                                    </li>
-                                    <li>
+                                    </div>
+                                    <div class="col">
                                         <a href="#">
-                                            <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                            <figure>
+                                                <figcaption>
+                                                    <div class="hovereffect">
+                                                        <img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                        <div class="overlay"></div>
+                                                        <div class=" eventinfo">
+
+                                                        </div>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>                                       
                                         </a>
-                                    </li>
-                                    <li>
+                                    </div>
+                                    <div class="col">
                                         <a href="#">
-                                            <img src="../storage/app/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
+                                            <figure>
+                                                <figcaption>
+                                                    <div class="hovereffect">
+                                                        <img class="" src="../storage/app/images/event1.jpg" alt="">
+                                                        <div class="overlay"></div>
+                                                        <div class=" eventinfo">
+
+                                                        </div>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>                                       
                                         </a>
-                                    </li>
-                                    <li>
+                                    </div>
+                                    <div class="col">
                                         <a href="#">
-                                            <img src="../storage/app/images/social/gold/viber-logo.svg" alt="Viber" />
+                                            <figure>
+                                                <figcaption>
+                                                    <div class="hovereffect">
+                                                        <img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                        <div class="overlay"></div>
+                                                        <div class=" eventinfo">
+
+                                                        </div>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>                                       
                                         </a>
-                                    </li>
-                                </ul>
-                            </nav>                                
-                        </div>     
+                                    </div>
+                                    <div class="col">
+                                        <a href="#">
+                                            <figure>
+                                                <figcaption>
+                                                    <div class="hovereffect">
+                                                        <img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                        <div class="overlay"></div>
+                                                        <div class=" eventinfo">
+
+                                                        </div>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>                                       
+                                        </a>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="row">
-                        <div style="margin-top: 10px">How to contact us?</div>
-                        <div class="horizontal-line"></div>
-                        tu sad ide email wa i viber
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="content">
+                                <h3>Contact us</h3>
+                                
+                                <h4 class="belux-logo">BELGRADE <span>LUXURY</span></h4>
+                                <address>
+                                    <p> 
+                                        <div class="icon-location"></div>&nbsp;Neka adresa br.10<br>
+                                        11000 Belgrade SERBIA <br>
+                                        <div class="icon-phone whatsapp"></div> / <div class="icon-phone viber"></div>
+                                        &nbsp;+381 66 1234 567 <br>
+                                        <div class="icon-mail"></div>&nbsp;<a class="light" href="mailto:office@belgradeluxury.com">office@belgradeluxury.com</a> 
+                                    </p>
+                                </address>
+                            </div>     
+                        </div>
                     </div>
-                                      
-                    <div class="bottom-row">
+                    
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="content">
+                                <h3>Follow us, we are social</h3>                                 
+                                <nav class="social-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/viber-logo.svg" alt="Viber" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>   
+                        </div>
+                    </div>    
+                </div>   
+                
+                <div class="bottom-row">
                         <div class="section group">
                             <div class="col span_1_of_3">
-                                <span class="belux-logo">BELGRADE<span>LUXURY</span></span> is a project of 
+                                <span class="belux-logo">BELGRADE <span>LUXURY</span></span> is a project of 
                                 <a class="light" href="#">
                                     © code 581
                                 </a>
@@ -305,8 +326,7 @@
                                 <a class="light" href="#top">Go to the top ^</a>
                             </div>
                         </div>
-                    </div>                   
-                </div>               
+                    </div>
             </section>
         @show
         

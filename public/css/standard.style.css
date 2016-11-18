@@ -108,8 +108,8 @@ body {
     background: #0a0a0a;
     /*font: 14px/22px "ralewayregular", Helvetica Neue, Helvetica, Arial, sans-serif;*/
     font: 14px/22px "ralewayregular", Raleway, sans-serif;
-    font-weight: 300;
-    color: #888888;
+    font-weight: 200;
+    color: #aaaaaa;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
     letter-spacing:0.5px;
@@ -135,7 +135,7 @@ h3,
 h4, 
 h5, 
 h6 {
-	color: #888888;
+	color: #aaaaaa;
 	line-height: 150%;
 	font-weight: normal;
 	margin-top:0;
@@ -231,10 +231,11 @@ var {
 	font-style: italic;
 }
 address {
-	color:#222222;
+	color:#aaaaaa;
+        font-style: normal;
 }
 q {
-	color:#888888;
+	color:#aaaaaa;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -242,7 +243,7 @@ q {
 	quotes: none;
 }
 blockquote {
-	color:#888888;
+	color:#aaaaaa;
 	position:relative;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
@@ -363,7 +364,7 @@ a {
 	-moz-transition:0.2s color linear;
 	transition:0.2s color linear;
 	cursor:pointer;
-        color: #888888;
+        color: #aaaaaa;
 }
 a:hover {
 	color: #222222;

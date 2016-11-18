@@ -20,7 +20,7 @@ and open the template in the editor.
     border: 0;
     font-size: 1rem;
     font: inherit;
-    font-weight: 300;
+    //font-weight: 300;
     display: block;
     background-color: #0a0a0a !important;
 }
@@ -326,6 +326,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
   top: 0;
   left: 0;
   opacity: 0;
+  background-image: none;
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
