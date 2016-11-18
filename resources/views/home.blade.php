@@ -300,300 +300,267 @@
 </section>
 <!-- =============== END PACKAGES SECTION ================ -->
 
+<!-- =============== START QUOTE SECTION ============== -->
+<section class="quote-section">    
+    <div class="content">
+        <div class="background"></div>
+        <div class="overlay"></div>
+        <div class="wrapper" >
+            <blockquote class="center-quote blockquotes">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <cite>Somebody famous</cite>
+            </blockquote>
+            
+            <blockquote class="center-quote blockquotes">
+                Bogdanin citat o jebenom luksuzu.
+                <cite>Somebody famous</cite>
+            </blockquote>
+        </div>
+    </div>
+</section>  
+<!-- =============== END QUOTE SECTION ============== -->
+
 <!-- =============== START EVENTS SECTION ================ -->
 <section style="padding-bottom:0; padding-top:0;" class="events-section">
     <div class="background">
-    <div class="content">
-        <div class="section-title animation-element fade-in">
-            <h2> EVENTS </h2>
-            <div class="horizontal-line"></div>     
-        </div>
-        
-        <div class="section-description">
-                <p class="animation-element fade-in">
-                    Here in <a class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> we are giving our best to make your stay in our city <span>unforgettable</span>.
-                    If You are planning a trip to <a class="light">Belgrade</a>, you must not miss these <span>events</span>!
-                    This is our <span>selected choice</span> of interesting happenings for the upcoming weeks.
-                </p>
-        </div>
-
-		<div class="gallerySection">
-			<div class="container-fluid" style="padding:0; height:auto; display:inline-block;">
-				<div class="col-sm-12">
-					<!-- Content Container -->
-					<div class="content-container clearfix">
-						<!-- Single Album Container -->
-						<div class="single-photo-album-container">
-							<div class="row">
-								<!-- Single Album Article -->
-								<article class="col-sm-12 col-md-6 col-xs-12">
-									<!-- Single Album Contant Container -->
-									<figure>
-										<!-- Single Album Image -->
-										<figcaption>
-											<!-- Single Album Image -->
-											<div class="hovereffect">
-												<img class="" src="../storage/app/images/event2.jpg" alt="">
-                                                                                                <div class="overlay">
-                                                                                                    </div>
-                                                                                                <div class=" eventinfo">
-                                                                                                    <div class="event-content">
-                                                                                                    	<div class="shopHover">
-                                                                                                                <div class="price">
-                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                                                                </div>
-                                                                                                            <div class="lajna"></div> 
-                                                                                                                <div  class="proTitle">
-                                                                                                                        Summer Jam
-                                                                                                                </div>
-                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
-                                                                                                                <div class="stasveima">
-                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
-                                                                                                                </div>
-                                                                                                        </div>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                </div>
-                                                                                                </div>
-                                                                                                
-											</div>
-                                                                                       
-                                                                                        
-										</figcaption>
-										<!-- Single Album View Button -->
-										 
-									</figure>
-                                                                        
-								</article>
-								<!-- Single Album Article -->
-								<article class="col-sm-3 col-xs-6">
-									<!-- Single Album Contant Container -->
-									<figure>
-										<!-- Single Album Image -->
-										<figcaption>
-											<!-- Single Album Image -->
-											<div class="hovereffect">
-												<img class="" src="../storage/app/images/event4.jpg" alt="">
-                                                                                                <div class="overlay">
-                                                                                                    </div>
-                                                                                                <div class=" eventinfo">
-                                                                                                    <div class="event-content">
-                                                                                                    	<div class="shopHover">
-                                                                                                                <div class="price">
-                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                                                                </div>
-                                                                                                            <div class="lajna"></div> 
-                                                                                                                <div  class="proTitle">
-                                                                                                                        Summer Jam
-                                                                                                                </div>
-                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
-                                                                                                                <div class="stasveima">
-                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
-                                                                                                                </div>
-                                                                                                        </div>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                </div>
-                                                                                                </div>
-                                                                                                
-											</div>
-                                                                                       
-                                                                                        
-										</figcaption>
-									</figure>
-								</article>
-								<!-- Single Album Article -->
-								<article class="col-sm-3 col-xs-6">
-									<!-- Single Album Contant Container -->
-									<figure>
-										<!-- Single Album Image -->
-										<figcaption>
-											<!-- Single Album Image -->
-											<div class="hovereffect">
-												<img class="" src="../storage/app/images/event5.jpg" alt="">
-                                                                                                <div class="overlay">
-                                                                                                    </div>
-                                                                                                <div class=" eventinfo">
-                                                                                                    <div class="event-content">
-                                                                                                    	<div class="shopHover">
-                                                                                                                <div class="price">
-                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                                                                </div>
-                                                                                                            <div class="lajna"></div> 
-                                                                                                                <div  class="proTitle">
-                                                                                                                        Summer Jam
-                                                                                                                </div>
-                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
-                                                                                                                <div class="stasveima">
-                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
-                                                                                                                </div>
-                                                                                                        </div>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                </div>
-                                                                                                </div>
-                                                                                                
-											</div>
-                                                                                       
-                                                                                        
-										</figcaption>
-									</figure>
-								</article>
-								<!-- Single Album Article -->
-								<article class="col-sm-3 col-xs-6">
-									<!-- Single Album Contant Container -->
-									<figure>
-										<!-- Single Album Image -->
-										<figcaption>
-											<!-- Single Album Image -->
-											<div class="hovereffect">
-												<img class="" src="../storage/app/images/event6.jpg" alt="">
-                                                                                                <div class="overlay">
-                                                                                                    </div>
-                                                                                                <div class=" eventinfo">
-                                                                                                    <div class="event-content">
-                                                                                                    	<div class="shopHover">
-                                                                                                                <div class="price">
-                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                                                                </div>
-                                                                                                            <div class="lajna"></div> 
-                                                                                                                <div  class="proTitle">
-                                                                                                                        Summer Jam
-                                                                                                                </div>
-                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
-                                                                                                                <div class="stasveima">
-                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
-                                                                                                                </div>
-                                                                                                        </div>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                </div>
-                                                                                                </div>
-                                                                                                
-											</div>
-                                                                                       
-                                                                                        
-										</figcaption>
-									</figure>
-								</article>
-								<!-- Single Album Article -->
-								<article class="col-sm-3 col-xs-6">
-									<!-- Single Album Contant Container -->
-									<figure>
-										<!-- Single Album Image -->
-										<figcaption>
-											<!-- Single Album Image -->
-											<div class="hovereffect">
-												<img class="" src="../storage/app/images/event7.jpg" alt="">
-                                                                                                <div class="overlay">
-                                                                                                    </div>
-                                                                                                <div class=" eventinfo">
-                                                                                                    <div class="event-content">
-                                                                                                    	<div class="shopHover">
-                                                                                                                <div class="price">
-                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                                                                </div>
-                                                                                                            <div class="lajna"></div> 
-                                                                                                                <div  class="proTitle">
-                                                                                                                        Summer Jam
-                                                                                                                </div>
-                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
-                                                                                                                <div class="stasveima">
-                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
-                                                                                                                </div>
-                                                                                                        </div>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                </div>
-                                                                                                </div>
-											</div>
-                                                                                       
-                                                                                        
-										</figcaption>
-									</figure>
-								</article>
-								<!-- Single Album Article -->
-								<article class="col-sm-12 col-md-6 col-xs-12">
-									<!-- Single Album Contant Container -->
-									<figure>
-										<!-- Single Album Image -->
-										<figcaption>
-											<!-- Single Album Image -->
-											<div class="hovereffect">
-												<img class="" src="../storage/app/images/event3.jpg" alt="">
-                                                                                                <div class="overlay">
-                                                                                                    </div>
-                                                                                                <div class=" eventinfo">
-                                                                                                    <div class="event-content">
-                                                                                                    	<div class="shopHover">
-                                                                                                                <div class="price">
-                                                                                                                        <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                                                                </div>
-                                                                                                            <div class="lajna"></div> 
-                                                                                                                <div  class="proTitle">
-                                                                                                                        Summer Jam
-                                                                                                                </div>
-                                                                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
-                                                                                                                <div class="stasveima">
-                                                                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                                                                      <img class="slicice" src="../storage/app/images/koktel.png" alt="">
-                                                                                                                </div>
-                                                                                                        </div>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                </div>
-                                                                                                </div>
-                                                                                                
-											</div>
-                                                                                       
-                                                                                        
-										</figcaption>
-									</figure>
-								</article>								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!-- end container -->
-		</div>
-    </div>
-    </div>
-</section>
-<!-- =============== END EVENTS SECTION ================== -->
-<!-- =============== START QUOTE SECTION ============== -->
-<section class="quote-section">
-    <div class="background">
         <div class="content">
-            <div class="wrapper" >
-                <div class="ribbon">
-                 <blockquote class="center-quote animation-element fade-in">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    <cite>Somebody famous</cite>
-                  </blockquote>
-                </div>
+            <div class="section-title animation-element fade-in">
+                <h2> EVENTS </h2>
+                <div class="horizontal-line"></div>     
+            </div>
+
+            <div class="section-description">
+                    <p class="animation-element fade-in">
+                        Here in <a class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> we are giving our best to make your stay in our city <span>unforgettable</span>.
+                        If You are planning a trip to <a class="light">Belgrade</a>, you must not miss these <span>events</span>!
+                        This is our <span>selected choice</span> of interesting happenings for the upcoming weeks.
+                    </p>
+            </div>
+
+            <div class="gallerySection">
+                <div class="container-fluid" style="padding:0; height:auto; display: table;">
+                    <div class="col-sm-12">
+                        <!-- Content Container -->
+                        <div class="content-container clearfix">
+                            <!-- Single Album Container -->
+                            <div class="single-photo-album-container">
+                                <div class="row">
+                                    <!-- Single Album Article -->
+                                    <article class="col-sm-12 col-md-6 col-xs-12">
+                                        <!-- Single Album Contant Container -->
+                                        <figure>
+                                            <!-- Single Album Image -->
+                                            <figcaption>
+                                                <!-- Single Album Image -->
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+                                                        <div class="event-content">
+                                                            <div class="shopHover">
+                                                                <div class="price">
+                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                </div>
+                                                                <div class="lajna"></div> 
+                                                                <div  class="proTitle">
+                                                                    Summer Jam
+                                                                </div>
+                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="stasveima">
+                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                            <!-- Single Album View Button -->
+                                        </figure>
+                                    </article>
+                                    <!-- Single Album Article -->
+                                    <article class="col-sm-3 col-xs-6">
+                                        <!-- Single Album Contant Container -->
+                                        <figure>
+                                            <!-- Single Album Image -->
+                                            <figcaption>
+                                                <!-- Single Album Image -->
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event4.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+                                                        <div class="event-content">
+                                                            <div class="shopHover">
+                                                                <div class="price">
+                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                </div>
+                                                                <div class="lajna"></div> 
+                                                                <div  class="proTitle">
+                                                                    Summer Jam
+                                                                </div>
+                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="stasveima">
+                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                    <!-- Single Album Article -->
+                                    <article class="col-sm-3 col-xs-6">
+                                        <!-- Single Album Contant Container -->
+                                        <figure>
+                                            <!-- Single Album Image -->
+                                            <figcaption>
+                                                <!-- Single Album Image -->
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event5.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+                                                        <div class="event-content">
+                                                            <div class="shopHover">
+                                                                <div class="price">
+                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                </div>
+                                                                <div class="lajna"></div> 
+                                                                <div  class="proTitle">
+                                                                    Summer Jam
+                                                                </div>
+                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="stasveima">
+                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                    <!-- Single Album Article -->
+                                    <article class="col-sm-3 col-xs-6">
+                                        <!-- Single Album Contant Container -->
+                                        <figure>
+                                            <!-- Single Album Image -->
+                                            <figcaption>
+                                                <!-- Single Album Image -->
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event6.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+                                                        <div class="event-content">
+                                                            <div class="shopHover">
+                                                                <div class="price">
+                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                </div>
+                                                                <div class="lajna"></div> 
+                                                                <div  class="proTitle">
+                                                                    Summer Jam
+                                                                </div>
+                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="stasveima">
+                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                    <!-- Single Album Article -->
+                                    <article class="col-sm-3 col-xs-6">
+                                        <!-- Single Album Contant Container -->
+                                        <figure>
+                                            <!-- Single Album Image -->
+                                            <figcaption>
+                                                <!-- Single Album Image -->
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event7.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+                                                        <div class="event-content">
+                                                            <div class="shopHover">
+                                                                <div class="price">
+                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                </div>
+                                                                <div class="lajna"></div> 
+                                                                <div  class="proTitle">
+                                                                    Summer Jam
+                                                                </div>
+                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="stasveima">
+                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                    <!-- Single Album Article -->
+                                    <article class="col-sm-12 col-md-6 col-xs-12">
+                                        <!-- Single Album Contant Container -->
+                                        <figure>
+                                            <!-- Single Album Image -->
+                                            <figcaption>
+                                                <!-- Single Album Image -->
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+                                                        <div class="event-content">
+                                                            <div class="shopHover">
+                                                                <div class="price">
+                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
+                                                                </div>
+                                                                <div class="lajna"></div> 
+                                                                <div  class="proTitle">
+                                                                    Summer Jam
+                                                                </div>
+                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="stasveima">
+                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </article>								
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end container -->
             </div>
         </div>
     </div>
-  
-</section>  
-<!-- =============== END QUOTE SECTION ============== -->
+</section>
+<!-- =============== END EVENTS SECTION ================== -->
+
 <!-- =============== START BENEFITS SECTION ============== -->
 <section class="benefits-section">
     <div class="section-title animation-element fade-in">

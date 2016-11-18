@@ -37,7 +37,7 @@ $(window).on("load", function() {
     });
     
 });
-  
+
   /* changing quotes on video */
 $(window).on("load", function() {
     var quotes = $(".quotes");
@@ -52,7 +52,7 @@ $(window).on("load", function() {
     }
 
     showNextQuote();
-}); 
+});
 
 /* video-section */
 var player;
@@ -69,6 +69,22 @@ function onPlayerReady(event) {
     player.setVolume(0);
     player.playVideo();
 }
+
+  /* changing quotes on quote section */
+$(window).on("load", function() {
+    var quotes = $(".blockquotes");
+    var quoteIndex = -1;
+
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(1000)
+            .delay(3000)
+            .fadeOut(1000, showNextQuote);
+    }
+
+    showNextQuote();
+});
 
 /* packages-section */
 var isLaptop = false;

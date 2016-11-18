@@ -117,13 +117,118 @@
                 <!-- TO DO footer -->
                 <div class="content">
                     <div class="row">
-                        <img class="logo-image" src="../storage/app/images/logo.svg" alt="Belgrade Luxury" />
+                        <a href="#">
+                            <img class="logo-image" src="../storage/app/images/logo.svg" alt="Belgrade Luxury" />
+                        </a>
                     </div>
                     
                     <div class="row">
                         <div class="content">
-                            <div class="horizontal-line"></div>
+                            <div class="section group gallerySection">
+                                <div class="col span_1_of_6">
+                                    <a href="#">
+                                        <figure>
+                                            <figcaption>
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event1.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>                                       
+                                    </a>
+                                </div>
+                                <div class="col span_1_of_6">
+                                    <a href="#">
+                                        <figure>
+                                            <figcaption>
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>                                       
+                                    </a>
+                                </div>
+                                <div class="col span_1_of_6">
+                                    <a href="#">
+                                        <figure>
+                                            <figcaption>
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>                                       
+                                    </a>
+                                </div>
+                                <div class="col span_1_of_6">
+                                    <a href="#">
+                                        <figure>
+                                            <figcaption>
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event1.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>                                       
+                                    </a>
+                                </div>
+                                <div class="col span_1_of_6">
+                                    <a href="#">
+                                        <figure>
+                                            <figcaption>
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>                                       
+                                    </a>
+                                </div>
+                                <div class="col span_1_of_6">
+                                    <a href="#">
+                                        <figure>
+                                            <figcaption>
+                                                <div class="hovereffect">
+                                                    <img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                    <div class="overlay">
+                                                    </div>
+                                                    <div class=" eventinfo">
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </figure>                                       
+                                    </a>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="content">
                             <div style="margin-top: 10px">- You can find us on -</div>
+                            <div class="horizontal-line"></div>
                             <nav class="social-icons">
                                 <ul>
                                     <li>
@@ -132,50 +237,76 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                        <a href="#">
+                                            <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                        </a>
                                     </li>
                                     <li>
-                                        <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                        <a href="#">
+                                            <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                        </a>
                                     </li>
                                     <li>
-                                        <img src="../storage/app/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
+                                        <a href="#">
+                                            <img src="../storage/app/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
+                                        </a>
                                     </li>
                                     <li>
-                                        
-                                        <img src="../storage/app/images/social/gold/viber-logo.svg" alt="Viber" />
+                                        <a href="#">
+                                            <img src="../storage/app/images/social/gold/viber-logo.svg" alt="Viber" />
+                                        </a>
                                     </li>
                                 </ul>
-                            </nav>    
-                            <div class="horizontal-line"></div>
+                            </nav>                                
                         </div>     
                     </div>
                     
-                    <div class="column">
-                        <a class="light" href="#"> © code 581, 2016 </a>
+                    <div class="row">
+                        <div style="margin-top: 10px">How to contact us?</div>
+                        <div class="horizontal-line"></div>
+                        tu sad ide email wa i viber
                     </div>
-                    <div class="column">
-                        <nav class="social-icons">
-                            <ul>
-                                <li>
-                                    <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
-                                </li>
-                                <li>
-                                    <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
-                                </li>
-                                <li>
-                                    <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
-                                </li>
-                                <li>
-                                    <img src="../storage/app/images/social/gold/youtube-logo.svg" alt="Youtube" />
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="column">
-                        <a class="light" href="#top">Go to the top</a>
-                    </div>
-                </div>
-                
+                                      
+                    <div class="bottom-row">
+                        <div class="section group">
+                            <div class="col span_1_of_3">
+                                <span class="belux-logo">BELGRADE<span>LUXURY</span></span> is a project of 
+                                <a class="light" href="#">
+                                    © code 581
+                                </a>
+                            </div>
+                            <div class="col span_1_of_3">
+                                <nav class="social-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="../storage/app/images/social/gold/youtube-logo.svg" alt="Youtube" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col span_1_of_3">
+                                <a class="light" href="#top">Go to the top ^</a>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>               
             </section>
         @show
         

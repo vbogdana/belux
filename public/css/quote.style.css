@@ -19,17 +19,62 @@ and open the template in the editor.
     //background-color: rgb(253,253,253) !important;
     background-color: #0a0a0a !important;
     text-align: center;
+    border-top: 1px solid #bb9b50;
+    border-bottom: 1px solid #bb9b50;
 }
 
+.quote-section .blockquotes {
+    display: none;
+}
+
+.quote-section .content {
+    padding: 50px 0 50px 0;
+    height: 250px;  ///// ovo ukloniti za auto height sekcije
+}
+
+.quote-section .background { 
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-position: center center;
+    background-image: url(../../storage/app/images/luxury-party.jpg);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    opacity: 0.55;    
+}
+
+.quote-section .overlay:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0; 
+    left:0;
+    background:rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+.quote-section .wrapper {
+    position: relative;
+    width: 100%; 
+    z-index: 3;
+}
+/*
 .quote-section .ribbon {
     height: 180px;
     background: #0f0f0f; 
     border-top: 1px solid #bb9b50;
     border-bottom: 1px solid #bb9b50;
     margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 0px;
 }
-
+*/
 .quote-section .center-quote {
     left: 50%;
     transform: translate(-50%, 0%);
