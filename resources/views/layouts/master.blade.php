@@ -143,8 +143,8 @@
                                                     <div class="hovereffect">
                                                         <img class="" src="../storage/app/images/event1.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class="eventinfo">
-                                                          
+                                                        <div class=" eventinfo">
+
                                                         </div>
                                                     </div>
                                                 </figcaption>
@@ -158,7 +158,7 @@
                                                     <div class="hovereffect">
                                                         <img class="" src="../storage/app/images/event2.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class="eventinfo">
+                                                        <div class=" eventinfo">
 
                                                         </div>
                                                     </div>
@@ -173,7 +173,7 @@
                                                     <div class="hovereffect">
                                                         <img class="" src="../storage/app/images/event3.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class="eventinfo">
+                                                        <div class=" eventinfo">
 
                                                         </div>
                                                     </div>
@@ -188,7 +188,7 @@
                                                     <div class="hovereffect">
                                                         <img class="" src="../storage/app/images/event1.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class="eventinfo">
+                                                        <div class=" eventinfo">
 
                                                         </div>
                                                     </div>
@@ -203,7 +203,7 @@
                                                     <div class="hovereffect">
                                                         <img class="" src="../storage/app/images/event2.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class="eventinfo">
+                                                        <div class=" eventinfo">
 
                                                         </div>
                                                     </div>
@@ -218,8 +218,8 @@
                                                     <div class="hovereffect">
                                                         <img class="" src="../storage/app/images/event3.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class="eventinfo">
-                                                        
+                                                        <div class=" eventinfo">
+
                                                         </div>
                                                     </div>
                                                 </figcaption>
@@ -323,7 +323,7 @@
                                 </nav>
                             </div>
                             <div class="col span_1_of_3">
-                                <a class="light" href="#top">- Go to the top -</a>
+                                <a class="light" href="#top">Go to the top ^</a>
                             </div>
                         </div>
                     </div>
