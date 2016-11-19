@@ -144,7 +144,7 @@
                         </li>
                     </ul>
                 </div>
-                -->
+                -->  
             </div>
         </div>
     </div>
@@ -220,7 +220,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="luxury" src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
@@ -237,7 +237,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="vip-luxury" src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
@@ -249,7 +249,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="bachelor-luxury" src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
@@ -261,7 +261,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="bachelor-penthouse" src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
@@ -273,7 +273,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="new-year-vip-luxury" src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
@@ -285,7 +285,7 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="new-year-luxury" src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
                                         <img src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
@@ -296,6 +296,138 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="packages-container" id="package-info">
+                <div class="section-title animation-element fade-in">
+                    <h3 id="package-title"> LUXURY PACKAGE </h3>
+                    <div class="horizontal-line"></div>   
+                </div>
+                
+                <div class="section group">
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/calendar.svg">
+                                <img src="../storage/app/images/services/dark/calendar.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="days" class="row">
+                            stay
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/accommodation.svg">
+                                <img src="../storage/app/images/services/dark/accommodation.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="accommodation" class="row">
+                            accommodation
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/driver.svg">
+                                <img src="../storage/app/images/services/dark/driver.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="driver" class="row">
+                            chauffer
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/car.svg">
+                                <img src="../storage/app/images/services/dark/car.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="car" class="row">
+                            high class car
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/host.svg">
+                                <img src="../storage/app/images/services/dark/host.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="host" class="row">
+                            host
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/vip.svg">
+                                <img src="../storage/app/images/services/dark/vip.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="club" class="row">
+                            vip entrance and vip table
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/club.svg">
+                                <img src="../storage/app/images/services/dark/club.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="drinks" class="row">
+                            drinks
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/security.svg">
+                                <img src="../storage/app/images/services/dark/security.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="security" class="row">
+                            private security
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/photographer.svg">
+                                <img src="../storage/app/images/services/dark/photographer.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="photographer" class="row">
+                            photographer
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/map.svg">
+                                <img src="../storage/app/images/services/dark/map.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="sightseeing" class="row">
+                            sightseeing
+                        </div>
+                    </div>
+                    <div class="col span_1_of_4">
+                        <div class="row">
+                            <div class="service-thumbnail">
+                                <img src="../storage/app/images/services/gold/plus.svg">
+                                <img src="../storage/app/images/services/dark/plus.svg" style="display: none">
+                            </div>
+                        </div>
+                        <div id="extra" class="row">
+                            extra
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 </section>
@@ -355,24 +487,21 @@
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
                                                     <img class="" src="../storage/app/images/event2.jpg" alt="">
-                                                    <div class="overlay">
-                                                    </div>
-                                                    <div class=" eventinfo">
+                                                    <div class="overlay"></div>
+                                                    <div class="eventinfo">
                                                         <div class="event-content">
-                                                            <div class="shopHover">
-                                                                <div class="price">
-                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                </div>
-                                                                <div class="lajna"></div> 
-                                                                <div  class="proTitle">
-                                                                    Summer Jam
-                                                                </div>
+                                                            <div class="event-hover">
+                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <div class="proTitle">Summer Jam</div>
+                                                                <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="../storage/app/images/disko.png" alt="" >
                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
                                                                     <img class="slicice" src="../storage/app/images/koktel.png" alt="">
                                                                 </div>
+                                                                -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -394,20 +523,18 @@
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
-                                                            <div class="shopHover">
-                                                                <div class="price">
-                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                </div>
-                                                                <div class="lajna"></div> 
-                                                                <div  class="proTitle">
-                                                                    Summer Jam
-                                                                </div>
+                                                            <div class="event-hover">
+                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <div class="proTitle">Summer Jam</div>
+                                                                <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="../storage/app/images/disko.png" alt="" >
                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
                                                                     <img class="slicice" src="../storage/app/images/koktel.png" alt="">
                                                                 </div>
+                                                                -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -428,20 +555,18 @@
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
-                                                            <div class="shopHover">
-                                                                <div class="price">
-                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                </div>
-                                                                <div class="lajna"></div> 
-                                                                <div  class="proTitle">
-                                                                    Summer Jam
-                                                                </div>
+                                                            <div class="event-hover">
+                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <div class="proTitle">Summer Jam</div>
+                                                                <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="../storage/app/images/disko.png" alt="" >
                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
                                                                     <img class="slicice" src="../storage/app/images/koktel.png" alt="">
                                                                 </div>
+                                                                -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -462,20 +587,18 @@
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
-                                                            <div class="shopHover">
-                                                                <div class="price">
-                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                </div>
-                                                                <div class="lajna"></div> 
-                                                                <div  class="proTitle">
-                                                                    Summer Jam
-                                                                </div>
+                                                            <div class="event-hover">
+                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <div class="proTitle">Summer Jam</div>
+                                                                <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="../storage/app/images/disko.png" alt="" >
                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
                                                                     <img class="slicice" src="../storage/app/images/koktel.png" alt="">
                                                                 </div>
+                                                                -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -496,20 +619,18 @@
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
-                                                            <div class="shopHover">
-                                                                <div class="price">
-                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                </div>
-                                                                <div class="lajna"></div> 
-                                                                <div  class="proTitle">
-                                                                    Summer Jam
-                                                                </div>
+                                                            <div class="event-hover">
+                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <div class="proTitle">Summer Jam</div>
+                                                                <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="../storage/app/images/disko.png" alt="" >
                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
                                                                     <img class="slicice" src="../storage/app/images/koktel.png" alt="">
                                                                 </div>
+                                                                -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -530,20 +651,18 @@
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
-                                                            <div class="shopHover">
-                                                                <div class="price">
-                                                                    <img class="eventklub" src="../storage/app/images/klublogo.png" alt="">
-                                                                </div>
-                                                                <div class="lajna"></div> 
-                                                                <div  class="proTitle">
-                                                                    Summer Jam
-                                                                </div>
+                                                            <div class="event-hover">
+                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <div class="proTitle">Summer Jam</div>
+                                                                <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="../storage/app/images/disko.png" alt="" >
                                                                     <img class="slicice" src="../storage/app/images/kibla.png" alt="">
                                                                     <img class="slicice" src="../storage/app/images/koktel.png" alt="">
                                                                 </div>
+                                                                -->
                                                             </div>
                                                         </div>
                                                     </div>

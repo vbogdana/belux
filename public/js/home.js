@@ -98,6 +98,7 @@ var scaleL = { value: ["0.78", "0.58", "0.3", "0.2", "0.3", "0.58"] };
 var translateT = { value: ["0, 0, 0", "270px, 0, -20px", "135px, 0, -40px", "0, 0, -60px", "-135px, 0, -40px", "-270px, 0, -20px"] };
 var scaleT = { value: ["1", "0.9", "0.8", "0.7", "0.8", "0.9"] };
 var opacity = { value: ["1", "1", "0.9", "0.9", "0.9", "1"] };
+var $center_figure;
 
 function checkMedia() {
     isLaptop = false;
@@ -120,6 +121,24 @@ function checkMedia() {
                 isMobile = screen.width <= 450;
         }
     }
+}
+
+function showPackageInfo() {
+    var $package = $center_figure.find('.flip-container .flipper .front img');
+    var $package_id = $package.attr("id");
+    /*
+    $.ajax({
+            type: "GET",
+            url: url,
+            data: $package_id,
+            // dataType: 'json',
+            success: function(data, status){
+                $('#package-info').html(data);
+            }
+
+    });
+    */
+   //$('#package-info').html($package_id);
 }
     
 $(window).on("resize", function() {
@@ -165,20 +184,24 @@ $(window).on("load", function() {
     
     // flip on hover
     var $front = $('.flip-container .flipper .front .card img');
-    $front.on("mouseenter mouseleave", function(ev) {
-        ev.preventDefault();
-        var $flipper = $(this).closest(".flipper");
-        if ($flipper.closest("figure").attr("id") == 0) {
-            if (isTablet || isMobile) {
-                $flipper.css({
-                    "-webkit-transform" : "rotateX(-180deg)",
-                    transform: "rotateX(-180deg)"
-                });
-            } else {
-                $flipper.css({
-                    "-webkit-transform" : "rotateX(-180deg)",
-                    transform: "rotateX(-180deg) scale(1.3) translateX(40px)"
-                });
+    $front.on({
+        mouseenter: function() {
+            //ev.preventDefault();
+            var $flipper = $(this).closest(".flipper");
+            if ($flipper.closest("figure").attr("id") == 0) {
+                if (isTablet || isMobile) {
+                    $flipper.css({
+                        "-webkit-transform" : "rotateX(-180deg)",
+                        transform: "rotateX(-180deg)"
+                    });
+                } else {
+                    $flipper.css({
+                        "-webkit-transform" : "rotateX(-180deg)",
+                        transform: "rotateX(-180deg)"  //+  "scale(1.3) translateX(40px)"
+                    });
+                }
+                $center_figure = $flipper.closest("figure");
+                showPackageInfo();
             }
         }
     });
@@ -192,7 +215,9 @@ $(window).on("load", function() {
                 $flipper.css({
                     "-webkit-transform" : "rotateX(0deg)",
                     transform: "rotateX(0deg)"
-                })  
+                });
+                $center_figure = $flipper.closest("figure");
+                hidePackageInfo();
             }
         }
     });   
@@ -217,6 +242,8 @@ $(window).on("load", function() {
             var $curr_id = parseInt($element.attr("id"));
             var $new_id = ($curr_id + 1) % 6;
             $element.attr("id", $new_id);
+            //if ($new_id == 0)
+            //    $center_figure = $element;
             
             $element.css({
                 "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
@@ -233,6 +260,8 @@ $(window).on("load", function() {
             var $curr_id = parseInt($element.attr("id"));
             var $new_id = ($curr_id - 1 + 6) % 6;
             $element.attr("id", $new_id);
+            //if ($new_id == 0)
+            //    $center_figure = $element;
             
             $element.css({
                 "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
@@ -256,6 +285,8 @@ $(window).on("load", function() {
                 "-webkit-transform" : "rotateX(180deg)",
                 transform: "rotateX(180deg)"
             });
+            $center_figure = $(this);
+            showPackageInfo();
             return;
         }
                 
@@ -308,6 +339,8 @@ $(window).on("load", function() {
                 var $element = $(this);
                 var $curr_id = parseInt($element.attr("id"));
                 var $new_id = ((6 - id) + $curr_id) % 6;
+                //if ($new_id == 0)
+                //    $center_figure = $element;
                 $element.attr("id", $new_id);
                 $element.delay(delay_time).queue(function (next) { 
                     if (isLaptop) {

@@ -187,7 +187,7 @@
     background-image: url(../../storage/app/images/social/gold/viber-logo.svg);
 }
 .icon-location {
-    background-image: url(../../storage/app/images/social/gold/placeholder.svg);
+    background-image: url(../../storage/app/images/social/gold/location.svg);
 }
 .icon-mail {
     background-image: url(../../storage/app/images/social/gold/mail.svg);
@@ -260,7 +260,7 @@
        width: 25%;  
     }
     
-    .span_1_of_4 {
+    .footer .span_1_of_4 {
         width: 50%;
     }
     
@@ -287,11 +287,11 @@
        width: 12.5%;  
     }
     
-    .span_3_of_3, .span_2_of_3, .span_1_of_3 { 
+    .span_3_of_3, .span_2_of_3,.footer .span_1_of_3 { 
         width: 100%; 
     }
     
-    .span_1_of_4 {
+    .footer .span_1_of_4 {
         width: 100%;
         margin-bottom: 20px;
     }
