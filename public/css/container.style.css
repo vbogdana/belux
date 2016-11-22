@@ -22,3 +22,326 @@
     background-size: contain;
 }
 
+/* Common
+================================================================================*/
+.background {   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: url(../../storage/app/images/subtle-dots.png) repeat;
+}
+
+.overlay:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0; 
+    left:0;
+    background:rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+.content {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9000;
+    background: transparent;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    width: 200px;
+    height: 45px;
+    line-height: 100%;
+    box-sizing: border-box;
+    text-align: center; 
+    margin: 30px 0 30px 0;   
+}
+
+.section-title h2 {
+    font-size: 27px;
+}
+
+.section-title h3 {
+    font-size: 22px;
+}
+
+.horizontal-line {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    height: 1px;
+    width: 65px;
+    background-color: #bb9b50;
+    margin: 20px 0 20px 0;
+}
+
+.section-title .horizontal-line {
+    margin: 4px 0 0 0;
+}
+
+.section-description {
+    position: relative;
+    left: 20%;
+    width: 60%;
+    height: auto;
+    padding: 30px 0 30px 0;
+    word-wrap: break-word;   
+    line-height: 28px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.section-description p {
+    color: #bb9b69;
+}
+
+.section-description p a {
+    color: #aaaaaa;
+}
+
+.section-description p span {
+    color: #aaaaaa;
+    font-family: Georgia, serif; 
+    font-style: italic;
+}
+
+.belux-logo {
+    letter-spacing: 0px;
+    font-weight: 200;
+}
+
+.belux-logo span {
+    color: #bb9b50;
+    font-family: Georgia, serif; 
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.ribbon {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 50px 0 50px 0;
+    padding: 30px 0 30px 0;   
+}
+
+.service-thumbnail {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-color: #0f0f0f;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    padding: 10px;
+    box-shadow: 4px 5px 20px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid #BF983B;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+
+.service-thumbnail:hover {
+    background-color: #0c0c0c;
+    transform: /*rotate(45deg)*/ scale(1.1);
+    -webkit-transform: /*rotate(45deg)*/ scale(1.1);
+    opacity: 1;
+}
+
+.service-thumbnail:hover img {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+
+.service-thumbnail img {   
+    height: 30px;
+    width: 30px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.btn {
+    -webkit-box-shadow: 0px 2px 9px #000000;
+    -moz-box-shadow: 0px 2px 9px #000000;
+    box-shadow: 4px 5px 20px 0px rgba(0, 0, 0, 0.2);
+    color: #bb9b69;
+    font-size: 16px;
+    background: #0c0c0c;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    border: solid #BF983B 1px;
+    text-decoration: none;
+    width: 150px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0.7;
+    text-align: center;
+    //float: left;
+    display: inline-block;
+    position: relative;
+}
+.btn:hover {
+    background: #0a0a0a;
+    text-decoration: none;
+    opacity: 1;
+}
+.btn.light:hover {
+    color: #f9f9f9;
+}
+.btn.gold:hover {
+    color: #bb9b69;
+}
+.btn.dark:hover {
+    color: #222222;
+}
+
+/* animation element fading in */
+.animation-element {    
+    opacity: 0;   
+}
+.animation-element.fade-in {
+    opacity: 0;
+    -webkit-transition: all 1000ms linear;
+    transition: all 1000ms linear;
+}
+.animation-element.fade-in.in-view {
+    opacity: 1;
+}
+
+/* animation shake */
+@keyframes shake {
+    10%, 90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+      transform: translate3d(4px, 0, 0);
+    }
+}
+
+/* animation floating */
+.floating {
+    //float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx {
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating {
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+/* animation scaling */
+.scaling {
+    //float: left;
+    -webkit-animation-name: scalex;
+    -webkit-animation-duration:3s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
+    -moz-animation-name: scale;
+    -moz-animation-duration:3s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:ease-in-out;
+}
+    
+    @-webkit-keyframes scalex{
+        from {-webkit-transform: scale(0.9);}
+        65% {-webkit-transform: scale(1.0);}
+        to {-webkit-transform: scale(0.9);}    
+    }
+        
+    @-moz-keyframes scale{
+        from {-moz-transform: scale(0.9);}
+        65% {-moz-transform: scale(1.0);}
+        to {-moz-transform: scale(0.9);}    
+    }
+
+/* Phone & Small Tablets */
+@media screen and (max-width: 767px) {
+    
+    /*     Common
+    ================================================================================ */
+    
+    .content {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .section-description {   
+        left: 10%;
+        width: 80%;
+        padding: 30px 0 30px 0;  
+        line-height: 18px;
+        font-size: 16px;
+    }
+     
+}
+
+/* Phones */
+@media screen and (max-width: 450px) {
+    
+    /*     Common
+    ================================================================================ */
+    
+    .section-description {   
+        padding: 15px 0 15px 0;
+    }
+}
+
+

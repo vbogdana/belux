@@ -116,13 +116,13 @@
                     </h3>
                     <div class="horizontal-line"></div>
                     <p class="animation-element fade-in"> 
-                        belgradeluxury.com predstavlja jedinstveni koncept namenjen iskljucivo osobama istancanog ukusa koji zele da
-                        kvalitet njihove posete prestonici Srbije bude po najvisim standardima. Nasim kljentima pripremili smo raznovrsne
-                        pakete koji mogu da zadovolje njihove najrazlicitije potrebe I preferencije. Profesionalna usluga naseg osoblja moze
-                        biti na raspolaganju klijentima za vreme trajanja celog aranzmana. Nudimo najekskluzivnije vile I apartmane, vip
-                        tretman u najboljim gradskim restoranima, barovima I klubovima, usluge licnog sofera I luksuznih vozila, licno
-                        obezbedjenje, iznajmljivanje brodova, obilaske grada uz pratnju licnog vodica kao I posete najzanimljivijim
-                        lokalitetima u srbiji, drustvo.
+                        belgradeluxury.com is a unique concept designed exclusively for people with exquisite taste 
+                        who want the quality of their visit to the capital of Serbia to be to the highest standards. 
+                        To help our customers, we have prepared a variety of packages that can meet their different needs and preferences. 
+                        Professional service of our staff may be available to our clients for the duration of the whole arrangement. 
+                        We offer the most exclusive villas and suites, VIP treatment in the city's best restaurants, bars and clubs, 
+                        personal chauffeur service and luxury vehicles, personal security, boat tours of the city, 
+                        accompanied by a personal guide and visit the most interesting sites in Serbia.
                     </p>
                     <div class="horizontal-line"></div>
                 </div> 
@@ -207,14 +207,19 @@
                 </p>
             </div>
             
-            <div class="packages-container">
-                <div class="previous-btn">
+            
+            
+            <div class="packages-container">               
+                
+                <div class="btn gold"> RESERVE </div>
+                <div class="btn gold"> DETAILS >> </div>
+                <div class="carousel-container">
+                    <div class="previous-btn">
                     <img src="../storage/app/images/next.svg" />
                 </div>
                 <div class="next-btn">
                     <img src="../storage/app/images/next.svg" />
                 </div>
-                <div class="carousel-container">
                     <div id="carousel">
                         <figure id="0">
                             <div class="flip-container">
@@ -236,7 +241,7 @@
                         <figure id="1">
                             <div class="flip-container">
                                 <div class="flipper">
-                                    <div class="front">
+                                    <div class="front floating floating1">
                                         <img id="vip-luxury" src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
@@ -248,7 +253,7 @@
                         <figure id="2">
                             <div class="flip-container">
                                 <div class="flipper">
-                                    <div class="front">
+                                    <div class="front floating floating2">
                                         <img id="bachelor-luxury" src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
@@ -260,7 +265,7 @@
                         <figure id="3">
                             <div class="flip-container">
                                 <div class="flipper">
-                                    <div class="front">
+                                    <div class="front floating floating3">
                                         <img id="bachelor-penthouse" src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
@@ -272,7 +277,7 @@
                         <figure id="4">
                             <div class="flip-container">
                                 <div class="flipper">
-                                    <div class="front">
+                                    <div class="front floating floating4">
                                         <img id="new-year-vip-luxury" src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
@@ -284,7 +289,7 @@
                         <figure id="5">
                             <div class="flip-container">
                                 <div class="flipper">
-                                    <div class="front">
+                                    <div class="front floating floating5">
                                         <img id="new-year-luxury" src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
@@ -297,12 +302,12 @@
                 </div>
             </div>
             
+            <!--
             <div class="packages-container" id="package-info">
                 <div class="section-title animation-element fade-in">
                     <h3 id="package-title"> LUXURY PACKAGE </h3>
                     <div class="horizontal-line"></div>   
-                </div>
-                
+                </div>              
                 <div class="section group">
                     <div class="col span_1_of_4">
                         <div class="row">
@@ -427,6 +432,7 @@
                     </div>
                 </div>
             </div>
+            -->
             
         </div>
     </div>

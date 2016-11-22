@@ -244,6 +244,13 @@ $(window).on("load", function() {
             $element.attr("id", $new_id);
             //if ($new_id == 0)
             //    $center_figure = $element;
+            if ($new_id == 0) {
+                $element.find('.front').removeClass("floating");
+                $element.find('.front').removeClass("floating" + $curr_id);
+            } else {
+                $element.find('.front').addClass("floating");
+                $element.find('.front').addClass("floating" + $new_id);
+            }
             
             $element.css({
                 "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
@@ -262,6 +269,13 @@ $(window).on("load", function() {
             $element.attr("id", $new_id);
             //if ($new_id == 0)
             //    $center_figure = $element;
+            if ($new_id == 0) {
+                $element.find('.front').removeClass("floating");
+                $element.find('.front').removeClass("floating" + $curr_id);
+            } else {
+                $element.find('.front').addClass("floating");
+                $element.find('.front').addClass("floating" + $new_id);
+            }
             
             $element.css({
                 "-webkit-transform": "translate3d(" + translateD.value[$new_id] + ") scale(" + scaleD.value[$new_id] + ")",
@@ -341,6 +355,14 @@ $(window).on("load", function() {
                 var $new_id = ((6 - id) + $curr_id) % 6;
                 //if ($new_id == 0)
                 //    $center_figure = $element;
+                
+                if ($new_id == 0) {
+                    $element.find('.front').removeClass("floating");
+                    $element.find('.front').removeClass("floating" + $curr_id);
+                } else {
+                    $element.find('.front').addClass("floating");
+                    $element.find('.front').addClass("floating" + $new_id);
+                }
                 $element.attr("id", $new_id);
                 $element.delay(delay_time).queue(function (next) { 
                     if (isLaptop) {

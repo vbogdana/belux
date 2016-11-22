@@ -28,5 +28,5 @@ menu: hover {
 svetla (default) boja texta: #888888 ili #f9f9f9 ili #aaaaaa (za sada odabrana);
 tamna boja texta: #222222;
 zlatna boja: #CFB53B ili #EDD468 ili #FFDA44 ili #F1DB6E - za sada izabrana #F1DB6E;
-tamno zlatna boja: #bb9b69; trenutno izabrana (za linije #bb9b50) probaj #BF983B
+tamno zlatna boja: #bb9b69; trenutno izabrana (za linije #bb9b50) probaj #BF983B #AB9153
 font: 14px/22px "ralewayregular", Raleway, sans-serif; (obican text  je font-weight 300)

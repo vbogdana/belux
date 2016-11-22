@@ -323,7 +323,7 @@
                                 </nav>
                             </div>
                             <div class="col span_1_of_3">
-                                <a class="light" href="#top">Go to the top ^</a>
+                                <a class="light" href="#top">- Go to the top -</a>
                             </div>
                         </div>
                     </div>
