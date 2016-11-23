@@ -25,16 +25,33 @@ $(window).on("load", function() {
     */
       
     // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");
-    $("#header-section").fadeIn("slow");
-    $(".container").fadeIn("slow");
-    $(".footer").fadeIn("slow");
+    $("#header-section").fadeIn(1000);
+    $(".se-pre-con").fadeOut(1000);
+    $(".container").fadeIn(2000);
+    $(".footer").fadeIn(2000);
+    
     // $('.contact-toolbar').fadeIn("slow");
     // show contact toolbar
     
     $.stellar({
-        horizontalScrolling:false,
+        horizontalScrolling:false
         // rest of function
+    });
+    
+    // all links except the links on the same page
+    $("a:not([href*=#])").on("click", function(ev) {
+        ev.preventDefault();
+        window.location.href = $(this).attr("href");
+    });
+    
+    // reflections
+    var $cards = $('.card');
+    $.each($cards, function() {
+        var $element = $(this);
+        $element.reflect({
+            height: 0.5,
+            opacity: 0.2
+        });
     });
     
     /* fade-in */

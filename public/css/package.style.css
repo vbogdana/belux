@@ -8,12 +8,13 @@ and open the template in the editor.
     Author     : Bogdana
 */
 
+.section-container.package.luxury .background { background-image: url(../images/bckgrnd1.jpg); }
+
 .section-container .background {
     z-index: 0;
     position: absolute;
     background-position: center center;
-    background-size: cover;
-    background-image: url(../images/bckgrnd1.jpg);
+    background-size: cover;   
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
     -o-filter: blur(1px);
@@ -22,14 +23,44 @@ and open the template in the editor.
     opacity: 0.55;       
 }
 
-.section-container .ribbon {
+.section-container.package .ribbon {
     border-top: 1px solid #bb9b50;
     border-bottom: 1px solid #bb9b50;
     background-color: #0a0a0a;
+    text-align: center;
 }
-/*
- .section-container .content {
-  position: absolute;
-  top: 0;
+
+.section-container.package .ribbon .package-card.perspective {
+    -webkit-perspective: 600;
+    perspective: 600;
 }
-*/
+
+.section-container.package .ribbon .package-card .rotate {   
+    transform: rotateY(20deg);
+    -webkit-transform: rotateY(20deg);
+}
+
+.section-container.package .ribbon .package-card .card img {
+    /*
+  width: 363.5px;
+  height: 227px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  */
+  cursor: default;
+  margin-top: 135px;
+}
+
+.section-container.package .ribbon .col {
+    padding: 0 20px 0 20px;
+}
+
+.section-container.package .ribbon .col .row {
+    overflow: visible;
+    text-align: center;
+}
+
+.section-container.package .ribbon .col .row .service-thumbnail {
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
