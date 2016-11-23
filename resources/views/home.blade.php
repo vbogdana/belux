@@ -492,19 +492,19 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/event2.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/eventbank1.jpg" alt="">
                                                     <div class="overlay"></div>
                                                     <div class="event-date">
-                                                        <div class="proTitle">21</div>
-                                                        <div class="proSubitle">NOV</div>   
+                                                        <div class="proTitle">9</div>
+                                                        <div class="proSubitle">DEC</div>   
                                                     </div>
                                                     <div class="eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
-                                                                <div class="proTitle">Summer Jam</div>
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/logobank.png" alt="">                                                   
+                                                                <div class="proTitle">STRAIT TO THE BANK</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="proSubtitle">BETON HALA KARADJORDJEVA,FRIDAY 9TH DEC</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
@@ -528,20 +528,21 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/event4.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/brankovevent2.jpg" alt="">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="proTitle">21</div>
-                                                        <div class="proSubitle">NOV</div>   
+                                                        <div class="proTitle">9</div>
+                                                        <div class="proSubitle">DEC</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
-                                                                <div class="proTitle">Summer Jam</div>
+                                                                <img class="club-logo"  src="<?php echo url("") ?>/images/klubbrankow.png" alt=""style="height:150px">                                                   
+                                                                <div class="proTitle">FRIDAY 9.12.2016.</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="proSubtitle">DEE PEEPE</div>
+                                                                <div class="proSubtitle">MILOS STARCEVIC</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
@@ -564,20 +565,20 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/event5.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/tiltevent1.jpg" alt="">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="proTitle">21</div>
-                                                        <div class="proSubitle">NOV</div>   
+                                                        <div class="proTitle">6</div>
+                                                        <div class="proSubitle">DEC</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
-                                                                <div class="proTitle">Summer Jam</div>
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubtilt.png" alt="" style="height:150px">                                                   
+                                                                <div class="proTitle">MUSIC OF 90`</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="proSubtitle">TUESDAY NIGHT</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
@@ -600,20 +601,20 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/event6.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/tiltevent2.jpg" alt="">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="proTitle">21</div>
-                                                        <div class="proSubitle">NOV</div>   
+                                                        <div class="proTitle">9</div>
+                                                        <div class="proSubitle">DEC</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
-                                                                <div class="proTitle">Summer Jam</div>
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubtilt.png" alt="" style="height:150px">                                                   
+                                                                <div class="proTitle">THE CLUB TILT</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="proSubtitle">MUSIC OF 00`</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
@@ -636,20 +637,21 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/event7.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/eventbrankov1.jpg" alt="">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="proTitle">21</div>
-                                                        <div class="proSubitle">NOV</div>   
+                                                        <div class="proTitle">7</div>
+                                                        <div class="proSubitle">DEC</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
-                                                                <div class="proTitle">Summer Jam</div>
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubbrankow.png" alt="" style="height:150px">                                                   
+                                                                <div class="proTitle">THURYSDAY DELIGHt</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="proSubtitle"> DJ Arhitect</div>
+                                                                <div class="proSubtitle"> DJ Fake Casual</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
@@ -676,16 +678,16 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="proTitle">21</div>
-                                                        <div class="proSubitle">NOV</div>   
+                                                        <div class="proTitle">10</div>
+                                                        <div class="proSubitle">DEC</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
-                                                                <div class="proTitle">Summer Jam</div>
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/logobank.png" alt="">                                                   
+                                                                <div class="proTitle">ROBER THE BANK</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle">Hosted by DJ Arhitect</div>
+                                                                <div class="proSubtitle">BETON HALA KARADJORDJEVA,FRIDAY 9TH DEC</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
