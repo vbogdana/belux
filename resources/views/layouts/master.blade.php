@@ -7,7 +7,8 @@
     <head>  
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
+        
+        <meta name="description" content="Belgrade Luxury offers services for VIP party travelers,without hidden costs in Belgrade,Serbia.Five stars apartmants,luxury vehicles,VIP entrance and places in clubs,free premium drinks.Full service from arrival to return,for one price." />
 
         <link rel="shortcut icon" href="<?php echo url("") ?>/images/logo-bl-white.ico"  type="image/x-icon" /> 
         <title> Belgrade Luxury - VIP experience Belgrade nightlife  </title>
