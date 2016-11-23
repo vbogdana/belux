@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/packages/luxury', function () {
+    return view('packages/luxury');
+});
+
+Route::get('/storage/{filename}', 'StorageController@goToStorage');         
+
 Route::get('template', function() {
     return view('template');
 });

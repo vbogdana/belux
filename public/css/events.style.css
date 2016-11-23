@@ -33,7 +33,7 @@ and open the template in the editor.
     //background-size: 1920px 1470px;
     background-size: 1440px 1102.5px;
     background-position: center 0px;
-    background-image: url(../../storage/app/images/big-diamond.png);
+    background-image: url(../images/big-diamond.png);
 }
 
 .gallerySection {
@@ -63,6 +63,29 @@ and open the template in the editor.
 
 .eventinfo:hover {   
     opacity: 1.0;
+}
+
+.event-date {
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    position: absolute;
+    max-width: 250px;
+    //max-height: 30%;
+    width: auto;
+    height: auto;
+    display: block;
+    background-color: #0a0a0a;
+    border: 1px solid #bb9b50;
+    margin: 2.5rem auto 1rem auto;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+    opacity: 1.0;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 .galleryIndex {
@@ -349,6 +372,9 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     filter: alpha(opacity=0);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+}
+.gallerySection .hovereffect:hover .event-date {
+    opacity: 0.0;
 }
 .gallerySection .hovereffect:hover img {
     -ms-transform: scale(1.2);

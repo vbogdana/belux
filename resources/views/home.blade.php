@@ -41,7 +41,7 @@
                 <li class="top-nav-menu-item" id="home-logo">
                     <div class="site-logo">
                         <a href="<?php echo url('/') ?>" >
-                            <img id="site-logo" src="../storage/app/images/logo.svg" alt="Belgrade Luxury">
+                            <img id="site-logo" src="<?php echo url("") ?>/images/logo.svg" alt="Belgrade Luxury">
                         </a>
                     </div>
                 </li>
@@ -84,7 +84,7 @@
     
     <div class="scroll-sign">
         <a href="#aboutus">
-            <img src="../storage/app/images/3-diamonds.png" />
+            <img src="<?php echo url("") ?>/images/3-diamonds.png" />
         </a>
     </div>
     
@@ -153,16 +153,16 @@
 
 <!-- =============== START PROMOTIONS SECTION ============== -->
 <section class="promotions-section">
-    <div class="background"></div>
+    <div class="background" data-stellar-background-ratio="0.5"></div>
     <div class="overlay"></div>
     <div class="content">
         <div class="cards-container">
                 <div id="cards">
                     <figure >
-                        <img class="card floating" src="../storage/app/images/cards/front-6.svg" width="300.5px" height="187px" />
+                        <img class="card floating" src="<?php echo url("") ?>/images/cards/front-6.svg" width="300.5px" height="187px" />
                     </figure> 
                     <figure>
-                        <img class="card floating" src="../storage/app/images/cards/front-5.svg" width="300.5px" height="187px" />
+                        <img class="card floating" src="<?php echo url("") ?>/images/cards/front-5.svg" width="300.5px" height="187px" />
                     </figure>
                 </div>
         </div>
@@ -215,20 +215,20 @@
                 <div class="btn gold"> DETAILS >> </div>
                 <div class="carousel-container">
                     <div class="previous-btn">
-                    <img src="../storage/app/images/next.svg" />
+                    <img src="<?php echo url("") ?>/images/next.svg" />
                 </div>
                 <div class="next-btn">
-                    <img src="../storage/app/images/next.svg" />
+                    <img src="<?php echo url("") ?>/images/next.svg" />
                 </div>
                     <div id="carousel">
                         <figure id="0">
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img id="luxury" src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="luxury" src="<?php echo url("") ?>/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="<?php echo url("") ?>/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <!--
                                     <div class="bottom">
@@ -242,10 +242,10 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front floating floating1">
-                                        <img id="vip-luxury" src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="vip-luxury" src="<?php echo url("") ?>/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="<?php echo url("") ?>/images/cards/front-2.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -254,10 +254,10 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front floating floating2">
-                                        <img id="bachelor-luxury" src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="bachelor-luxury" src="<?php echo url("") ?>/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="<?php echo url("") ?>/images/cards/front-3.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -266,10 +266,10 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front floating floating3">
-                                        <img id="bachelor-penthouse" src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="bachelor-penthouse" src="<?php echo url("") ?>/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="<?php echo url("") ?>/images/cards/front-4.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -278,10 +278,10 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front floating floating4">
-                                        <img id="new-year-vip-luxury" src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="new-year-vip-luxury" src="<?php echo url("") ?>/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="<?php echo url("") ?>/images/cards/front-5.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -290,10 +290,10 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front floating floating5">
-                                        <img id="new-year-luxury" src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="new-year-luxury" src="<?php echo url("") ?>/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                     <div class="back">
-                                        <img src="../storage/app/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="<?php echo url("") ?>/images/cards/front-6.svg" class="card" height="227px" width="363.5px" />
                                     </div>
                                 </div>
                             </div> 
@@ -312,8 +312,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/calendar.svg">
-                                <img src="../storage/app/images/services/dark/calendar.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/calendar.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/calendar.svg" style="display: none">
                             </div>
                         </div>
                         <div id="days" class="row">
@@ -323,8 +323,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/accommodation.svg">
-                                <img src="../storage/app/images/services/dark/accommodation.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/accommodation.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/accommodation.svg" style="display: none">
                             </div>
                         </div>
                         <div id="accommodation" class="row">
@@ -334,8 +334,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/driver.svg">
-                                <img src="../storage/app/images/services/dark/driver.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/driver.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/driver.svg" style="display: none">
                             </div>
                         </div>
                         <div id="driver" class="row">
@@ -345,8 +345,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/car.svg">
-                                <img src="../storage/app/images/services/dark/car.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/car.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/car.svg" style="display: none">
                             </div>
                         </div>
                         <div id="car" class="row">
@@ -356,8 +356,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/host.svg">
-                                <img src="../storage/app/images/services/dark/host.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/host.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/host.svg" style="display: none">
                             </div>
                         </div>
                         <div id="host" class="row">
@@ -367,8 +367,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/vip.svg">
-                                <img src="../storage/app/images/services/dark/vip.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/vip.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/vip.svg" style="display: none">
                             </div>
                         </div>
                         <div id="club" class="row">
@@ -378,8 +378,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/club.svg">
-                                <img src="../storage/app/images/services/dark/club.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/club.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/club.svg" style="display: none">
                             </div>
                         </div>
                         <div id="drinks" class="row">
@@ -389,8 +389,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/security.svg">
-                                <img src="../storage/app/images/services/dark/security.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/security.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/security.svg" style="display: none">
                             </div>
                         </div>
                         <div id="security" class="row">
@@ -400,8 +400,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/photographer.svg">
-                                <img src="../storage/app/images/services/dark/photographer.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/photographer.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/photographer.svg" style="display: none">
                             </div>
                         </div>
                         <div id="photographer" class="row">
@@ -411,8 +411,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/map.svg">
-                                <img src="../storage/app/images/services/dark/map.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/map.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/map.svg" style="display: none">
                             </div>
                         </div>
                         <div id="sightseeing" class="row">
@@ -422,8 +422,8 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="service-thumbnail">
-                                <img src="../storage/app/images/services/gold/plus.svg">
-                                <img src="../storage/app/images/services/dark/plus.svg" style="display: none">
+                                <img src="<?php echo url("") ?>/images/services/gold/plus.svg">
+                                <img src="<?php echo url("") ?>/images/services/dark/plus.svg" style="display: none">
                             </div>
                         </div>
                         <div id="extra" class="row">
@@ -442,7 +442,7 @@
 <!-- =============== START QUOTE SECTION ============== -->
 <section class="quote-section">    
     <div class="content">
-        <div class="background"></div>
+        <div class="background" data-stellar-background-ratio="0.5"></div>
         <div class="overlay"></div>
         <div class="wrapper" >
             <blockquote class="center-quote blockquotes">
@@ -492,20 +492,24 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/event2.jpg" alt="">
                                                     <div class="overlay"></div>
+                                                    <div class="event-date">
+                                                        <div class="proTitle">21</div>
+                                                        <div class="proSubitle">NOV</div>   
+                                                    </div>
                                                     <div class="eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
                                                                 <div class="proTitle">Summer Jam</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
                                                                 <!--
                                                                 <div class="stasveima">
-                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/koktel.png" alt="">
                                                                 </div>
                                                                 -->
                                                             </div>
@@ -524,21 +528,25 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event4.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/event4.jpg" alt="">
                                                     <div class="overlay">
+                                                    </div>
+                                                    <div class="event-date">
+                                                        <div class="proTitle">21</div>
+                                                        <div class="proSubitle">NOV</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
                                                                 <div class="proTitle">Summer Jam</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
                                                                 <!--
                                                                 <div class="stasveima">
-                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/koktel.png" alt="">
                                                                 </div>
                                                                 -->
                                                             </div>
@@ -556,21 +564,25 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event5.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/event5.jpg" alt="">
                                                     <div class="overlay">
+                                                    </div>
+                                                    <div class="event-date">
+                                                        <div class="proTitle">21</div>
+                                                        <div class="proSubitle">NOV</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
                                                                 <div class="proTitle">Summer Jam</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
                                                                 <!--
                                                                 <div class="stasveima">
-                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/koktel.png" alt="">
                                                                 </div>
                                                                 -->
                                                             </div>
@@ -588,21 +600,25 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event6.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/event6.jpg" alt="">
                                                     <div class="overlay">
+                                                    </div>
+                                                    <div class="event-date">
+                                                        <div class="proTitle">21</div>
+                                                        <div class="proSubitle">NOV</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
                                                                 <div class="proTitle">Summer Jam</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
                                                                 <!--
                                                                 <div class="stasveima">
-                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/koktel.png" alt="">
                                                                 </div>
                                                                 -->
                                                             </div>
@@ -620,21 +636,25 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event7.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/event7.jpg" alt="">
                                                     <div class="overlay">
+                                                    </div>
+                                                    <div class="event-date">
+                                                        <div class="proTitle">21</div>
+                                                        <div class="proSubitle">NOV</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
                                                                 <div class="proTitle">Summer Jam</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
                                                                 <!--
                                                                 <div class="stasveima">
-                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/koktel.png" alt="">
                                                                 </div>
                                                                 -->
                                                             </div>
@@ -652,21 +672,25 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                    <img class="" src="<?php echo url("") ?>/images/event3.jpg" alt="">
                                                     <div class="overlay">
+                                                    </div>
+                                                    <div class="event-date">
+                                                        <div class="proTitle">21</div>
+                                                        <div class="proSubitle">NOV</div>   
                                                     </div>
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="../storage/app/images/klublogo.png" alt="">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klublogo.png" alt="">                                                   
                                                                 <div class="proTitle">Summer Jam</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">Hosted by DJ Arhitect</div>
                                                                 <!--
                                                                 <div class="stasveima">
-                                                                    <img class="slicice" src="../storage/app/images/disko.png" alt="" >
-                                                                    <img class="slicice" src="../storage/app/images/kibla.png" alt="">
-                                                                    <img class="slicice" src="../storage/app/images/koktel.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/kibla.png" alt="">
+                                                                    <img class="slicice" src="<?php echo url("") ?>/images/koktel.png" alt="">
                                                                 </div>
                                                                 -->
                                                             </div>
@@ -699,10 +723,10 @@
 
 	<div id="SLDR-ONE" class="sldr">
 		<ul class="wrp animate">
-			<li class="elmnt-one"><div class="skew"><div class="wrap"><img src="../storage/app/images/Klijent1.png" width="500" height="250"></div></div></li>
-			<li class="elmnt-two"><div class="skew"><div class="wrap"><img src="../storage/app/images/Klijent2.png" width="500" height="250"></div></div></li>
-			<li class="elmnt-three"><div class="skew"><div class="wrap"><img src="../storage/app/images/Klijent1.png" width="500" height="250"></div></div></li>
-			<li class="elmnt-four"><div class="skew"><div class="wrap"><img src="../storage/app/images/Klijent2.png" width="500" height="250"></div></div></li>
+			<li class="elmnt-one"><div class="skew"><div class="wrap"><img src="<?php echo url("") ?>/images/Klijent1.png" width="500" height="250"></div></div></li>
+			<li class="elmnt-two"><div class="skew"><div class="wrap"><img src="<?php echo url("") ?>/images/Klijent2.png" width="500" height="250"></div></div></li>
+			<li class="elmnt-three"><div class="skew"><div class="wrap"><img src="<?php echo url("") ?>/images/Klijent1.png" width="500" height="250"></div></div></li>
+			<li class="elmnt-four"><div class="skew"><div class="wrap"><img src="<?php echo url("") ?>/images/Klijent2.png" width="500" height="250"></div></div></li>
 		</ul>
 	</div>
 

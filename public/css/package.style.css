@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2016, 2:55:37 AM
+    Author     : Bogdana
+*/
+
+.section-container .background {
+    z-index: 0;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../images/bckgrnd1.jpg);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    opacity: 0.55;       
+}
+
+.section-container .ribbon {
+    border-top: 1px solid #bb9b50;
+    border-bottom: 1px solid #bb9b50;
+    background-color: #0a0a0a;
+}
+/*
+ .section-container .content {
+  position: absolute;
+  top: 0;
+}
+*/

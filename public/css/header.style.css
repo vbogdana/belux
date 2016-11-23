@@ -193,7 +193,7 @@ ul.top-nav-submenu li:first-child {
     ul.top-nav-menu {
         line-height: 50px;
         display: none;
-        list-style-image: url('../../storage/app/images/diamond-gray.png');
+        list-style-image: url('../images/diamond-gray.png');
         list-style-position: inside;
         list-style: none;
     }    
@@ -221,7 +221,7 @@ ul.top-nav-submenu li:first-child {
     }
     a#pull:after {
         content: "";
-        background: url('../../storage/app/images/nav-icon-gray.png') no-repeat;
+        background: url('../images/nav-icon-gray.png') no-repeat;
         width: 30px;
         height: 30px;
         display: inline-block;
@@ -233,7 +233,7 @@ ul.top-nav-submenu li:first-child {
         color: #bb9b69;
     }
     a#pull:hover:after, nav a#pull:active:after {
-        background: url('../../storage/app/images/nav-icon-gold.png') no-repeat;
+        background: url('../images/nav-icon-gold.png') no-repeat;
     }
     
     ul.top-nav-submenu {
