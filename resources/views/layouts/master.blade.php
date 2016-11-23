@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
         <!-- metatagovi -->
-        <meta name="description" content="Belgrade Luxury offers services for VIP party travelers,without hidden costs in Belgrade,Serbia.Five stars apartmants,luxury vehicles,VIP entrance and places in clubs,free premium drinks.Full service from arrival to return,for one price." />
+        <meta name="description" content="Belgrade Luxury offers services for VIP party travelers, without hidden costs in Belgrade, Serbia. Five stars apartmants, luxury vehicles, VIP entrance and places in clubs, free premium drinks. Full service from arrival to return, for one price." />
         <meta name="keywords" content="belgrade stag, belgrade bachelor, belgrade bachelor party, serbian clubs, serbian nightlife,serbian bachelor, serbian stag, belgrade bars, belgrade restaurants, belgrade vip, party concierge,belgrade accommodation,lounge bars">
         
         <link rel="shortcut icon" href="<?php echo url("") ?>/images/logo-bl-white.ico"  type="image/x-icon" /> 
@@ -127,8 +127,7 @@
                                     <img class="logo-image" src="<?php echo url('/') ?>/images/logo.svg" alt="Belgrade Luxury" />
                                 </a>
                                 <p>
-                                    <span class="belux-logo">BELGRADE <span>LUXURY</span></span> lorem ipsum amet 
-                                    mslskdmfsklalas vkfnadvknadfkj vnjdfkvnf vnfjd jfkjf fnv jfnfkdkdjnksjnvlavnjadvnkjadnv
+                                    <span class="belux-logo">BELGRADE <span>LUXURY</span></span> Belgrade Luxury offers services for VIP party travelers, without hidden costs in Belgrade, Serbia. Five stars apartmants, luxury vehicles, VIP entrance and places in clubs, free premium drinks. Full service from arrival to return, for one price.
                                 </p>
                             </div>
                         </div>
@@ -144,7 +143,7 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event1.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event1.jpg" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -159,7 +158,7 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event2.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event2.jpg" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -174,7 +173,7 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event3.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event3.jpg" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -189,7 +188,7 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event1.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event1.jpg" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -204,7 +203,7 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event2.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event2.jpg" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -219,7 +218,7 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event3.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event3.jpg" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
