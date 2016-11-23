@@ -24,7 +24,7 @@ $(window).on("load", function() {
         }
     });
     
-    
+    // for all links on the same page
     $('a[href*=#]:not([href=#])').click(function() {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
@@ -172,15 +172,6 @@ $(window).on("resize", function() {
 
 
 $(window).on("load", function() {
-    // reflections
-    var $cards = $('.card');
-    $.each($cards, function() {
-        var $element = $(this);
-        $element.reflect({
-            height: 0.5,
-            opacity: 0.2
-        });
-    });
     
     // flip on hover
     var $front = $('.flip-container .flipper .front .card img');
@@ -201,7 +192,7 @@ $(window).on("load", function() {
                     });
                 }
                 $center_figure = $flipper.closest("figure");
-                showPackageInfo();
+                //showPackageInfo();
             }
         }
     });
@@ -217,7 +208,7 @@ $(window).on("load", function() {
                     transform: "rotateX(0deg)"
                 });
                 $center_figure = $flipper.closest("figure");
-                hidePackageInfo();
+                //hidePackageInfo();
             }
         }
     });   
@@ -228,6 +219,13 @@ $(window).on("load", function() {
     
     checkMedia();
     var $figures = $('#carousel figure');
+    
+    $('#details').on('click', function(ev) {
+        ev.preventDefault();
+        var $package = $('figure#0').attr("class");
+        //window.location.href = "{{ URL::to('packages/" + $package + "') }}";
+        window.location.href = "packages/" + $package;
+    });
     
     // FOR TABLETS AND MOBILES
     $('.next-btn').on('click', swipeleftHandler);   
@@ -300,7 +298,7 @@ $(window).on("load", function() {
                 transform: "rotateX(180deg)"
             });
             $center_figure = $(this);
-            showPackageInfo();
+            //showPackageInfo();
             return;
         }
                 

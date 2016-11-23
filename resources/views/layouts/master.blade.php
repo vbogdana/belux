@@ -32,6 +32,7 @@
         <script type="text/javascript" src="<?php echo url('/') ?>/js/jquery.stellar.js"></script>
         <script type="text/javascript" src="<?php echo url('/') ?>/js/header.js"></script> 
         <script type="text/javascript" src="<?php echo url('/') ?>/js/_main.js"></script>
+        <script type="text/javascript" src="<?php echo url('/') ?>/js/reflection.js"></script>
         <!-- za svaku stranicu treba definisati sekciju scripts koja uvozi css i js fajlove potrebne za tu stranicu -->
         @yield('scripts')
     </head>
@@ -120,7 +121,7 @@
                     <div class="col span_1_of_4">
                         <div class="row">
                             <div class="content">
-                                <a href="#">
+                                <a href="<?php echo url('/') ?>">
                                     <img class="logo-image" src="<?php echo url('/') ?>/images/logo.svg" alt="Belgrade Luxury" />
                                 </a>
                                 <p>
@@ -323,7 +324,7 @@
                                 </nav>
                             </div>
                             <div class="col span_1_of_3">
-                                <a class="light" href="#top">- Go to the top -</a>
+                                <a class="light" id="go-top" href="#top">- Go to the top -</a>
                             </div>
                         </div>
                     </div>

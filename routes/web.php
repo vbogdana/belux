@@ -13,13 +13,14 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('/');
 
-Route::get('/packages/luxury', function () {
-    return view('packages/luxury');
-});
+Route::get('/packages/{package}', //'PackageController@goToPackage');
+        function($package) {
+            return view('/packages/'.$package);
+        })->name('packages');
 
-Route::get('/storage/{filename}', 'StorageController@goToStorage');         
+Route::get('/storage/{filename}', 'StorageController@goToStorage')->name('storage');         
 
 Route::get('template', function() {
     return view('template');

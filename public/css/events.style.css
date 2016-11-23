@@ -79,13 +79,28 @@ and open the template in the editor.
     background-color: #0a0a0a;
     border: 1px solid #bb9b50;
     margin: 2.5rem auto 1rem auto;
-    padding: 0.5rem 1.5rem 1rem 1.5rem;
+    padding: 0 1.5rem 0 1.5rem;
     opacity: 1.0;
     -webkit-transition: all 500ms ease-in-out;
     -moz-transition: all 500ms ease-in-out;
     -ms-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
+}
+
+.event-date .proTitle {
+    text-transform: none;
+    font-size: 1.5rem;
+}
+
+.event-date .proSubtitle {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.event-date .horizontal-line {
+    margin: 0;
+    width: 15px;
 }
 
 .galleryIndex {
