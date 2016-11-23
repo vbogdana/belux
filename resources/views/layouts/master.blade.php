@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 
-        <link rel="shortcut icon" href="../storage/app/images/logo-bl-white.ico" type="image/x-icon" /> 
+        <link rel="shortcut icon" href="<?php echo url("") ?>/images/logo-bl-white.ico"  type="image/x-icon" /> 
         <title> Belgrade Luxury - VIP experience Belgrade nightlife  </title>
         
         <!-- 
@@ -18,20 +18,20 @@
             skladiste se u folderu public/css i public/js (u odnosu na root)        
         -->
         <!-- Include style sheets common for all pages -->
-        <link rel="stylesheet" type="text/css" href="css/standard.style.css" />
-        <link rel="stylesheet" type="text/css" href="css/header.style.css" />
-        <link rel="stylesheet" type="text/css" href="css/container.style.css" />
-        <link rel="stylesheet" type="text/css" href="css/footer.style.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo url('/') ?>/css/standard.style.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo url('/') ?>/css/header.style.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo url('/') ?>/css/container.style.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo url('/') ?>/css/footer.style.css" />
         <!-- Include jQuery -->
         <!--<script type="text/javascript" src="js/jquery-3.1.1.js"></script>-->        
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="<?php echo url('/') ?>/js/jquery.mobile-1.4.5.js"></script>
         <!-- Include the YT API Library -->
         <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>
         <!-- Include scripts common for all pages -->
-        <script type="text/javascript" src="js/skrollr.js"></script>
-        <script type="text/javascript" src="js/header.js"></script> 
-        <script type="text/javascript" src="js/_main.js"></script>
+        <script type="text/javascript" src="<?php echo url('/') ?>/js/jquery.stellar.js"></script>
+        <script type="text/javascript" src="<?php echo url('/') ?>/js/header.js"></script> 
+        <script type="text/javascript" src="<?php echo url('/') ?>/js/_main.js"></script>
         <!-- za svaku stranicu treba definisati sekciju scripts koja uvozi css i js fajlove potrebne za tu stranicu -->
         @yield('scripts')
     </head>
@@ -40,7 +40,7 @@
               
         <!-- menu se definise ovde jer ce biti isti za sve stranice -->
         @section('sidebar')
-            <header id="header-section" class="ha-header ha-transparent fullwidth"> 
+            <header id="header-section" class="ha-header ha-non-transparent fullwidth"> 
                 <a href="#" id="pull">MENU</a>
                 <nav class="top-nav">
 
@@ -61,7 +61,7 @@
                         <li class="top-nav-menu-item" id="home-logo">
                             <div class="site-logo">
                                 <a href="<?php echo url('/') ?>" >
-                                    <img id="site-logo" src="../storage/app/images/logo.svg" alt="Belgrade Luxury">
+                                    <img id="site-logo" src="<?php echo url('/') ?>/images/logo.svg" alt="Belgrade Luxury">
                                 </a>
                             </div>
                         </li>
@@ -121,7 +121,7 @@
                         <div class="row">
                             <div class="content">
                                 <a href="#">
-                                    <img class="logo-image" src="../storage/app/images/logo.svg" alt="Belgrade Luxury" />
+                                    <img class="logo-image" src="<?php echo url('/') ?>/images/logo.svg" alt="Belgrade Luxury" />
                                 </a>
                                 <p>
                                     <span class="belux-logo">BELGRADE <span>LUXURY</span></span> lorem ipsum amet 
@@ -141,9 +141,9 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="../storage/app/images/event1.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event1.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class=" eventinfo">
+                                                        <div class="partnerinfo">
 
                                                         </div>
                                                     </div>
@@ -156,9 +156,9 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event2.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class=" eventinfo">
+                                                        <div class="partnerinfo">
 
                                                         </div>
                                                     </div>
@@ -171,9 +171,9 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event3.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class=" eventinfo">
+                                                        <div class="partnerinfo">
 
                                                         </div>
                                                     </div>
@@ -186,9 +186,9 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="../storage/app/images/event1.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event1.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class=" eventinfo">
+                                                        <div class="partnerinfo">
 
                                                         </div>
                                                     </div>
@@ -201,9 +201,9 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="../storage/app/images/event2.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event2.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class=" eventinfo">
+                                                        <div class="partnerinfo">
 
                                                         </div>
                                                     </div>
@@ -216,9 +216,9 @@
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="../storage/app/images/event3.jpg" alt="">
+                                                        <img class="" src="<?php echo url('/') ?>/images/event3.jpg" alt="">
                                                         <div class="overlay"></div>
-                                                        <div class=" eventinfo">
+                                                        <div class="partnerinfo">
 
                                                         </div>
                                                     </div>
@@ -258,27 +258,27 @@
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/facebook-logo.svg" alt="Facebook" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/instagram-logo.svg" alt="Instagram" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/twitter-logo.svg" alt="Twitter" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/viber-logo.svg" alt="Viber" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/viber-logo.svg" alt="Viber" />
                                             </a>
                                         </li>
                                     </ul>
@@ -301,22 +301,22 @@
                                     <ul>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/facebook-logo.svg" alt="Facebook" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/facebook-logo.svg" alt="Facebook" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/instagram-logo.svg" alt="Instagram" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/instagram-logo.svg" alt="Instagram" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/twitter-logo.svg" alt="Twitter" />
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img src="../storage/app/images/social/gold/youtube-logo.svg" alt="Youtube" />
+                                                <img src="<?php echo url('/') ?>/images/social/gold/youtube-logo.svg" alt="Youtube" />
                                             </a>
                                         </li>
                                     </ul>

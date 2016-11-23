@@ -32,6 +32,11 @@ $(window).on("load", function() {
     // $('.contact-toolbar').fadeIn("slow");
     // show contact toolbar
     
+    $.stellar({
+        horizontalScrolling:false,
+        // rest of function
+    });
+    
     /* fade-in */
     var $animation_elements = $('.animation-element');
     var $window = $(window);

@@ -152,7 +152,7 @@ video-section iframe::-webkit-media-controls {
     //background-size: 1920px 1470px;
     background-size: 1440px 1102.5px;
     background-position: center 0px;
-    background-image: url(../../storage/app/images/big-diamond.png);
+    background-image: url(../images/big-diamond.png);
 }
 
 .about-us-section .wrapper {
@@ -247,24 +247,13 @@ ul.services-list li {
 .promotions-section .background { 
     z-index: 0;
     background-position: center center;
-    background-image: url(../../storage/app/images/luxury-party.jpg);
+    background-image: url(../images/luxury-party.jpg);
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
     -o-filter: blur(1px);
     -ms-filter: blur(1px);
     filter: blur(1px);
     opacity: 0.55;    
-}
-
-.promotions-section .overlay:after {
-    content: '\A';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top:0; 
-    left:0;
-    background:rgba(0,0,0,0.5);
-    opacity: 1;
 }
 
  .promotions-section .content {
@@ -388,7 +377,7 @@ ul.services-list li {
 .packages-section .background {   
     background-position: center center;
     //background-size: 1920px 1470px;
-    //background-image: url(../../storage/app/images/big-diamond.png);
+    //background-image: url(../images/big-diamond.png);
     background: rgba(31,31,31,1);
     background: -moz-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(31,31,31,1)), color-stop(11%, rgba(27,27,27,1)), color-stop(54%, rgba(10,10,10,1)), color-stop(58%, rgba(10,10,10,1)), color-stop(71%, rgba(10,10,10,1)), color-stop(100%, rgba(10,10,10,1)));

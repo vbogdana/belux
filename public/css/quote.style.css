@@ -39,24 +39,13 @@ and open the template in the editor.
     position: absolute;
     top: 0;
     background-position: center center;
-    background-image: url(../../storage/app/images/luxury-party.jpg);
+    background-image: url(../images/luxury-party.jpg);
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
     -o-filter: blur(1px);
     -ms-filter: blur(1px);
     filter: blur(1px);
     opacity: 0.55;    
-}
-
-.quote-section .overlay:after {
-    content: '\A';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top:0; 
-    left:0;
-    background:rgba(0,0,0,0.5);
-    opacity: 1;
 }
 
 .quote-section .wrapper {
