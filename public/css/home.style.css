@@ -331,12 +331,13 @@ ul.services-list li {
     color: #0a0a0a;
 }
 
-.promotions-section .promotions-container h1 {
+.promotions-section .promotions-container h2 {
     margin: 30px 0 30px 0;
     font-weight: 300;
+    font-size: 36px;
 }
 
-.promotions-section .promotions-container h1 span {
+.promotions-section .promotions-container h2 span {
     font-family: Georgia, serif;
     font-style: italic;
     color: #bb9b69;
@@ -680,7 +681,7 @@ ul.services-list li {
         text-align: center;
     }
 
-    .promotions-section .promotions-container h1 {   
+    .promotions-section .promotions-container h2 {   
         margin: 30px 0 30px 0;
         font-weight: 400;
     }
@@ -851,6 +852,7 @@ ul.services-list li {
     ================================================================================*/
     
     .promotions-section .promotions-container {
+        margin: 50px 0 0 0;
         padding: 15px;
     }
     
