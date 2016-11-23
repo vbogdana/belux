@@ -119,7 +119,7 @@
                         who want the quality of their visit to the capital of Serbia to be to the highest standards. 
                         To help our customers, we have prepared a variety of packages that can meet their different needs and preferences. 
                         Professional service of our staff may be available to our clients for the duration of the whole arrangement. 
-                        We offer the most exclusive villas and suites, VIP treatment in the city's best restaurants, bars and clubs, 
+                        We offer the most exclusive villas and suites in Belgrade, VIP treatment in the city's best restaurants, bars and clubs, 
                         personal chauffeur service and luxury vehicles, personal security, boat tours of the city, 
                         accompanied by a personal guide and visit the most interesting sites in Serbia.
                     </p>
@@ -205,10 +205,10 @@
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div class="front">
-                                        <img id="luxury" src="<?php echo url("") ?>/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
+                                        <img id="luxury" src="<?php echo url("") ?>/images/cards/front-1.svg" class="card" height="227px" width="363.5px" alt="Belgrade,vip,package,newyear,new year,ultra,ultra vip"/>
                                     </div>
                                     <div class="back">
-                                        <img src="<?php echo url("") ?>/images/cards/front-1.svg" class="card" height="227px" width="363.5px" />
+                                        <img src="<?php echo url("") ?>/images/cards/front-1.svg" class="card" height="227px" width="363.5px" alt="Belgrade,vip,package,newyear,new year,ultra,ultra vip" />
                                     </div>
                                     <!--
                                     <div class="bottom">
