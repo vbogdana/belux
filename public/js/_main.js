@@ -14,16 +14,6 @@ $( document ).on( "pageinit", function( event ) {
 });
 
 $(window).on("load", function() {
-    // Init Skrollr
-    /*
-    var s = skrollr.init({
-        render: function(data) {
-            //Debugging - Log the current scroll position.
-            //console.log(data.curTop);
-        }
-    });
-    */
-      
     // Animate loader off screen
     $("#header-section").fadeIn(1000);
     $(".se-pre-con").fadeOut(1000);
@@ -33,8 +23,10 @@ $(window).on("load", function() {
     // $('.contact-toolbar').fadeIn("slow");
     // show contact toolbar
     
+    // Init Stellar   
     $.stellar({
-        horizontalScrolling:false
+        horizontalScrolling:false,
+        responsive: true
         // rest of function
     });
     

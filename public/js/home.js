@@ -224,7 +224,7 @@ $(window).on("load", function() {
         ev.preventDefault();
         var $package = $('figure#0').attr("class");
         //window.location.href = "{{ URL::to('packages/" + $package + "') }}";
-        window.location.href = "packages/" + $package;
+        window.location.href = "packages/" + $package + "-package";
     });
     
     // FOR TABLETS AND MOBILES
