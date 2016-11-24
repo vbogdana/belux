@@ -101,14 +101,6 @@
             </div>
             
             <div class="wrapper" >
-            <!--
-                <div class="ribbon">
-                    <blockquote class="center-quote animation-element fade-in">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        <cite>Somebody famous</cite>
-                    </blockquote>
-                </div>
-            !-->
                 <div class="about-us-container">
                     <h3 class="animation-element fade-in belux-logo"> 
                         BELGRADE<span>LUXURY</span> 
