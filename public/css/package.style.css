@@ -9,12 +9,14 @@ and open the template in the editor.
 */
 
 .section-container.package.luxury .background { background-image: url(../images/bckgrnd1.jpg); }
+.section-container.package.luxury .ribbon .background { background-image: url(../images/bckgrnd2.jpg); }
 
 .section-container .background {
     z-index: 0;
     position: absolute;
     background-position: center center;
-    background-size: cover;   
+    background-size: cover;
+    background-repeat: repeat-y;
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
     -o-filter: blur(1px);
@@ -28,27 +30,37 @@ and open the template in the editor.
     border-bottom: 1px solid #bb9b50;
     background-color: #0a0a0a;
     text-align: center;
+    padding: 0;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.85);
+}
+
+.section-container.package .ribbon .overlay:after {
+    background:rgba(0,0,0,0.75);
+}
+
+.section-container.package .ribbon .content {
+    padding: 50px 5% 80px 5%;
 }
 
 .section-container.package .ribbon .package-card.perspective {
     -webkit-perspective: 600;
     perspective: 600;
+    text-align: center;
 }
 
-.section-container.package .ribbon .package-card .rotate {   
-    transform: rotateY(20deg);
-    -webkit-transform: rotateY(20deg);
+.section-container.package .ribbon .package-card .rotate {
+    margin: 80px 0 0 0;
+    /*transform: rotateY(20deg);
+    -webkit-transform: rotateY(20deg);*/
+    display: inline-block;
 }
 
 .section-container.package .ribbon .package-card .card img {
-    /*
-  width: 363.5px;
-  height: 227px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  */
-  cursor: default;
-  margin-top: 135px;
+    width: 300.5px;
+    height: 187px;
+    cursor: default;
+    margin: 0;
+    //box-shadow: none;
 }
 
 .section-container.package .ribbon .col {
@@ -61,6 +73,76 @@ and open the template in the editor.
 }
 
 .section-container.package .ribbon .col .row .service-thumbnail {
-    margin-top: 20px;
-    margin-bottom: 13px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section-container.package .ribbon .col.span_1_of_3 {
+    padding: 0;
+}
+
+.section-container.package .ribbon .col.span_1_of_3 .span_1_of_2 {
+    padding: 0;
+    min-width: 300.5px;
+}
+
+.section-container.package .ribbon .col.span_1_of_3 .span_1_of_2:first-child {
+    margin-bottom: 20px;
+}
+
+.section-container.package .ribbon .col.span_1_of_3 .span_1_of_2:last-child {
+    //padding: 0 10px;
+    text-align: center;
+}
+
+.section-container.package .ribbon .col.span_1_of_3 .span_1_of_2 p {
+    text-align: justify;
+    //font-family: Georgia, serif;
+    //font-style: italic;
+    color: #bb9b69;
+}
+
+@media screen and (max-width: 980px) {
+    .section-container.package .ribbon .package-card .rotate {
+        margin: 0;
+    }
+    
+    .section-container.package .ribbon .package-card .card img {
+        margin-top: 20px;
+    }
+    
+    .section-container.package .ribbon .col.span_1_of_3 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .section-container.package .ribbon .col.span_2_of_3 {
+        width: 100%;
+    }
+    
+    .section-container.package .ribbon .col.span_2_of_3 .span_1_of_3 {
+        width: 33%;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    
+    .section-container.package .ribbon .package-card .rotate {  
+        transform: scale(0.8) rotateY(20deg);
+        -webkit-transform: scale(0.8) rotateY(20deg);
+    }
+    
+    .section-container.package .ribbon .package-card .card img {
+        margin-top: 0;
+    }
+    
+    .section-container.package .ribbon .col.span_1_of_3 .span_1_of_2:first-child {
+        margin: 0;
+    }
+    
+    .section-container.package .ribbon .col.span_2_of_3 .span_1_of_3 {
+        width: 100%;
+    }
+    
 }

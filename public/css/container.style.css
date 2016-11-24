@@ -221,11 +221,11 @@
 }
 
 .card img {
-  width: 363.5px;
-  height: 227px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
+    width: 363.5px;
+    height: 227px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 .service-thumbnail {
@@ -409,8 +409,8 @@
     .span_1_of_2 {
        width: 100%;  
     }
-    
-    .span_3_of_3, .span_2_of_3,.footer .span_1_of_3 { 
+       
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { 
         width: 100%; 
     }
     
@@ -437,6 +437,10 @@
     
     .span_1_of_2 {
        width: 100%;  
+    }
+    
+    .span_1_of_3 {
+        width: 100%;
     }
 }
 

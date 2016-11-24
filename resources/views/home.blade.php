@@ -67,9 +67,9 @@
 
 <!-- =============== START VIDEO SECTION ================= -->
 <section id="top" class="video-section [widescreen]">
-  
+  <!--
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/gCdSM1IXZvo?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
-     
+  -->   
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src=''></iframe>      
     
     <div class="overlay"></div>
@@ -170,7 +170,7 @@
 
 <!-- =============== START PACKAGES SECTION ============== -->
 <section id="content" class="packages-section">
-    <div class="background">
+    <div class="background" data-stellar-background-ratio="0.5">
         <div class="content">
             <div class="section-title animation-element fade-in">
               <h2> PACKAGES </h2>
