@@ -177,14 +177,20 @@
                     team to meet <span>all of Your needs</span>.
                     Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
                 </p>
+            </div> 
+            
+            <div class="section-description" id="package-info">
+                <div class="section-title animation-element fade-in">
+                    <h4 id="package-title"> LUXURY PACKAGE </h4>
+                    <div class="horizontal-line"></div>
+                </div>
+                <div id="reserve" class="btn gold"> RESERVE </div>
+                <div id="details" class="btn gold"> DETAILS >> </div>
             </div>
             
             
             
-            <div class="packages-container">               
-                
-                <div id="reserve" class="btn gold"> RESERVE </div>
-                <div id="details" class="btn gold"> DETAILS >> </div>
+            <div class="packages-container">                                             
                 <div class="carousel-container">
                     <div class="previous-btn">
                     <img src="<?php echo url("") ?>/images/next.svg" />
@@ -334,6 +340,7 @@
                                                     <img class="" src="<?php echo url("") ?>/images/eventbank1.jpg" alt="">
                                                     <div class="overlay"></div>
                                                     <div class="event-date">
+                                                        <div class="background"></div>
                                                         <div class="proTitle">9.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>   
@@ -372,6 +379,7 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
+                                                        <div class="background"></div>
                                                         <div class="proTitle">9.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>   
@@ -410,6 +418,7 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
+                                                        <div class="background"></div>
                                                         <div class="proTitle">6.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>   
@@ -447,6 +456,7 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
+                                                        <div class="background"></div>
                                                         <div class="proTitle">9.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>
@@ -484,6 +494,7 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
+                                                        <div class="background"></div>
                                                         <div class="proTitle">7.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>
@@ -521,6 +532,7 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
+                                                        <div class="background"></div>
                                                         <div class="proTitle">10.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>

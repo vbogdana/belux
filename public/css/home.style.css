@@ -393,6 +393,14 @@ ul.services-list li {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#0a0a0a', GradientType=1 );
 }
 
+.packages-section #package-info {
+    padding: 0;
+}
+
+.packages-section #package-info .btn {
+    margin-bottom: 0;
+}
+
 .packages-container {
     position: relative;
     width: 100%;
