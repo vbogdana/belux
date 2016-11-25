@@ -340,7 +340,6 @@
                                                     <img class="" src="<?php echo url("") ?>/images/eventbank1.jpg" alt="">
                                                     <div class="overlay"></div>
                                                     <div class="event-date">
-                                                        <div class="background"></div>
                                                         <div class="proTitle">9.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>   
@@ -379,7 +378,6 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="background"></div>
                                                         <div class="proTitle">9.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>   
@@ -418,7 +416,6 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="background"></div>
                                                         <div class="proTitle">6.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>   
@@ -456,7 +453,6 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="background"></div>
                                                         <div class="proTitle">9.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>
@@ -494,7 +490,6 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="background"></div>
                                                         <div class="proTitle">7.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>
@@ -532,7 +527,6 @@
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
-                                                        <div class="background"></div>
                                                         <div class="proTitle">10.</div>
                                                         <div class="horizontal-line"></div>
                                                         <div class="proSubtitle">DEC</div>

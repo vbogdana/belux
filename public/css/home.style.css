@@ -87,7 +87,7 @@ video-section iframe::-webkit-media-controls {
     color: #f9f9f9;   
     font-size: 12px;
     font-weight: 200;
-    border-bottom: 2px solid #bb9b50;
+    border-bottom: 1px solid #bb9b50;
     padding: 10px 0px 10px 0px;
     margin: 0px 8% 0px 8%;
 }

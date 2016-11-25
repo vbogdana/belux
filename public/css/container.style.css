@@ -22,6 +22,32 @@
     background-size: contain;
 }
 
+.language-toolbar {
+    z-index: 20000;
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: -50px;
+    background: rgba(2,2,2,1);
+    //box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.55);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.language-toolbar .tooltip {
+    width: 50px;
+    height: 50px;
+    position: relative;    
+    top: 100px;
+    right: 50px;
+    background: rgba(2,2,2,0.7);
+    //box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.55); 
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+      
+}
+
 /* Common
 ================================================================================*/
 .background {   
@@ -395,6 +421,10 @@
 
 /* Phone & Small Tablets */
 @media screen and (max-width: 767px) {
+    
+    .language-toolbar {
+        top: 70px;
+    }
     
     /*     Common
     ================================================================================ */

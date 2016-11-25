@@ -13,13 +13,14 @@ $(window).on("load", function() {
         if($(window).scrollTop() > $('#aboutus').offset().top) {
             $(".ha-header").addClass("ha-non-transparent");
             $(".ha-header").removeClass("ha-transparent");
-            $('.contact-toolbar').fadeIn();
+            $('.language-toolbar .tooltip').fadeIn(1000);
             //$('.ha-header').css('top', '30px');
         } else {
             //remove the background property so it comes transparent again (defined in your css)
            $(".ha-header").removeClass("ha-non-transparent");
            $(".ha-header").addClass("ha-transparent");
-           $('.contact-toolbar').fadeOut();
+           $('.language-toolbar .tooltip').fadeOut(500);
+           $('.language-toolbar').css("right", "-50px");
            //$('.ha-header').css('top', '0px');
         }
     });

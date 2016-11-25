@@ -36,6 +36,20 @@ $(window).on("load", function() {
         window.location.href = $(this).attr("href");
     });
     
+    // language-toolbar
+    $('.language-toolbar .tooltip').on("click", function(ev) {
+        ev.preventDefault();
+
+        $value = $('.language-toolbar').css("right");
+        if ($value == "0px") {
+            $('.language-toolbar').css("right", "-50px");
+            $('.language-toolbar .tooltip').css("background", "rgba(2,2,2,0.7)");
+        } else {
+            $('.language-toolbar').css("right", "0px");
+            $('.language-toolbar .tooltip').css("background", "rgba(2,2,2,1)");
+        }
+    });
+    
     // reflections
     var $cards = $('.card');
     $.each($cards, function() {

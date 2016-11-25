@@ -85,6 +85,10 @@
                 </nav>             
             </header>
         @show
+        
+        
+        
+        
 
         <!-- 
             za svaku stranicu treba definisati content sekciju (sadrzaj)
@@ -94,6 +98,12 @@
             za svaku novu stranicu obavezno dodati rutu u routes/web.php fajlu
         -->      
         <div class="container">
+            <section class="language-toolbar">
+                <div class="tooltip">
+                    LANG
+                </div>
+                
+            </section>
             @yield('content')
         </div>
         
