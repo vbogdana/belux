@@ -27,6 +27,7 @@
             </p>
             
             <div id="reserve" class="btn gold"> RESERVE </div>
+            <div id="inquiry" class="btn gold"> INQUIRY </div>
         </div>
         
         <div class="ribbon">
@@ -54,8 +55,17 @@
                                             team to meet <span>all of Your needs</span>.
                                             Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
                                         </p>
+                                        <div class="horizontal-line"></div>
+                                        <p class="animation-element fade-in">
+                                            These are our <a class="light" href="#">special packages</a> that we have prepared for <span>You</span>. 
+                                            Each one has been carefully selected by 
+                                            <a href="<?php echo url('/') ?>" class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> 
+                                            team to meet <span>all of Your needs</span>.
+                                            Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
+                                        </p>
                                     </div>
                                     <div id="reserve" class="btn gold"> RESERVE </div>
+                                    <div id="inquiry" class="btn gold"> INQUIRY </div>
                                 </div>
                             </div>
 
@@ -96,7 +106,7 @@
                                             </div>
                                         </div>
                                         <div id="driver" class="row animation-element fade-in">
-                                            Personal Driver
+                                            Personal Driver Available
                                         </div>
                                     </div>
                                 </div>

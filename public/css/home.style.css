@@ -87,7 +87,7 @@ video-section iframe::-webkit-media-controls {
     color: #f9f9f9;   
     font-size: 12px;
     font-weight: 200;
-    border-bottom: 2px solid #bb9b50;
+    border-bottom: 1px solid #bb9b50;
     padding: 10px 0px 10px 0px;
     margin: 0px 8% 0px 8%;
 }
@@ -391,6 +391,14 @@ ul.services-list li {
     background: -ms-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
     background: radial-gradient(ellipse at center, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#0a0a0a', GradientType=1 );
+}
+
+.packages-section #package-info {
+    padding: 0;
+}
+
+.packages-section #package-info .btn {
+    margin-bottom: 0;
 }
 
 .packages-container {

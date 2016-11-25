@@ -13,13 +13,14 @@ $(window).on("load", function() {
         if($(window).scrollTop() > $('#aboutus').offset().top) {
             $(".ha-header").addClass("ha-non-transparent");
             $(".ha-header").removeClass("ha-transparent");
-            $('.contact-toolbar').fadeIn();
+            $('.language-toolbar .tooltip').fadeIn(1000);
             //$('.ha-header').css('top', '30px');
         } else {
             //remove the background property so it comes transparent again (defined in your css)
            $(".ha-header").removeClass("ha-non-transparent");
            $(".ha-header").addClass("ha-transparent");
-           $('.contact-toolbar').fadeOut();
+           $('.language-toolbar .tooltip').fadeOut(500);
+           $('.language-toolbar').css("right", "-50px");
            //$('.ha-header').css('top', '0px');
         }
     });
@@ -124,21 +125,22 @@ function checkMedia() {
 }
 
 function showPackageInfo() {
-    var $package = $center_figure.find('.flip-container .flipper .front img');
-    var $package_id = $package.attr("id");
-    /*
-    $.ajax({
-            type: "GET",
-            url: url,
-            data: $package_id,
-            // dataType: 'json',
-            success: function(data, status){
-                $('#package-info').html(data);
-            }
-
-    });
-    */
-   //$('#package-info').html($package_id);
+    $('#package-title').css("opacity", "0");
+    var $package = $('figure#0').attr("class");
+        
+    
+    $('#package-title').delay(500).queue(function (next) {
+        switch ($package) {
+            case "luxury": $('#package-title').html("LUXURY PACKAGE"); break;
+            case "vip-luxury": $('#package-title').html("VIP LUXURY PACKAGE"); break;
+            case "bachelor-luxury": $('#package-title').html("BACHELOR LUXURY PACKAGE"); break;
+            case "bachelor-penthouse": $('#package-title').html("BACHELOR PENTHOUSE PARTY"); break;
+            case "new-year-luxury": $('#package-title').html("NEW YEAR LUXURY PACKAGE"); break;
+            case "new-year-vip-luxury": $('#package-title').html("NEW YEAR VIP LUXURY PACKAGE"); break;            
+        }
+        $('#package-title').css("opacity", "1");
+        next();
+    });     
 }
     
 $(window).on("resize", function() {
@@ -191,8 +193,6 @@ $(window).on("load", function() {
                         transform: "rotateX(-180deg)"  //+  "scale(1.3) translateX(40px)"
                     });
                 }
-                $center_figure = $flipper.closest("figure");
-                //showPackageInfo();
             }
         }
     });
@@ -207,8 +207,6 @@ $(window).on("load", function() {
                     "-webkit-transform" : "rotateX(0deg)",
                     transform: "rotateX(0deg)"
                 });
-                $center_figure = $flipper.closest("figure");
-                //hidePackageInfo();
             }
         }
     });   
@@ -233,15 +231,13 @@ $(window).on("load", function() {
     $('.carousel-container').on('swipeleft', swipeleftHandler);   
     $('.carousel-container').on('swiperight', swiperightHandler);
     
-    function swiperightHandler( ev ){
+    function swiperightHandler( ev ) {
         ev.preventDefault();
         $.each($figures, function() {
             var $element = $(this);
             var $curr_id = parseInt($element.attr("id"));
             var $new_id = ($curr_id + 1) % 6;
             $element.attr("id", $new_id);
-            //if ($new_id == 0)
-            //    $center_figure = $element;
             if ($new_id == 0) {
                 $element.find('.front').removeClass("floating");
                 $element.find('.front').removeClass("floating" + $curr_id);
@@ -256,6 +252,7 @@ $(window).on("load", function() {
                 opacity: opacity.value[$new_id]
             });                                      
         });
+        showPackageInfo();
     }
     
     function swipeleftHandler( ev ){
@@ -281,6 +278,7 @@ $(window).on("load", function() {
                 opacity: opacity.value[$new_id]
             });                                       
         });
+        showPackageInfo();
     }
     
     // FOR LAPTOPS AND DESKTOPS
@@ -297,8 +295,6 @@ $(window).on("load", function() {
                 "-webkit-transform" : "rotateX(180deg)",
                 transform: "rotateX(180deg)"
             });
-            $center_figure = $(this);
-            //showPackageInfo();
             return;
         }
                 
@@ -379,6 +375,7 @@ $(window).on("load", function() {
                     next(); 
                 });                        
             });
+            showPackageInfo();
         }      
     });
 });

@@ -39,6 +39,7 @@ and open the template in the editor.
 .gallerySection {
     position: relative;
     margin-top: 30px;
+    box-shadow: 0px -3px 20px 0px rgba(0, 0, 0, 0.55);
 }
 
 .container-fluid {
@@ -76,11 +77,11 @@ and open the template in the editor.
     width: auto;
     height: auto;
     display: block;
-    background-color: #0a0a0a;
+    background: rgba(2,2,2,0.7);
     border: 1px solid #bb9b50;
     margin: 2.5rem auto 1rem auto;
     padding: 0 1.5rem 0 1.5rem;
-    opacity: 1.0;
+    opacity: 1;
     -webkit-transition: all 500ms ease-in-out;
     -moz-transition: all 500ms ease-in-out;
     -ms-transition: all 500ms ease-in-out;

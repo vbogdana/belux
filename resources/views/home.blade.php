@@ -101,14 +101,6 @@
             </div>
             
             <div class="wrapper" >
-            <!--
-                <div class="ribbon">
-                    <blockquote class="center-quote animation-element fade-in">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        <cite>Somebody famous</cite>
-                    </blockquote>
-                </div>
-            !-->
                 <div class="about-us-container">
                     <h3 class="animation-element fade-in belux-logo"> 
                         BELGRADE<span>LUXURY</span> 
@@ -185,14 +177,20 @@
                     team to meet <span>all of Your needs</span>.
                     Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
                 </p>
+            </div> 
+            
+            <div class="section-description" id="package-info">
+                <div class="section-title animation-element fade-in">
+                    <h4 id="package-title"> LUXURY PACKAGE </h4>
+                    <div class="horizontal-line"></div>
+                </div>
+                <div id="reserve" class="btn gold"> RESERVE </div>
+                <div id="details" class="btn gold"> DETAILS >> </div>
             </div>
             
             
             
-            <div class="packages-container">               
-                
-                <div id="reserve" class="btn gold"> RESERVE </div>
-                <div id="details" class="btn gold"> DETAILS >> </div>
+            <div class="packages-container">                                             
                 <div class="carousel-container">
                     <div class="previous-btn">
                     <img src="<?php echo url("") ?>/images/next.svg" />
