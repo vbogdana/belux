@@ -218,6 +218,11 @@ $(window).on("load", function() {
     checkMedia();
     var $figures = $('#carousel figure');
     
+    $('#reserve').on('click', function(ev) {
+        ev.preventDefault();
+        window.location.href = "under-construction";
+    });
+    
     $('#details').on('click', function(ev) {
         ev.preventDefault();
         var $package = $('figure#0').attr("class");

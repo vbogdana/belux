@@ -26,14 +26,14 @@
             <ul class="top-nav-menu" id="navigation">
                 <li class="top-nav-menu-item" ><div><a href="<?php echo url('/') ?>">HOME</a></div></li>
                 <li class="top-nav-menu-separator"></li>
-                <li class="top-nav-menu-item"><div><a href="#">CONTACT</a></div></li>
+                <li class="top-nav-menu-item"><div><a href="<?php echo url('/under-construction') ?>">CONTACT</a></div></li>
                 <li class="top-nav-menu-separator"></li>
-                <li class="top-nav-menu-item" id="services" ><div><a href="#">SERVICES</a></div>                   
+                <li class="top-nav-menu-item" id="services" ><div><a href="">SERVICES</a></div>                   
                     <ul class="top-nav-submenu" id="services-submenu" style="height: 120px;">
-                        <li class="top-nav-submenu-item"><div><a href="#">packages</a></div></li>
-                        <li class="top-nav-submenu-item"><div><a href="#">custom package</a></div></li>
-                        <li class="top-nav-submenu-item"><div><a href="#">all services</a></div></li>
-                        <li class="top-nav-submenu-item"><div><a href="#">ultra VIP services</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="#content">packages</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">custom package</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">all services</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">ultra VIP services</a></div></li>
                     </ul>                    
                 </li>
                 <li class="top-nav-menu-separator"></li>
@@ -45,17 +45,17 @@
                     </div>
                 </li>
                 <li class="top-nav-menu-separator"></li>
-                <li class="top-nav-menu-item" id="places"><div><a href="#">PLACES</a></div>
+                <li class="top-nav-menu-item" id="places"><div><a href="">PLACES</a></div>
                     <ul class="top-nav-submenu" id="places-submenu" style="height: 150px;">
-                        <li class="top-nav-submenu-item"><div><a href="#">hotels</a></div></li>
-                        <li class="top-nav-submenu-item"><div><a href="#">restaurants</a></div></li>
-                        <li class="top-nav-submenu-item"><div><a href="#">bars</a></div></li>
-                        <li class="top-nav-submenu-item"><div><a href="#">clubs</a></div></li>
-                        <li class="top-nav-submenu-item"><div><a href="#">kafane</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">hotels</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">restaurants</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">bars</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">clubs</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">kafane</a></div></li>
                     </ul>
                 </li>
                 <li class="top-nav-menu-separator"></li>
-                <li class="top-nav-menu-item"><div><a href="#">VISIT</a></div></li>
+                <li class="top-nav-menu-item"><div><a href="<?php echo url('/under-construction') ?>">VISIT</a></div></li>
                 <li class="top-nav-menu-separator"></li>
             </ul>           
         </nav>             
@@ -69,9 +69,8 @@
 <section id="top" class="video-section [widescreen]">
  
     <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/gCdSM1IXZvo?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
-
-    <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src=''></iframe>      
-    
+<!--
+-->   
     <div class="overlay"></div>
     
     <div class="overlay-text">
@@ -150,9 +149,9 @@
             -->
             <p id="promotion" class="animation-element fade-in" >
                 Take a look at our
-                <a class="light" href="<?php echo url('/') ?>/packages/new-year-luxury"> NEW YEAR LUXURY </a>
+                <a class="light" href="<?php echo url('/') ?>/packages/new-year-luxury-package"> NEW YEAR LUXURY </a>
                 and
-                <a class="light" href="<?php echo url('/') ?>/packages/new-year-vip-luxury"> NEW YEAR VIP LUXURY </a>
+                <a class="light" href="<?php echo url('/') ?>/packages/new-year-vip-luxury-package"> NEW YEAR VIP LUXURY </a>
                 packages, and don't forget to make <span> a wish </span> !
             </p>
         </div>
@@ -171,11 +170,11 @@
             
             <div class="section-description">
                 <p class="animation-element fade-in">
-                    These are our <a class="light" href="#">special packages</a> that we have prepared for <span>You</span>. 
+                    These are our <a class="light" href="#content">special packages</a> that we have prepared for <span>You</span>. 
                     Each one has been carefully selected by 
                     <a href="<?php echo url('/') ?>" class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> 
                     team to meet <span>all of Your needs</span>.
-                    Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
+                    Choose Your favorite, or <a class="light" href="<?php echo url('/under-construction') ?>"> create one </a> according to Your taste.
                 </p>
             </div> 
             
@@ -193,11 +192,11 @@
             <div class="packages-container">                                             
                 <div class="carousel-container">
                     <div class="previous-btn">
-                    <img src="<?php echo url("") ?>/images/next.svg" />
-                </div>
-                <div class="next-btn">
-                    <img src="<?php echo url("") ?>/images/next.svg" />
-                </div>
+                        <img src="<?php echo url("") ?>/images/next.svg" />
+                    </div>
+                    <div class="next-btn">
+                        <img src="<?php echo url("") ?>/images/next.svg" />
+                    </div>
                     <div id="carousel">
                         <figure id="0" class="luxury">
                             <div class="flip-container">
@@ -289,16 +288,29 @@
     <div class="content">
         <div class="background" data-stellar-background-ratio="0.5"></div>
         <div class="overlay"></div>
-        <div class="wrapper" >
+        <div class="wrapper" >            
             <blockquote class="center-quote blockquotes">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <cite>Somebody famous</cite>
+                Luxury Is in Each Detail.
+                <cite>Hubert de Givenchy</cite>
             </blockquote>
             
             <blockquote class="center-quote blockquotes">
-                Bogdanin citat o jebenom luksuzu.
-                <cite>Somebody famous</cite>
+                Travel Is the Only Thing You Buy That Makes You Richer.
             </blockquote>
+            
+            <blockquote class="center-quote blockquotes">
+                The Best Luxury Services Are Customized, Not Standardized.
+            </blockquote>
+            
+            <blockquote class="center-quote blockquotes">
+                It Is Better to See Something Once Than to Hear about It a Thousand Times.
+            </blockquote>                        
+            
+            <blockquote class="center-quote blockquotes">
+                The World Is a Book, and Those Who Do Not Travel Read Only a Page.
+                <cite>Saint Augustine</cite>
+            </blockquote>
+            
         </div>
     </div>
 </section>  
@@ -316,7 +328,7 @@
             <div class="section-description">
                     <p class="animation-element fade-in">
                         Here in <a href="<?php echo url('/') ?>" class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> we are giving our best to make your stay in our city <span>unforgettable</span>.
-                        If You are planning a trip to <a href="#" class="light">Belgrade</a>, you must not miss these <span>events</span>!
+                        If You are planning a trip to <a href="<?php echo url('/under-construction') ?>" class="light">Belgrade</a>, you must not miss these <span>events</span>!
                         This is our <span>selected choice</span> of interesting happenings for the upcoming weeks.
                     </p>
             </div>
@@ -337,7 +349,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/eventbank1.jpg" alt="Event in Belgrade club bank">
+                                                    <img class="" src="<?php echo url("") ?>/images/eventbank1.jpg" alt="Event in Belgrade Club Bank">
                                                     <div class="overlay"></div>
                                                     <div class="event-date">
                                                         <div class="proTitle">9.</div>
@@ -347,8 +359,8 @@
                                                     <div class="eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/logobank.png" alt="logobank">                                                   
-                                                                <div class="proTitle">STRAIT TO THE BANK</div>
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/logobank.png" alt="Club Bank">                                                   
+                                                                <div class="proTitle">STRAIGHT TO THE BANK</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">BETON HALA KARADJORDJEVA,FRIDAY 9TH DEC</div>
                                                                 <!--
@@ -374,7 +386,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/brankovevent2.jpg" alt="Event in Belgrade club brankow">
+                                                    <img class="" src="<?php echo url("") ?>/images/brankovevent2.jpg" alt="Event in Belgrade Club Brankow">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -385,11 +397,10 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo"  src="<?php echo url("") ?>/images/klubbrankow.png" alt="club brankov" style="height:150px">                                                   
+                                                                <img class="club-logo"  src="<?php echo url("") ?>/images/klubbrankow.png" alt="Club Brankow">                                                   
                                                                 <div class="proTitle">FRIDAY 9.12.2016.</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle">DEE PEEPE</div>
-                                                                <div class="proSubtitle">MILOS STARCEVIC</div>
+                                                                <div class="proSubtitle">DEE PEEPE <br/> MILOS STARCEVIC</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
@@ -423,8 +434,8 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubtilt.png" alt="club tilt" style="height:150px">                                                   
-                                                                <div class="proTitle">MUSIC OF 90'</div>
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubtilt.png" alt="Club Tilt">                                                   
+                                                                <div class="proTitle">MUSIC OF THE '90s</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">TUESDAY NIGHT</div>
                                                                 <!--
@@ -449,7 +460,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/tiltevent2.jpg" alt="Event in Belgrade club tilt">
+                                                    <img class="" src="<?php echo url("") ?>/images/tiltevent2.jpg" alt="Event in Belgrade Club Tilt">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -460,10 +471,10 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubtilt.png" alt="club tilt" style="height:150px">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubtilt.png" alt="Club Tilt">                                                   
                                                                 <div class="proTitle">THE CLUB TILT</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle">MUSIC OF 00'</div>
+                                                                <div class="proSubtitle">MUSIC OF THE '00s</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
@@ -486,7 +497,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/eventbrankov1.jpg" alt="Event in Belgrade club brankow">
+                                                    <img class="" src="<?php echo url("") ?>/images/eventbrankov1.jpg" alt="Event in Belgrade Club Brankow">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -497,10 +508,10 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubbrankow.png" alt="klub brankow" style="height:150px">                                                   
-                                                                <div class="proTitle">THURYSDAY DELIGHt</div>
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubbrankow.png" alt="Club Brankow">                                                   
+                                                                <div class="proTitle">THURSDAY DELIGHT</div>
                                                                 <div class="horizontal-line"></div> 
-                                                                <div class="proSubtitle"> DJ Arhitect <br/> DJ Fake Casual</div>
+                                                                <div class="proSubtitle"> DJ Architect <br/> DJ Fake Casual</div>
                                                                 <!--
                                                                 <div class="stasveima">
                                                                     <img class="slicice" src="<?php echo url("") ?>/images/disko.png" alt="" >
@@ -523,7 +534,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/event3.jpg" alt="Event in Belgrade club bank">
+                                                    <img class="" src="<?php echo url("") ?>/images/event3.jpg" alt="Event in Belgrade Club Bank">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -534,7 +545,7 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/logobank.png" alt="klub bank">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/logobank.png" alt="Club Bank">                                                   
                                                                 <div class="proTitle">ROBER THE BANK</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">BETON HALA KARADJORDJEVA,FRIDAY 9TH DEC</div>

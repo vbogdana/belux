@@ -2,6 +2,7 @@
     Created on : Oct 21, 2016, 12:10:28 PM
     Author     : Bogdana kurvooo
 */
+
 .container {
     position: relative;
     width: 100%;
@@ -13,12 +14,15 @@
 
 .se-pre-con {
     position: fixed;
-    left: 25vw;
+    /*left: 25vw;
     top: 25vh;
     width: 50vw;
     height: 50vh;
+    */
+    height: 100vh;
+    width: 100vw;
     z-index: 9999;
-    background: url(../images/logo.gif) center no-repeat transparent;
+    background: url(../images/logo-transparent.gif) center no-repeat white;
     background-size: contain;
 }
 
@@ -52,7 +56,8 @@
 ================================================================================*/
 .background {   
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center center;
+    //background-attachment: fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -170,8 +175,8 @@
 }
 
 .belux-logo span {
-    color: #bb9b50;
-    font-family: Georgia, serif; 
+    color: #bb9b69;
+    font-family: Tito, serif; 
 }
 
 .clearfix:before,
@@ -298,8 +303,6 @@
 }
 
 .btn {
-    -webkit-box-shadow: 0px 2px 9px #000000;
-    -moz-box-shadow: 0px 2px 9px #000000;
     box-shadow: 4px 5px 20px 0px rgba(0, 0, 0, 0.2);
     color: #bb9b69;
     font-size: 16px;
@@ -347,6 +350,27 @@
 }
 
 /* animation shake */
+@-webkit-keyframes shake {
+    10%, 90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+      transform: translate3d(4px, 0, 0);
+    }
+}
 @keyframes shake {
     10%, 90% {
       -webkit-transform: translate3d(-1px, 0, 0);
@@ -387,12 +411,6 @@
     65% {-webkit-transform:translate(0, 15px);}
     to {-webkit-transform: translate(0, -0px);    }    
 }
-    
-@-moz-keyframes Floating {
-    from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 15px);}
-    to {-moz-transform: translate(0, -0px);}    
-}
 
 /* animation scaling */
 .scaling {
@@ -412,12 +430,12 @@
         65% {-webkit-transform: scale(1.0);}
         to {-webkit-transform: scale(0.9);}    
     }
-        
-    @-moz-keyframes scale{
-        from {-moz-transform: scale(0.9);}
-        65% {-moz-transform: scale(1.0);}
-        to {-moz-transform: scale(0.9);}    
+    
+@media screen and (min-width: 992px) {
+    .background {
+        background-attachment: fixed;
     }
+}
 
 /* Phone & Small Tablets */
 @media screen and (max-width: 767px) {
@@ -479,5 +497,4 @@
         width: 100%;
     }
 }
-
 

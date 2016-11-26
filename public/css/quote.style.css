@@ -30,16 +30,13 @@ and open the template in the editor.
 
 .quote-section .content {
     padding: 50px 0 50px 0;
-    height: 250px;  ///// ovo ukloniti za auto height sekcije
+    height: 250px;  /* ovo ukloniti za auto height sekcije */
 }
 
 .quote-section .background { 
-    z-index: 0;
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
-    background-position: center center;
+    z-index: 0;
     background-image: url(../images/luxury-party.jpg);
     background-repeat: repeat-y;
     -webkit-filter: blur(1px);

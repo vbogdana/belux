@@ -14,6 +14,17 @@ $( document ).on( "pageinit", function( event ) {
 });
 
 $(window).on("load", function() {
+    
+    $('#reserve').on('click', function(ev) {
+        ev.preventDefault();
+        window.location.href = "under-construction";
+    });
+    
+    $('#inquiry').on('click', function(ev) {
+        ev.preventDefault();
+        window.location.href = "under-construction";
+    });
+    
     // Animate loader off screen
     $("#header-section").fadeIn(1000);
     $(".se-pre-con").fadeOut(1000);

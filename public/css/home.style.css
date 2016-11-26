@@ -62,7 +62,7 @@ video-section iframe::-webkit-media-controls {
 .video-section .overlay-text {
     z-index: 3;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, 0%);
     -webkit-transform: translate(-50%, 0%);
@@ -86,6 +86,7 @@ video-section iframe::-webkit-media-controls {
     text-align: center;  
     color: #f9f9f9;   
     font-size: 12px;
+    line-height: 14px;
     font-weight: 200;
     border-bottom: 1px solid #bb9b50;
     padding: 10px 0px 10px 0px;
@@ -97,9 +98,11 @@ video-section iframe::-webkit-media-controls {
     z-index: 3;
     text-align: center; 
     color: #f9f9f9;
-    font-size: 70px;      
-    font-weight: 300;
+    font-size: 70px;
+    line-height: 75px;
+    font-weight: 200;
     margin: 0px;
+    padding: 0 15px 0 15px;
 }
 
 .video-section .overlay-text-row span {
@@ -111,20 +114,19 @@ video-section iframe::-webkit-media-controls {
     bottom: 10px;   
     z-index: 3;     
     width: 100%;
+    text-align: center;
 }
 
 .scroll-sign a {
     position: relative;
-    left: 50%;    
-    text-align: center;
+    display: inline-block;
 }
 
 .video-section .scroll-sign img {
    position: relative;
-   height: 9vh; 
-   width: 10vh;
-   transform: translate(-50%, 0) scale(1);
-   -webkit-transform: translate(-50%, 0) scale(1);
+   max-height: 4rem;
+   height: auto; 
+   width: auto;
    -webkit-transition: transform 0.5s;
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
@@ -133,8 +135,8 @@ video-section iframe::-webkit-media-controls {
 }
 
 .video-section .scroll-sign img:hover {
-    transform: translate(-50%, 0) scale(0.9);
-    -webkit-transform: translate(-50%, 0) scale(0.9);
+    transform:  scale(0.9);
+    -webkit-transform:  scale(0.9);
 }
 
 /*      About us section
@@ -249,7 +251,6 @@ ul.services-list li {
 
 .promotions-section .background { 
     z-index: 0;
-    background-position: center center;
     background-image: url(../images/luxury-party.jpg);
     background-repeat: repeat-y;
     -webkit-filter: blur(1px);
@@ -300,7 +301,10 @@ ul.services-list li {
     top: 12.5px;
     -webkit-transition: -webkit-transform 1s, opacity 500ms;
     transition: -webkit-transform 1s, opacity 500ms;
+    -webkit-transition: opacity 500ms, -webkit-transform 1s;
+    transition: opacity 500ms, -webkit-transform 1s;
     transition: transform 1s, opacity 500ms;
+    transition: transform 1s, opacity 500ms, -webkit-transform 1s;
     transition: transform 1s, -webkit-transform 1s, opacity 500ms; 
 }
 
@@ -377,18 +381,14 @@ ul.services-list li {
     height: auto;
     background-color: #0a0a0a !important;
     border-top: 1px solid #bb9b50;
+    overflow-x: hidden;
 }
 
 .packages-section .background {   
-    background-position: center center;
-    //background-size: 1920px 1470px;
-    //background-image: url(../images/big-diamond.png);
     background: rgba(31,31,31,1);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(31,31,31,1)), color-stop(11%, rgba(27,27,27,1)), color-stop(54%, rgba(10,10,10,1)), color-stop(58%, rgba(10,10,10,1)), color-stop(71%, rgba(10,10,10,1)), color-stop(100%, rgba(10,10,10,1)));
     background: -webkit-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
+    background: -webkit-radial-gradient(center ellipse, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
     background: radial-gradient(ellipse at center, rgba(31,31,31,1) 0%, rgba(27,27,27,1) 11%, rgba(10,10,10,1) 54%, rgba(10,10,10,1) 58%, rgba(10,10,10,1) 71%, rgba(10,10,10,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#0a0a0a', GradientType=1 );
 }
@@ -407,6 +407,7 @@ ul.services-list li {
     padding-top: 30px;   
     padding-bottom: 100px;
     text-align: center;
+    overflow: hidden;
 }
 
 .packages-section .btn {
@@ -414,41 +415,50 @@ ul.services-list li {
 }
 
 .packages-section .previous-btn, .packages-section .next-btn {
+    //z-index: 500;
     display: none;
+    -webkit-transform: translateZ(1px);
+            transform: translateZ(1px);
 }
 
 .carousel-container {
-  width: 387.5px;
-  height: 252px;
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-  left: 50%;
-  position: relative;
-  -webkit-perspective: 1000;
-  -o-perspective: 1000;
-  -ms-perspective: 1000;
-  perspective: 1000;
+    width: 387.5px;
+    height: 252px;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    left: 50%;
+    position: relative;
+    -webkit-perspective: 1000;
+    -o-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 #carousel {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 #carousel figure {
-  display: block;
-  position: absolute;
-  width: 363.5px;
-  height: 227px;
-  left: 12px;
-  top: 12.5px;
-  -webkit-transition: -webkit-transform 1s, opacity 500ms;
-  transition: -webkit-transform 1s, opacity 500ms;
-  transition: transform 1s, opacity 500ms;
-  transition: transform 1s, -webkit-transform 1s, opacity 500ms; 
+    display: block;
+    position: absolute;
+    width: 363.5px;
+    height: 227px;
+    left: 12px;
+    top: 12.5px;
+    -webkit-transition: -webkit-transform 1s, opacity 500ms;
+    transition: -webkit-transform 1s, opacity 500ms;
+    -webkit-transition: opacity 500ms, -webkit-transform 1s;
+    transition: opacity 500ms, -webkit-transform 1s;
+    transition: transform 1s, opacity 500ms;
+    transition: transform 1s, opacity 500ms, -webkit-transform 1s;
+    transition: transform 1s, -webkit-transform 1s, opacity 500ms; 
 }
 
 /* entire container, keeps perspective */
@@ -464,12 +474,15 @@ ul.services-list li {
 }
 */
 .flip-container, .front, .back {
+    position: absolute;
     width: 363.5px;
     height: 227px;
 }
 /* flip speed goes here */
 .flipper {
-    transform-origin: 100% 113.5px;
+    position: absolute;
+    -webkit-transform-origin: 100% 113.5px;
+            transform-origin: 100% 113.5px;
     -webkit-transition: 0.6s;
     transition: 0.6s;
     -webkit-transform-style: preserve-3d;
@@ -501,8 +514,10 @@ ul.services-list li {
     width: 300px;
     height: 20px;
     background: red;
-    transform-origin: 0px 180px;
-    transform: rotateX(285deg) translateY(180px);
+    -webkit-transform-origin: 0px 180px;
+            transform-origin: 0px 180px;
+    -webkit-transform: rotateX(285deg) translateY(180px);
+            transform: rotateX(285deg) translateY(180px);
 }
 
 #carousel figure:nth-child(1) {
@@ -611,22 +626,49 @@ ul.services-list li {
     
 }
 
+@media screen and (max-height: 720px) {
+    /*     Video-section
+    ================================================================================ */
+    .video-section {
+        height: 56.25vw;
+        width: 100vw;
+    }
+    
+}
+
+@media screen and (max-width: 1279px) {
+    /*     Video-section
+    ================================================================================ */
+    .video-section {
+        height: 56.25vw;
+        width: 100vw;
+    }
+    
+}
+
 /* Phone & Small Tablets */
 @media screen and (max-width: 767px) {
 
     /*     Video-section
     ================================================================================ */
     
+    .video-section .scroll-sign img {
+        max-height: 3rem;
+    }
+    
     .video-section .overlay-text {
         top: 30%;
     }
     
     .video-section h1.overlay-text-row {
-        font-size: 12px;
+        font-size: 11px;
+        line-height: 13px;
+        padding: 5px 0 5px 0;
     }
    
     .video-section h2.overlay-text-row { 
         font-size: 40px;
+        line-height: 45px;
     }
     
     /*      About us section
@@ -720,7 +762,11 @@ ul.services-list li {
     
     .packages-section .previous-btn {
         left: -50px;
-        transform: rotateY(180deg);
+    }
+    
+    .packages-section .previous-btn img {
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
     }
     
     .packages-section .next-btn {
@@ -751,7 +797,8 @@ ul.services-list li {
     }
     /* flip speed goes here */
     .flipper {
-        transform-origin: 100% 113.5px;
+        -webkit-transform-origin: 100% 113.5px;
+                transform-origin: 100% 113.5px;
     }
     
     .card img {
@@ -803,16 +850,23 @@ ul.services-list li {
     /*     Video-section
     ================================================================================ */
     
+    .video-section .scroll-sign img {
+        max-height: 2rem;
+    }
+    
     .video-section .overlay-text {
-        top: 35%;
+        top: 30%;
     }
     
     .video-section h1.overlay-text-row {
-        font-size: 12px;
+        font-size: 9px;
+        line-height: 10px;
+        padding: 3px 0 3px 0;
     }
    
     .video-section h2.overlay-text-row { 
-        font-size: 40px;
+        font-size: 25px;
+        line-height: 30px;
     }
     
     /*      About us section
@@ -887,4 +941,3 @@ ul.services-list li {
     }
 
 }
-

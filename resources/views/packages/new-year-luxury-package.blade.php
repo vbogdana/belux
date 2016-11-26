@@ -29,10 +29,13 @@
             <div id="reserve" class="btn gold"> RESERVE </div>
             <div id="inquiry" class="btn gold"> INQUIRY </div>
         </div>
-        
+    </div>
+</section>
+
+<section class="section-container package luxury">
+    <div class="content" id="middle">         
         <div class="ribbon">
             <div class="background" data-stellar-background-ratio="0.2"></div>
-            <div class="overlay"></div>
             <div class="content">
                 <div class="section group">
                     <div class="col span_1_of_3">
@@ -180,6 +183,25 @@
             </div>
         </div>
     </div>
+</section>
+
+<section class="section-container video-section">
+        <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/gCdSM1IXZvo?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
+        
+        <div class="overlay"></div>
+    
+        <div class="content">
+            <div class="section-description">
+                <p class="animation-element fade-in">
+                    What are
+                    <br/>
+                    <span>YOU </span>
+                    <br />
+                    waiting for?                
+                </p>
+                <div id="reserve" class="btn gold"> RESERVE </div>
+            </div>
+        </div>    
 </section>
 @stop
 

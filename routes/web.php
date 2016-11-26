@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('home');
 })->name('/');
 
+Route::get('/under-construction', function () {
+    return view('under-construction');
+})->name('construction');
+
+Route::get('/packages/under-construction', function () {
+    return view('under-construction');
+})->name('packages.construction');
+
 Route::get('/packages/{package}', //'PackageController@goToPackage');
         function($package) {
             return view('/packages/'.$package);

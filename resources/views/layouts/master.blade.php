@@ -8,8 +8,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
         <!-- metatagovi -->
-        <meta name="description" content="Belgrade Luxury offers services for VIP party travelers, without hidden costs in Belgrade, Serbia. Five stars apartmants, luxury vehicles, VIP entrance and places in clubs, free premium drinks. Full service from arrival to return, for one price." />
-        <meta name="keywords" content="belgrade stag, belgrade bachelor, belgrade bachelor party, serbian clubs, serbian nightlife,serbian bachelor, serbian stag, belgrade bars, belgrade restaurants, belgrade vip, party concierge,belgrade accommodation,lounge bars">
+        <meta name="description" content="Belgrade Luxury offers services for VIP party travelers without hidden costs in Belgrade, Serbia. Five stars apartments, luxury vehicles, VIP entrance and tables in clubs and restaurants, free premium drinks, etc... Full service from arrival to departure, for one price." />
+        <meta name="keywords" content="belgrade stag, belgrade bachelor, belgrade bachelor party, serbian clubs, serbian nightlife, serbian bachelor, serbian stag, belgrade bars, belgrade restaurants, belgrade vip, party concierge, belgrade accommodation, lounge bars">
         
         <link rel="shortcut icon" href="<?php echo url("") ?>/images/logo-bl-white.ico"  type="image/x-icon" /> 
         <title> Belgrade Luxury - VIP experience Belgrade nightlife  </title>
@@ -50,14 +50,14 @@
                     <ul class="top-nav-menu" id="navigation">
                         <li class="top-nav-menu-item" ><div><a href="<?php echo url('/') ?>">HOME</a></div></li>
                         <li class="top-nav-menu-separator"></li>
-                        <li class="top-nav-menu-item"><div><a href="#">CONTACT</a></div></li>
+                        <li class="top-nav-menu-item"><div><a href="<?php echo url('/under-construction') ?>">CONTACT</a></div></li>
                         <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item" id="services" ><div><a href="#">SERVICES</a></div>                   
                             <ul class="top-nav-submenu" id="services-submenu" style="height: 120px;">
-                                <li class="top-nav-submenu-item"><div><a href="#">packages</a></div></li>
-                                <li class="top-nav-submenu-item"><div><a href="#">custom package</a></div></li>
-                                <li class="top-nav-submenu-item"><div><a href="#">all services</a></div></li>
-                                <li class="top-nav-submenu-item"><div><a href="#">ultra VIP services</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/') ?>">packages</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">custom package</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">all services</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">ultra VIP services</a></div></li>
                             </ul>                    
                         </li>
                         <li class="top-nav-menu-separator"></li>
@@ -71,25 +71,21 @@
                         <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item" id="places"><div><a href="#">PLACES</a></div>
                             <ul class="top-nav-submenu" id="places-submenu" style="height: 150px;">
-                                <li class="top-nav-submenu-item"><div><a href="#">hotels</a></div></li>
-                                <li class="top-nav-submenu-item"><div><a href="#">restaurants</a></div></li>
-                                <li class="top-nav-submenu-item"><div><a href="#">bars</a></div></li>
-                                <li class="top-nav-submenu-item"><div><a href="#">clubs</a></div></li>
-                                <li class="top-nav-submenu-item"><div><a href="#">kafane</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">hotels</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">restaurants</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">bars</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">clubs</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">kafane</a></div></li>
                             </ul>
                         </li>
                         <li class="top-nav-menu-separator"></li>
-                        <li class="top-nav-menu-item"><div><a href="#">VISIT</a></div></li>
+                        <li class="top-nav-menu-item"><div><a href="<?php echo url('/under-construction') ?>">VISIT</a></div></li>
                         <li class="top-nav-menu-separator"></li>
                     </ul>           
                 </nav>             
             </header>
         @show
         
-        
-        
-        
-
         <!-- 
             za svaku stranicu treba definisati content sekciju (sadrzaj)
             sve slike se skladiste u storage/app/images folderu
@@ -98,12 +94,14 @@
             za svaku novu stranicu obavezno dodati rutu u routes/web.php fajlu
         -->      
         <div class="container">
+            <!--
             <section class="language-toolbar">
                 <div class="tooltip">
                     LANG
                 </div>
                 
             </section>
+            -->
             @yield('content')
         </div>
         
@@ -137,7 +135,9 @@
                                     <img class="logo-image" src="<?php echo url('/') ?>/images/logo.svg" alt="Belgrade Luxury" />
                                 </a>
                                 <p>
-                                    <span class="belux-logo">BELGRADE <span>LUXURY</span></span> Belgrade Luxury offers services for VIP party travelers, without hidden costs in Belgrade, Serbia. Five stars apartmants, luxury vehicles, VIP entrance and places in clubs, free premium drinks. Full service from arrival to return, for one price.
+                                    <span class="belux-logo">BELGRADE <span>LUXURY</span></span> offers services for VIP party travelers without hidden costs in Belgrade, Serbia. Five stars apartments, luxury vehicles, VIP entrance and tables in clubs and restaurants, free premium drinks, etc... Full service from arrival to departure, for one price. 
+                                    <br />
+                                    Simply <span class="belux-logo"> BE<span> LUX </span></span>.
                                 </p>
                             </div>
                         </div>
@@ -254,8 +254,9 @@
                                         <div class="icon-location"></div>&nbsp;Neka adresa br.10<br>
                                         11000 Belgrade SERBIA <br>
                                         <div class="icon-phone whatsapp"></div> / <div class="icon-phone viber"></div>
-                                        &nbsp;+381 66 1234 567 <br>
-                                        <div class="icon-mail"></div>&nbsp;<a class="light" href="mailto:office@belgradeluxury.com">office@belgradeluxury.com</a> 
+                                        &nbsp;+381 66 408 813 <br>
+                                        <div class="icon-mail"></div>&nbsp;
+                                        <a class="light" href="mailto:office@belgradeluxury.com">office@belgradeluxury.com</a> 
                                     </p>
                                 </address>
                             </div>     
