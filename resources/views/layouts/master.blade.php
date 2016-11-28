@@ -10,7 +10,14 @@
         <!-- metatagovi -->
         <meta name="description" content="Belgrade Luxury offers services for VIP party travelers without hidden costs in Belgrade, Serbia. " />
         <meta name="keywords" content="belgrade stag, belgrade bachelor, belgrade bachelor party, serbian clubs, serbian nightlife, serbian bachelor, serbian stag, belgrade bars, belgrade restaurants, belgrade vip, party concierge, belgrade accommodation, lounge bars">
-        
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PP3HH9');</script>
+        <!-- End Google Tag Manager -->
+
         <link rel="shortcut icon" href="<?php echo url("") ?>/images/logo-bl-white.ico"  type="image/x-icon" /> 
         <title> Belgrade Luxury - VIP experience Belgrade nightlife  </title>
         
@@ -40,6 +47,11 @@
     </head>
 
     <body>
+              <!-- Google Tag Manager (noscript) -->
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PP3HH9"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+              <!-- End Google Tag Manager (noscript) -->
+              
               
         <!-- menu se definise ovde jer ce biti isti za sve stranice -->
         @section('sidebar')
