@@ -21,6 +21,7 @@ and open the template in the editor.
     text-align: center;
     border-top: 1px solid #bb9b50;
     border-bottom: 1px solid #bb9b50;
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.55);
 }
 
 .quote-section .blockquotes {
@@ -29,17 +30,15 @@ and open the template in the editor.
 
 .quote-section .content {
     padding: 50px 0 50px 0;
-    height: 250px;  ///// ovo ukloniti za auto height sekcije
+    height: 250px;  /* ovo ukloniti za auto height sekcije */
 }
 
 .quote-section .background { 
-    z-index: 0;
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
-    background-position: center center;
+    z-index: 0;
     background-image: url(../images/luxury-party.jpg);
+    background-repeat: repeat-y;
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
     -o-filter: blur(1px);

@@ -2,6 +2,7 @@
     Created on : Oct 21, 2016, 12:10:28 PM
     Author     : Bogdana kurvooo
 */
+
 .container {
     position: relative;
     width: 100%;
@@ -13,20 +14,50 @@
 
 .se-pre-con {
     position: fixed;
-    left: 25vw;
+    /*left: 25vw;
     top: 25vh;
     width: 50vw;
     height: 50vh;
+    */
+    height: 100vh;
+    width: 100vw;
     z-index: 9999;
-    background: url(../images/logo.gif) center no-repeat transparent;
+    background: url(../images/logo-transparent.gif) center no-repeat white;
     background-size: contain;
+}
+
+.language-toolbar {
+    z-index: 20000;
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: -50px;
+    background: rgba(2,2,2,1);
+    //box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.55);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.language-toolbar .tooltip {
+    width: 50px;
+    height: 50px;
+    position: relative;    
+    top: 100px;
+    right: 50px;
+    background: rgba(2,2,2,0.7);
+    //box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.55); 
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+      
 }
 
 /* Common
 ================================================================================*/
 .background {   
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center center;
+    //background-attachment: fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -75,8 +106,8 @@
     left: 50%;
     transform: translate(-50%, 0%);
     -webkit-transform: translate(-50%, 0%);
-    width: 250px;
-    height: 45px;
+    width: 80%;
+    height: auto;
     line-height: 100%;
     box-sizing: border-box;
     text-align: center; 
@@ -89,6 +120,12 @@
 
 .section-title h3 {
     font-size: 22px;
+}
+
+.section-title h4 {
+    font-size: 18px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .horizontal-line {
@@ -138,8 +175,8 @@
 }
 
 .belux-logo span {
-    color: #bb9b50;
-    font-family: Georgia, serif; 
+    color: #bb9b69;
+    font-family: Tito, serif; 
 }
 
 .clearfix:before,
@@ -152,12 +189,80 @@
   clear: both;
 }
 
+.row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    //margin: 1% 0 1% 1.6%;
+    text-align: left;
+}
+.col:first-child { 
+    margin-left: 0; 
+}
+
+.span_1_of_2 {
+    width: 50%;
+}
+.span_1_of_4 {
+    width: 25%;
+}
+.span_1_of_3 {
+    //width: 32.2%;
+    width: 33.333%;
+}
+.span_2_of_3 {
+    //width: 66.1%;
+    width: 66.666%;
+}
+.span_3_of_3 {
+    width: 100%;
+}
+.span_1_of_6 {
+    //width: 15.3%;
+    width: 16.667%;
+}
+
 .ribbon {
     position: relative;
     width: 100%;
     height: auto;
     margin: 50px 0 50px 0;
-    padding: 30px 0 30px 0;   
+    padding: 30px 50px 30px 50px;   
+}
+
+.card img {
+    width: 363.5px;
+    height: 227px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 .service-thumbnail {
@@ -198,8 +303,6 @@
 }
 
 .btn {
-    -webkit-box-shadow: 0px 2px 9px #000000;
-    -moz-box-shadow: 0px 2px 9px #000000;
     box-shadow: 4px 5px 20px 0px rgba(0, 0, 0, 0.2);
     color: #bb9b69;
     font-size: 16px;
@@ -247,6 +350,27 @@
 }
 
 /* animation shake */
+@-webkit-keyframes shake {
+    10%, 90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+      transform: translate3d(4px, 0, 0);
+    }
+}
 @keyframes shake {
     10%, 90% {
       -webkit-transform: translate3d(-1px, 0, 0);
@@ -287,12 +411,6 @@
     65% {-webkit-transform:translate(0, 15px);}
     to {-webkit-transform: translate(0, -0px);    }    
 }
-    
-@-moz-keyframes Floating {
-    from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 15px);}
-    to {-moz-transform: translate(0, -0px);}    
-}
 
 /* animation scaling */
 .scaling {
@@ -312,15 +430,19 @@
         65% {-webkit-transform: scale(1.0);}
         to {-webkit-transform: scale(0.9);}    
     }
-        
-    @-moz-keyframes scale{
-        from {-moz-transform: scale(0.9);}
-        65% {-moz-transform: scale(1.0);}
-        to {-moz-transform: scale(0.9);}    
+    
+@media screen and (min-width: 992px) {
+    .background {
+        background-attachment: fixed;
     }
+}
 
 /* Phone & Small Tablets */
 @media screen and (max-width: 767px) {
+    
+    .language-toolbar {
+        top: 70px;
+    }
     
     /*     Common
     ================================================================================ */
@@ -337,6 +459,23 @@
         line-height: 18px;
         font-size: 16px;
     }
+    
+    .span_1_of_2 {
+       width: 100%;  
+    }
+       
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { 
+        width: 100%; 
+    }
+    
+    .span_1_of_4 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .span_1_of_6 { 
+        width: 33.333%; 
+    }
      
 }
 
@@ -349,6 +488,13 @@
     .section-description {   
         padding: 15px 0 15px 0;
     }
+    
+    .span_1_of_2 {
+       width: 100%;  
+    }
+    
+    .span_1_of_3 {
+        width: 100%;
+    }
 }
-
 

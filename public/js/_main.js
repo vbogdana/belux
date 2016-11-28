@@ -14,27 +14,61 @@ $( document ).on( "pageinit", function( event ) {
 });
 
 $(window).on("load", function() {
-    // Init Skrollr
-    /*
-    var s = skrollr.init({
-        render: function(data) {
-            //Debugging - Log the current scroll position.
-            //console.log(data.curTop);
-        }
+    
+    $('#reserve').on('click', function(ev) {
+        ev.preventDefault();
+        window.location.href = "under-construction";
     });
-    */
-      
+    
+    $('#inquiry').on('click', function(ev) {
+        ev.preventDefault();
+        window.location.href = "under-construction";
+    });
+    
     // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");
-    $("#header-section").fadeIn("slow");
-    $(".container").fadeIn("slow");
-    $(".footer").fadeIn("slow");
+    $("#header-section").fadeIn(1000);
+    $(".se-pre-con").fadeOut(1000);
+    $(".container").fadeIn(2000);
+    $(".footer").fadeIn(2000);
+    
     // $('.contact-toolbar').fadeIn("slow");
     // show contact toolbar
     
+    // Init Stellar   
     $.stellar({
         horizontalScrolling:false,
+        responsive: true
         // rest of function
+    });
+    
+    // all links except the links on the same page
+    $("a:not([href*=#])").on("click", function(ev) {
+        ev.preventDefault();
+        window.location.href = $(this).attr("href");
+    });
+    
+    // language-toolbar
+    $('.language-toolbar .tooltip').on("click", function(ev) {
+        ev.preventDefault();
+
+        $value = $('.language-toolbar').css("right");
+        if ($value == "0px") {
+            $('.language-toolbar').css("right", "-50px");
+            $('.language-toolbar .tooltip').css("background", "rgba(2,2,2,0.7)");
+        } else {
+            $('.language-toolbar').css("right", "0px");
+            $('.language-toolbar .tooltip').css("background", "rgba(2,2,2,1)");
+        }
+    });
+    
+    // reflections
+    var $cards = $('.card');
+    $.each($cards, function() {
+        var $element = $(this);
+        $element.reflect({
+            height: 0.5,
+            opacity: 0.2
+        });
     });
     
     /* fade-in */

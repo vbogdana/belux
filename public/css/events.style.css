@@ -39,11 +39,12 @@ and open the template in the editor.
 .gallerySection {
     position: relative;
     margin-top: 30px;
+    box-shadow: 0px -3px 20px 0px rgba(0, 0, 0, 0.55);
 }
 
 .container-fluid {
     border-top: 1px solid #bb9b50;
-    border-bottom: 1px solid #bb9b50;
+    //border-bottom: 1px solid #bb9b50;
 }
 
 .eventinfo {
@@ -55,9 +56,6 @@ and open the template in the editor.
     height: 100%;
     opacity: 0.0;
     -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
 }
 
@@ -76,16 +74,30 @@ and open the template in the editor.
     width: auto;
     height: auto;
     display: block;
-    background-color: #0a0a0a;
+    background: rgba(2,2,2,0.7);
     border: 1px solid #bb9b50;
     margin: 2.5rem auto 1rem auto;
-    padding: 0.5rem 1.5rem 1rem 1.5rem;
-    opacity: 1.0;
+    padding: 0 1.5rem 0 1.5rem;
+    opacity: 1;
     -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
+}
+
+.event-date .proTitle {
+    text-transform: none;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.event-date .proSubtitle {
+    line-height: 0.7rem;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.event-date .horizontal-line {
+    margin: 0;
+    width: 15px;
 }
 
 .galleryIndex {
@@ -147,10 +159,7 @@ and open the template in the editor.
     font-size: 1.4rem;
     text-transform: uppercase;
     opacity: 0;
-    -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
     transform: scale(1.2);
 }
 .single-photo-album-container article figure > a:hover {
@@ -184,10 +193,7 @@ and open the template in the editor.
     opacity: 1;
 }
 .single-photo-album-container article figure:hover > a {
-    -moz-transform: scale(1);
     -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
     transform: scale(1);
     opacity: 1;
     margin-top: -4.3rem;
@@ -264,30 +270,15 @@ and open the template in the editor.
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
     -webkit-transition: 1s;
-    -o-transition: 1s;
     transition: 1s;
 }
 .fusion-fullwidth {
     -webkit-transition: all 1s ease;
-    /* Safari and Chrome */
-    -moz-transition: all 1s ease;
-    /* Firefox */
-    -ms-transition: all 1s ease;
-    /* IE 9 */
-    -o-transition: all 1s ease;
-    /* Opera */
     transition: all 1s ease;
     position: relative;
 }
 .fusion-fullwidth:hover {
     -webkit-transform: scale(1.1);
-    /* Safari and Chrome */
-    -moz-transform: scale(1.1);
-    /* Firefox */
-    -ms-transform: scale(1.1);
-    /* IE 9 */
-    -o-transform: scale(1.1);
-    /* Opera */
     transform: scale(1.1);
 }
 .fusion-fullwidth:hover .fusion-row {
@@ -319,9 +310,6 @@ and open the template in the editor.
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -ms-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-left.nonhundred-percent-fullwidth.bg-parallax-parent > div.parallax-inner {
@@ -377,7 +365,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     opacity: 0.0;
 }
 .gallerySection .hovereffect:hover img {
-    -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -389,7 +376,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .gallerySection .hovereffect:hover a.info {
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-transform: translatey(0);
     -webkit-transform: translatey(0);
     transform: translatey(0);
 }
@@ -414,7 +400,6 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 
 .gallerySection .hovereffect .eventinfo:hover img {
-    -ms-transform: none;
     -webkit-transform: none;
     transform: none;   
 }
@@ -436,8 +421,11 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 
 .gallerySection .hovereffect .event-hover img.club-logo {
-    max-width: 250px;
-    max-height: 250px;
+    //max-width: 250px;
+    //max-height: 250px;
+    //max-height: 30%;
+    max-width: 8rem;
+    max-height: 6rem;
     width: auto;
     height: auto;
     display: block;
@@ -452,7 +440,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     position: relative;
     width: 100%;
     height: auto;  
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
     text-transform: uppercase;
     color: #f9f9f9;
     font-weight: 400;
@@ -464,6 +453,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 .proSubtitle {
     color: #f9f9f9;
     font-size: 0.8rem;
+    line-height: 1rem;
     position: relative;
     width: 100%;
     height: auto;  
@@ -490,22 +480,81 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     float:left; 
 }
 
-
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1029px) {
+    
     .gallerySection .hovereffect .event-hover img.club-logo {
-        max-width: 150px;
-        max-height: 20%;
-        margin: 1rem auto 0 auto;
+        margin-top: 1.7rem;
     }
-
+    
     .proTitle {
-        font-size: 1rem;
+        line-height: 1.4rem;
+        font-size: 1.2rem;
         margin: 1rem 0 0.3rem 0;
     }
     
     .proSubtitle {
-        font-size: 0.6rem;
+        line-height: 0.8rem;
+        font-size: 0.7rem;
         margin: 0.3rem 0 0.5rem 0;
+    }
+    
+}
+
+@media screen and (max-width: 799px) {
+ 
+    .gallerySection .hovereffect .event-hover img.club-logo {
+        max-width: 7rem;
+        max-height: 5rem;
+        margin: 1.5rem auto 0 auto;
+    }
+    
+    .proTitle {
+        line-height: 1.4rem;
+        font-size: 1.2rem;
+        margin: 1rem 0 0.3rem 0;
+    }
+    
+    .proSubtitle {
+        line-height: 0.8rem;
+        font-size: 0.7rem;
+        margin: 0.3rem 0 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .events-section .background {
+        //background-size: 1920px 1470px;
+        background-size: 1440px 1102.5px;
+        background-position: center 0px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    
+    .events-section .background {
+        //background-size: 1920px 1470px;
+        background-size: 960px 735px;
+        background-position: center 0px;
+    }
+
+    .gallerySection .hovereffect .event-hover img.club-logo {
+        max-width: 6rem;
+        max-height: 4rem;
+        margin: 1.3rem auto 0 auto;
+    }
+
+    .proTitle {
+        line-height: 1rem;
+        font-size: 0.8rem;
+        margin: 0.8rem 0 0.2rem 0;
+    }
+    
+    .proSubtitle {
+        line-height: 0.7rem;
+        font-size: 0.6rem;
+        margin: 0.2rem 0 0.4rem 0;
     }
 }
 /***********************************************************************************************/
