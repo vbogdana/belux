@@ -124,7 +124,7 @@
 
 <!-- =============== START PROMOTIONS SECTION ============== -->
 <section class="promotions-section">
-    <div class="background" data-stellar-background-ratio="0.5"></div>
+    <div class="background" data-stellar-vertical-offset="0" data-stellar-background-ratio="0.5"></div>
     <div class="overlay"></div>
     <div class="content">
         <div class="cards-container">
@@ -161,7 +161,7 @@
 
 <!-- =============== START PACKAGES SECTION ============== -->
 <section id="content" class="packages-section">
-    <div class="background" data-stellar-background-ratio="0.5">
+    <div class="background" data-stellar-vertical-offset="0" data-stellar-background-ratio="0.5">
         <div class="content">
             <div class="section-title animation-element fade-in">
               <h2> PACKAGES </h2>
@@ -286,7 +286,7 @@
 <!-- =============== START QUOTE SECTION ============== -->
 <section class="quote-section">    
     <div class="content">
-        <div class="background" data-stellar-background-ratio="0.5"></div>
+        <div class="background" data-stellar-vertical-offset="0" data-stellar-background-ratio="0.5"></div>
         <div class="overlay"></div>
         <div class="wrapper" >            
             <blockquote class="center-quote blockquotes">

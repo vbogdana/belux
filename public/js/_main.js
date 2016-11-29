@@ -26,10 +26,10 @@ $(window).on("load", function() {
     });
     
     // Animate loader off screen
-    $("#header-section").fadeIn(1000);
-    $(".se-pre-con").fadeOut(1000);
-    $(".container").fadeIn(2000);
-    $(".footer").fadeIn(2000);
+    $("#header-section").delay(1000).fadeIn(1000);
+    $(".se-pre-con").delay(800).fadeOut(1000);
+    $(".container").delay(1000).fadeIn(1500);
+    $(".footer").delay(1000).fadeIn(1500);
     
     // $('.contact-toolbar').fadeIn("slow");
     // show contact toolbar
@@ -88,7 +88,7 @@ $(window).on("load", function() {
 
             //check to see if this current container is within viewport
             if ((element_bottom_position >= (window_top_position + 100)) &&
-                (element_top_position <= window_bottom_position - 50)) {
+                (element_top_position <= window_bottom_position - 20)) {
                 $element.addClass('in-view');
             } else {
                 $element.removeClass('in-view');

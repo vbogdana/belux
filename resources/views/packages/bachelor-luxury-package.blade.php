@@ -9,7 +9,7 @@
 
 @section('content')
 <section class="section-container package bachelor-luxury">
-    <div class="background" data-stellar-background-ratio="0.5"></div>
+    <div class="background" data-stellar-vertical-offset="0" data-stellar-background-ratio="0.5"></div>
     <div class="overlay"></div>
     <div class="content">
         <div class="section-title animation-element fade-in">
@@ -35,7 +35,7 @@
 <section class="section-container package luxury">
     <div class="content" id="middle">         
         <div class="ribbon">
-            <div class="background" data-stellar-background-ratio="0.2"></div>
+            <div class="background" data-stellar-vertical-offset="0" data-stellar-background-ratio="0.2"></div>
             <div class="content">
                 <div class="section group">
                     <div class="col span_1_of_3">
