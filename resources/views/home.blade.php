@@ -78,6 +78,9 @@
         <h2 class="overlay-text-row quotes"> BELGRADE <span> LUXURY </span> </h2>
         <h2 class="overlay-text-row quotes"> <span> VIP </span> PLACES </h2>
         <h2 class="overlay-text-row quotes"> LUXURY <span> APARTMENTS </span> </h2>
+        <h2 class="overlay-text-row quotes"> BELGRADE <span> LUXURY </span> </h2>
+        <h2 class="overlay-text-row quotes"> HIGH CLASS <span> VEHICLES </span> </h2>
+        <h2 class="overlay-text-row quotes"> PERSONAL <span> SECURITY </span> </h2>
     </div>
     
     <div class="scroll-sign">

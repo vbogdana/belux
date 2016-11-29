@@ -251,10 +251,10 @@
                                 <h4 class="belux-logo">BELGRADE <span>LUXURY</span></h4>
                                 <address>
                                     <p> 
-                                        <div class="icon-location"></div>&nbsp;Neka adresa br.10<br>
+                                        <div class="icon-location"></div>&nbsp;Republic Square<br>
                                         11000 Belgrade SERBIA <br>
                                         <div class="icon-phone whatsapp"></div> / <div class="icon-phone viber"></div>
-                                        &nbsp;+381 66 408 813 <br>
+                                        &nbsp;+381 64 451 90 17 <br>
                                         <div class="icon-mail"></div>&nbsp;
                                         <a class="light" href="mailto:office@belgradeluxury.com">office@belgradeluxury.com</a> 
                                     </p>
@@ -270,18 +270,18 @@
                                 <nav class="social-icons">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/belgradeluxury/">
                                                 <img src="<?php echo url('/') ?>/images/social/gold/facebook-logo.svg" alt="Facebook" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://instagram.com/belgradeluxury">
                                                 <img src="<?php echo url('/') ?>/images/social/gold/instagram-logo.svg" alt="Instagram" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <img src="<?php echo url('/') ?>/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                            <a href="https://www.youtube.com/channel/UCpIeICs4R7XgqNzQ8fecWHQ">
+                                                <img src="<?php echo url('/') ?>/images/social/gold/youtube-logo.svg" alt="Youtube" />
                                             </a>
                                         </li>
                                         <li>

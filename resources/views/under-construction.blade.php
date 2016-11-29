@@ -28,7 +28,7 @@
             
             <p class="animation-element fade-in">
                 <span> email: </span> office@belgradeluxury.com <br/>
-                <span> phone: </span> +381 66 408 813
+                <span> phone: </span> +381 64 451 90 17
             </p>
         </div>
     </div>
