@@ -161,11 +161,11 @@
                                 <h3>Our partners</h3>
                                 <div class="section group gallerySection">
                                     <div class="col">
-                                        <a href="#">
+                                        <a href="http://www.thebank.rs/">
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event1.jpg" alt="Our partners">
+                                                        <img class="" src="<?php echo url('/') ?>/images/partners/bank.png" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -176,11 +176,11 @@
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a href="#">
+                                        <a href="http://www.metropolpalace.com/">
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event2.jpg" alt="Our partners">
+                                                        <img class="" src="<?php echo url('/') ?>/images/partners/metropol.jpg" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -191,11 +191,11 @@
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a href="#">
+                                        <a href="http://www.spaintimo.rs/">
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event3.jpg" alt="Our partners">
+                                                        <img class="" src="<?php echo url('/') ?>/images/partners/spaintimo.png" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -206,11 +206,11 @@
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a href="#">
+                                        <a href="http://luxurybelgradeapartments.com/">
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event1.jpg" alt="Our partners">
+                                                        <img class="" src="<?php echo url('/') ?>/images/partners/lba.png" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -221,11 +221,11 @@
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a href="#">
+                                        <a href="http://www.gaucosi.rs/">
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event2.jpg" alt="Our partners">
+                                                        <img class="" src="<?php echo url('/') ?>/images/partners/gaucosi.png" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
@@ -236,11 +236,11 @@
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a href="#">
+                                        <a href="http://www.squareclubbelgrade.rs/">
                                             <figure>
                                                 <figcaption>
                                                     <div class="hovereffect">
-                                                        <img class="" src="<?php echo url('/') ?>/images/event3.jpg" alt="Our partners">
+                                                        <img class="" src="<?php echo url('/') ?>/images/partners/square.png" alt="Our partners">
                                                         <div class="overlay"></div>
                                                         <div class="partnerinfo">
 
