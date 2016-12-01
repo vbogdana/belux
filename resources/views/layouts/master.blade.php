@@ -66,7 +66,7 @@
                         <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item" id="services" ><div><a href="#">SERVICES</a></div>                   
                             <ul class="top-nav-submenu" id="services-submenu" style="height: 120px;">
-                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/') ?>">packages</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/') ?>" >packages</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">custom package</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">all services</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">ultra VIP services</a></div></li>
@@ -116,23 +116,6 @@
             -->
             @yield('content')
         </div>
-        
-        <!--
-        @section('contact')
-            <div class="contact-toolbar">
-                nemam pojma gde toolbar da strpam nigde ne ide
-                <div class="phone-wrapper">
-                +381641234567    
-                </div>
-                <div class="email-wrapper">
-                office@belgradeluxury.com   
-                </div>
-                <div class="social-wrapper">
-                    
-                </div>
-            </div>
-        @show 
-        -->
         
         <!-- footer se definise ovde jer ce biti isti za sve stranice -->
         @section ('footer')
@@ -263,12 +246,15 @@
                                 <h4 class="belux-logo">BELGRADE <span>LUXURY</span></h4>
                                 <address>
                                     <p> 
-                                        <div class="icon-location"></div>&nbsp;Neka adresa br.10<br>
+                                        <div class="icon-location"></div>&nbsp;Republic Square<br>
                                         11000 Belgrade SERBIA <br>
                                         <div class="icon-phone whatsapp"></div> / <div class="icon-phone viber"></div>
-                                        &nbsp;+381 66 408 813 <br>
+                                        &nbsp;+381 64 4519 017 <br>
                                         <div class="icon-mail"></div>&nbsp;
-                                        <a class="light" href="mailto:office@belgradeluxury.com">office@belgradeluxury.com</a> 
+                                        <a class="light" href="mailto:office@belgradeluxury.com">office@belgradeluxury.com</a>
+                                        <br />
+                                        <div class="icon-mail"></div>&nbsp;
+                                        <a class="light" href="mailto:inquiry@belgradeluxury.com">inquiry@belgradeluxury.com</a> 
                                     </p>
                                 </address>
                             </div>     
@@ -282,27 +268,27 @@
                                 <nav class="social-icons">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/belgradeluxury/">
                                                 <img src="<?php echo url('/') ?>/images/social/gold/facebook-logo.svg" alt="Facebook" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.instagram.com/belgradeluxury/">
                                                 <img src="<?php echo url('/') ?>/images/social/gold/instagram-logo.svg" alt="Instagram" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <img src="<?php echo url('/') ?>/images/social/gold/twitter-logo.svg" alt="Twitter" />
+                                            <a href="https://www.youtube.com/channel/UCpIeICs4R7XgqNzQ8fecWHQ">
+                                                <img src="<?php echo url('/') ?>/images/social/gold/youtube-logo.svg" alt="Twitter" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="{{ route("construction") }}">
                                                 <img src="<?php echo url('/') ?>/images/social/gold/whatsapp-logo.svg" alt="Whatsapp" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="{{ route("construction") }}">
                                                 <img src="<?php echo url('/') ?>/images/social/gold/viber-logo.svg" alt="Viber" />
                                             </a>
                                         </li>

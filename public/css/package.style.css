@@ -74,8 +74,8 @@ and open the template in the editor.
 
 .section-container.package .ribbon .package-card .rotate {
     margin: 80px 0 0 0;
-    /*transform: rotateY(20deg);
-    -webkit-transform: rotateY(20deg);*/
+    transform: rotateY(20deg);
+    -webkit-transform: rotateY(20deg);
     display: inline-block;
 }
 
@@ -121,9 +121,13 @@ and open the template in the editor.
 
 .section-container.package .ribbon .col.span_1_of_3 .span_1_of_2 p {
     text-align: justify;
-    //font-family: Georgia, serif;
-    //font-style: italic;
     color: #bb9b69;
+}
+
+.section-container.package .ribbon .col.span_1_of_3 .span_1_of_2 p span {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #888888;
 }
 
 .section-container.video-section {

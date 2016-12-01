@@ -26,7 +26,7 @@
                 Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
             </p>
             
-            <div id="reserve" class="btn gold"> RESERVE </div>
+            <!-- <div id="reserve" class="btn gold"> RESERVE </div> -->
             <div id="inquiry" class="btn gold"> INQUIRY </div>
         </div>
     </div>
@@ -60,14 +60,13 @@
                                         </p>
                                         <div class="horizontal-line"></div>
                                         <p class="animation-element fade-in">
-                                            These are our <a class="light" href="#">special packages</a> that we have prepared for <span>You</span>. 
-                                            Each one has been carefully selected by 
-                                            <a href="<?php echo url('/') ?>" class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> 
-                                            team to meet <span>all of Your needs</span>.
-                                            Choose Your favorite, or <a class="light" href="#"> create one </a> according to Your taste.
+                                            If you want to <a class="light" href="{{ route("construction") }}">book Your stay with us </a> please send us <a class="light" href="{{ route("construction") }}">an inquiry</a>.
+                                            As for any <span>requests </span>in addition to those included in the package, we are always <span>at Your disposal!</span>
+                                            Our <span>phone lines and mail </span>are available <span>24/7 </span>to <a class="light" href="{{ route("construction") }}">answer all Your questions</a>. 
+                                            For any additional information, suggestions and proposals, <a class="light" href="{{ route("construction") }}">contact us</a>, we would be <span>delighted </span> to be of assistance.
                                         </p>
                                     </div>
-                                    <div id="reserve" class="btn gold"> RESERVE </div>
+                                    <!-- <div id="reserve" class="btn gold"> RESERVE </div> -->
                                     <div id="inquiry" class="btn gold"> INQUIRY </div>
                                 </div>
                             </div>
@@ -219,7 +218,8 @@
                     <br />
                     waiting for?                
                 </p>
-                <div id="reserve" class="btn gold"> RESERVE </div>
+                <!-- <div id="reserve" class="btn gold"> RESERVE </div> -->
+                <div id="inquiry" class="btn gold"> INQUIRY </div>
             </div>
         </div>    
 </section>

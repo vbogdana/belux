@@ -13,6 +13,23 @@ $( document ).on( "pageinit", function( event ) {
   $.mobile.loading().hide();
 });
 
+
+/* video-section */
+var player;
+function onYouTubeIframeAPIReady()
+{
+    player = new YT.Player('playerId', {
+        events: {
+            onReady:onPlayerReady
+        }
+    });
+}
+function onPlayerReady(event) {
+    player.mute();
+    player.setVolume(0);
+    player.playVideo();
+}
+
 $(window).on("load", function() {
     
     $('#reserve').on('click', function(ev) {
@@ -95,7 +112,8 @@ $(window).on("load", function() {
             }
         });
     }
-
+    
+    check_if_in_view();
     $window.on('scroll resize', check_if_in_view);
     $window.trigger('scroll');
 });

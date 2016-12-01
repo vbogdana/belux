@@ -55,22 +55,6 @@ $(window).on("load", function() {
     showNextQuote();
 });
 
-/* video-section */
-var player;
-function onYouTubeIframeAPIReady()
-{
-    player = new YT.Player('playerId', {
-        events: {
-            onReady:onPlayerReady
-        }
-    });
-}
-function onPlayerReady(event) {
-    player.mute();
-    player.setVolume(0);
-    player.playVideo();
-}
-
   /* changing quotes on quote section */
 $(window).on("load", function() {
     var quotes = $(".blockquotes");
@@ -218,7 +202,7 @@ $(window).on("load", function() {
     checkMedia();
     var $figures = $('#carousel figure');
     
-    $('#reserve').on('click', function(ev) {
+    $('#inquiry').on('click', function(ev) {
         ev.preventDefault();
         window.location.href = "under-construction";
     });

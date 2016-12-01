@@ -29,7 +29,7 @@ and open the template in the editor.
     z-index: 4;
 }
 
-video-section iframe::-webkit-media-controls {
+.video-section iframe::-webkit-media-controls {
   display: none;
 }
 
@@ -84,13 +84,16 @@ video-section iframe::-webkit-media-controls {
     top: 0%; 
     z-index: 3;
     text-align: center;  
-    color: #f9f9f9;   
+    //color: #f9f9f9;
+    color: #bb9b69;
     font-size: 12px;
     line-height: 14px;
     font-weight: 200;
     border-bottom: 1px solid #bb9b50;
     padding: 10px 0px 10px 0px;
     margin: 0px 8% 0px 8%;
+    font-family: Georgia, serif;
+    font-style: italic;
 }
 
 .video-section h2.overlay-text-row {  
@@ -206,34 +209,19 @@ video-section iframe::-webkit-media-controls {
 
 .about-us-section .about-us-container p {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-.about-us-section .services-container {
-    position: relative;
-    height: auto;
-    width: 100%;    
-    background: #bb9b69;
-    text-align: center;
+.about-us-section .about-us-container p a {
+    color: #bb9b69;
+    
 }
 
-.about-us-section .services-container ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   text-align: center;
-   /*left: 50%;
-   -webkit-transform: translate(-50%, 0%);
-   transform: translate(-50%, 0%);*/
-}
-
-ul.services-list li {
-    float: left;
-    position:relative;
-    min-width: 200px;
-    height: 200px;
-    background: red;
+.about-us-section .about-us-container p span {
+    font-family: Tito, serif;
+    font-style: italic;
+    font-weight: 200;
+    color: #bb9b69;
 }
 
 /*      Promotions section
@@ -270,6 +258,7 @@ ul.services-list li {
 .promotions-section .card img {
     width: 250.5px;
     height: 156px;
+    cursor: default;
 }
 
 .cards-container {

@@ -30,7 +30,7 @@
                 <li class="top-nav-menu-separator"></li>
                 <li class="top-nav-menu-item" id="services" ><div><a href="">SERVICES</a></div>                   
                     <ul class="top-nav-submenu" id="services-submenu" style="height: 120px;">
-                        <li class="top-nav-submenu-item"><div><a href="#content">packages</a></div></li>
+                        <li class="top-nav-submenu-item"><div><a href="#packages">packages</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">custom package</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">all services</a></div></li>
                         <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">ultra VIP services</a></div></li>
@@ -74,10 +74,13 @@
     <div class="overlay"></div>
     
     <div class="overlay-text">
-        <h1 class="overlay-text-row" > VIP EXPERIENCE - BELGRADE NIGHTLIFE </h1> 
+        <h1 class="overlay-text-row" > VIP Experience - Belgrade Nightlife </h1> 
         <h2 class="overlay-text-row quotes"> BELGRADE <span> LUXURY </span> </h2>
-        <h2 class="overlay-text-row quotes"> <span> VIP </span> PLACES </h2>
         <h2 class="overlay-text-row quotes"> LUXURY <span> APARTMENTS </span> </h2>
+        <h2 class="overlay-text-row quotes"> <span> HIGH CLASS </span> VEHICLES </h2>
+        <h2 class="overlay-text-row quotes"> BELGRADE <span> LUXURY </span> </h2>
+        <h2 class="overlay-text-row quotes"> EXCLUSIVE <span> PARTIES </span> </h2>
+        <h2 class="overlay-text-row quotes"> <span> VIP </span> TABLES </h2>       
     </div>
     
     <div class="scroll-sign">
@@ -102,17 +105,33 @@
             <div class="wrapper" >
                 <div class="about-us-container">
                     <h3 class="animation-element fade-in belux-logo"> 
-                        BELGRADE<span>LUXURY</span> 
+                        BELGRADE&nbsp;<span>LUXURY</span> 
                     </h3>
                     <div class="horizontal-line"></div>
-                    <p class="animation-element fade-in"> 
-                        belgradeluxury.com is a unique concept designed exclusively for people with exquisite taste 
-                        who want the quality of their visit to the capital of Serbia to be to the highest standards. 
-                        To help our customers, we have prepared a variety of packages that can meet their different needs and preferences. 
+                    <p class="animation-element fade-in">
+                        Belgrade Luxury is a unique concept, established in 2016 in Belgrade, designed exclusively for people with <span>exquisite taste </span> who want the quality of their visit to the capital of Serbia to be <span>to the highest of standards </span>.
+                        Our mission is to satisfy the most demanding wishes of our clients and do everything to make their stay in Belgrade according to their preferences.  
+                        After <span>less than a year</span>, more than 200 satisfied clients have left Belgrade full of positive experiences.
+                        Our team is composed of people who, together, have <span>more than 30 years of experience </span>in the tourism and hospitality industry, and thus constitute a winning combination.
+                        In addition to information about our services, on our website <a class="light" href="{{ route("/") }}">belgradeluxury.com </a> you can find a series of interesting information about <a class="light" href="#events">upcoming events </a> and <a class="light" href="{{ route("construction") }}">trending places</a>, as well as the most interesting events from the night life in the Serbian capital.
+                    </p>    
+                    <div class="horizontal-line"></div>
+                    <p class="animation-element fade-in">
+                        To help our customers, we have prepared a variety of <a class="light" href="#packages">packages </a> that can meet their different needs and preferences.
+                        Belgrade Luxury packages have derived from our many years of experience <span> encompassing all the necessary services </span> for an unforgettable VIP experience of Belgrade. 
+                        Depending on your affinity and intent You can choose one of the packages, but also <a class="light" href="{{ route("construction") }}">put together a package </a> tailored to fit your needs, because - <span> The Best Luxury Services Are Customized, Not Standardized. </span>
+                    </p>   
+                    <div class="horizontal-line"></div>
+                    <p class="animation-element fade-in">
+                        We offer the most exclusive villas and suites, VIP treatment in the city's best restaurants, bars and clubs, personal chauffeur service and luxury vehicles, personal security, boat tours of the city, accompanied by a personal guide and trips to the most interesting sites in Serbia.
+                        And for our <span>most demanding clients </span> we provide <a class="light" href="{{ route("construction") }}">DIAMOND services </a> such as - renting a penthouse, a luxury villa or a yacht and many more.
                         Professional service of our staff may be available to our clients for the duration of the whole arrangement. 
-                        We offer the most exclusive villas and suites, VIP treatment in the city's best restaurants, bars and clubs, 
-                        personal chauffeur service and luxury vehicles, personal security, boat tours of the city, 
-                        accompanied by a personal guide and visit the most interesting sites in Serbia.
+                        As for any <span>additional requests </span> , we are always at clients' disposal!  
+                    </p>
+                    <div class="horizontal-line"></div>
+                    <p class="animation-element fade-in">
+                        Our phone lines and mail are available 24/7 to <a class="light" href="{{ route("construction") }}">answer all Your questions</a>. 
+                        For any additional information, suggestions and proposals <span>we are delighted </span> to be of assistance.
                     </p>
                     <div class="horizontal-line"></div>
                 </div>  
@@ -129,9 +148,10 @@
     <div class="content">
         <div class="cards-container">
                 <div id="cards">
-                    <figure >
+                    
+                    <figure>
                         <img class="card floating" src="<?php echo url("") ?>/images/cards/front-6.svg" width="300.5px" height="187px"alt="NEWYEAR Luxury Package" />
-                    </figure> 
+                    </figure>
                     <figure>
                         <img class="card floating" src="<?php echo url("") ?>/images/cards/front-5.svg" width="300.5px" height="187px"alt="NEWYEAR VIP Luxury Package" />
                     </figure>
@@ -160,9 +180,9 @@
 <!-- =============== END PROMOTIONS SECTION ================ -->
 
 <!-- =============== START PACKAGES SECTION ============== -->
-<section id="content" class="packages-section">
+<section id="packages" class="packages-section">
     <div class="background" data-stellar-vertical-offset="0" data-stellar-background-ratio="0.5">
-        <div class="content">
+        <div class="content" id="">
             <div class="section-title animation-element fade-in">
               <h2> PACKAGES </h2>
               <div class="horizontal-line"></div>
@@ -170,7 +190,7 @@
             
             <div class="section-description">
                 <p class="animation-element fade-in">
-                    These are our <a class="light" href="#content">special packages</a> that we have prepared for <span>You</span>. 
+                    These are our <a class="light" href="#packages">special packages</a> that we have prepared for <span>You</span>. 
                     Each one has been carefully selected by 
                     <a href="<?php echo url('/') ?>" class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> 
                     team to meet <span>all of Your needs</span>.
@@ -183,7 +203,7 @@
                     <h4 id="package-title"> LUXURY PACKAGE </h4>
                     <div class="horizontal-line"></div>
                 </div>
-                <div id="reserve" class="btn gold"> RESERVE </div>
+                <div id="inquiry" class="btn gold"> INQUIRY </div>
                 <div id="details" class="btn gold"> DETAILS >> </div>
             </div>
             
@@ -317,7 +337,7 @@
 <!-- =============== END QUOTE SECTION ============== -->
 
 <!-- =============== START EVENTS SECTION ================ -->
-<section style="padding-bottom:0; padding-top:0;" class="events-section">
+<section style="padding-bottom:0; padding-top:0;" class="events-section" id="events">
     <div class="background">
         <div class="content">
             <div class="section-title animation-element fade-in">
@@ -349,7 +369,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/eventbank1.jpg" alt="Event in Belgrade Club Bank">
+                                                    <img class="" src="<?php echo url("") ?>/images/events/eventbank1.jpg" alt="Event in Belgrade Club Bank">
                                                     <div class="overlay"></div>
                                                     <div class="event-date">
                                                         <div class="proTitle">9.</div>
@@ -359,7 +379,7 @@
                                                     <div class="eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/logobank.png" alt="Club Bank">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/events/logo/bank.png" alt="Club Bank">                                                   
                                                                 <div class="proTitle">STRAIGHT TO THE BANK</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">BETON HALA KARADJORDJEVA,FRIDAY 9TH DEC</div>
@@ -386,7 +406,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/brankovevent2.jpg" alt="Event in Belgrade Club Brankow">
+                                                    <img class="" src="<?php echo url("") ?>/images/events/brankovevent2.jpg" alt="Event in Belgrade Club Brankow">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -397,7 +417,7 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo"  src="<?php echo url("") ?>/images/klubbrankow.png" alt="Club Brankow">                                                   
+                                                                <img class="club-logo"  src="<?php echo url("") ?>/images/events/logo/brankow.png" alt="Club Brankow">                                                   
                                                                 <div class="proTitle">FRIDAY 9.12.2016.</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">DEE PEEPE <br/> MILOS STARCEVIC</div>
@@ -423,7 +443,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/tiltevent1.jpg" alt="Event in Belgrade club tilt">
+                                                    <img class="" src="<?php echo url("") ?>/images/events/tiltevent1.jpg" alt="Event in Belgrade club tilt">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -434,7 +454,7 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubtilt.png" alt="Club Tilt">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/events/logo/tilt.png" alt="Club Tilt">                                                   
                                                                 <div class="proTitle">MUSIC OF THE '90s</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">TUESDAY NIGHT</div>
@@ -460,7 +480,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/tiltevent2.jpg" alt="Event in Belgrade Club Tilt">
+                                                    <img class="" src="<?php echo url("") ?>/images/events/tiltevent2.jpg" alt="Event in Belgrade Club Tilt">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -471,7 +491,7 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubtilt.png" alt="Club Tilt">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/events/logo/tilt.png" alt="Club Tilt">                                                   
                                                                 <div class="proTitle">THE CLUB TILT</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">MUSIC OF THE '00s</div>
@@ -497,7 +517,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/eventbrankov1.jpg" alt="Event in Belgrade Club Brankow">
+                                                    <img class="" src="<?php echo url("") ?>/images/events/eventbrankov1.jpg" alt="Event in Belgrade Club Brankow">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -508,7 +528,7 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/klubbrankow.png" alt="Club Brankow">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/events/logo/brankow.png" alt="Club Brankow">                                                   
                                                                 <div class="proTitle">THURSDAY DELIGHT</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle"> DJ Architect <br/> DJ Fake Casual</div>
@@ -534,7 +554,7 @@
                                             <figcaption>
                                                 <!-- Single Album Image -->
                                                 <div class="hovereffect">
-                                                    <img class="" src="<?php echo url("") ?>/images/event3.jpg" alt="Event in Belgrade Club Bank">
+                                                    <img class="" src="<?php echo url("") ?>/images/events/event3.jpg" alt="Event in Belgrade Club Bank">
                                                     <div class="overlay">
                                                     </div>
                                                     <div class="event-date">
@@ -545,7 +565,7 @@
                                                     <div class=" eventinfo">
                                                         <div class="event-content">
                                                             <div class="event-hover">
-                                                                <img class="club-logo" src="<?php echo url("") ?>/images/logobank.png" alt="Club Bank">                                                   
+                                                                <img class="club-logo" src="<?php echo url("") ?>/images/events/logo/bank.png" alt="Club Bank">                                                   
                                                                 <div class="proTitle">ROBER THE BANK</div>
                                                                 <div class="horizontal-line"></div> 
                                                                 <div class="proSubtitle">BETON HALA KARADJORDJEVA,FRIDAY 9TH DEC</div>
