@@ -3,7 +3,7 @@
     Tutorial za Laravel templates https://laravel.com/docs/5.3/blade
     Tutorial za Laravel strukturu direktorijuma https://laravel.com/docs/5.3/structure
 -->
-<html>
+<html xmlns:fb="http://ogp.me/ns/fb#" >
     <head>  
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
@@ -17,8 +17,10 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-PP3HH9');</script>
         <!-- End Google Tag Manager -->
-
+        
+        <meta property="og:image" content="<?php echo url("") ?>/images/logo-bl-white.ico" />
         <link rel="shortcut icon" href="<?php echo url("") ?>/images/logo-bl-white.ico"  type="image/x-icon" /> 
+        <link rel="icon" href="<?php echo url("") ?>/images/logo-bl-white.ico"  type="image/x-icon" /> 
         <title> Belgrade Luxury - VIP experience Belgrade nightlife  </title>
         
         <!-- 
@@ -61,12 +63,12 @@
 
                     <ul class="top-nav-menu" id="navigation">
                         <li class="top-nav-menu-item" ><div><a href="<?php echo url('/') ?>">HOME</a></div></li>
-                        <li class="top-nav-menu-separator"></li>
+                        <!--<li class="top-nav-menu-separator"></li>-->
                         <li class="top-nav-menu-item"><div><a href="<?php echo url('/under-construction') ?>">CONTACT</a></div></li>
                         <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item" id="services" ><div><a href="#">SERVICES</a></div>                   
                             <ul class="top-nav-submenu" id="services-submenu" style="height: 120px;">
-                                <li class="top-nav-submenu-item"><div><a href="<?php echo url('/') ?>" >packages</a></div></li>
+                                <li class="top-nav-submenu-item"><div><a href="{{ URL::route('/') }}#packages" >packages</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">custom package</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">all services</a></div></li>
                                 <li class="top-nav-submenu-item"><div><a href="<?php echo url('/under-construction') ?>">ultra VIP services</a></div></li>
@@ -92,7 +94,7 @@
                         </li>
                         <li class="top-nav-menu-separator"></li>
                         <li class="top-nav-menu-item"><div><a href="<?php echo url('/under-construction') ?>">VISIT</a></div></li>
-                        <li class="top-nav-menu-separator"></li>
+                        <!--<li class="top-nav-menu-separator"></li>-->
                     </ul>           
                 </nav>             
             </header>

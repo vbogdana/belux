@@ -397,6 +397,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     left:0%;
     width:100%;
     height: 100%;
+    padding-top: 2.5rem;
 }
 
 .gallerySection .hovereffect .eventinfo:hover img {
@@ -429,7 +430,7 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
     width: auto;
     height: auto;
     display: block;
-    margin: 2.5rem auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 .gallerySection .hovereffect .event-hover .horizontal-line {
@@ -482,8 +483,8 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 
 @media screen and (max-width: 1029px) {
     
-    .gallerySection .hovereffect .event-hover img.club-logo {
-        margin-top: 1.7rem;
+    .gallerySection .hovereffect .event-content {
+        padding-top: 1.7rem;
     }
     
     .proTitle {
@@ -501,11 +502,14 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
 }
 
 @media screen and (max-width: 799px) {
+    
+    .gallerySection .hovereffect .event-content {
+        padding-top: 1.5rem;
+    }
  
     .gallerySection .hovereffect .event-hover img.club-logo {
         max-width: 7rem;
         max-height: 5rem;
-        margin: 1.5rem auto 0 auto;
     }
     
     .proTitle {
@@ -538,11 +542,14 @@ body > div.fusion-fullwidth.fullwidth-box.fusion-fullwidth-2.fusion-parallax-lef
         background-size: 960px 735px;
         background-position: center 0px;
     }
+    
+    .gallerySection .hovereffect .event-content {
+        padding-top: 1.3rem;
+    }
 
     .gallerySection .hovereffect .event-hover img.club-logo {
         max-width: 6rem;
         max-height: 4rem;
-        margin: 1.3rem auto 0 auto;
     }
 
     .proTitle {

@@ -130,6 +130,25 @@ and open the template in the editor.
     color: #888888;
 }
 
+.section-container.package .ribbon .col.span_3_of_3 .package-card .rotate {
+    margin: 15px 0 0 0;
+}
+
+.section-container.package .ribbon .col.span_3_of_3 .span_1_of_5 .card img {
+    /*
+    width: 150.5px;
+    height: 94px;
+    */
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+
+.section-container.package .ribbon .col.span_3_of_3 .span_1_of_5 .card:hover img {
+    opacity: 0.5;
+}
+
 .section-container.video-section {
     position: relative;
     width: 100vw;
@@ -156,8 +175,7 @@ and open the template in the editor.
     top: 0;  
     width: 100vw;
     height: 56.25vw;   
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 
 .section-container.video-section p {
@@ -196,9 +214,21 @@ and open the template in the editor.
         width: 33%;
     }
     
+    .section-container.package .col.span_3_of_3 .col.span_1_of_5 {
+        width: 33%;
+    }
+    
 }
 
 @media screen and (max-width: 767px) {
+    .section-container.package .col.span_3_of_3 .section-title h3 {
+        margin-top: 70px;
+    }
+    
+    .section-container.package .col.span_3_of_3 .col.span_1_of_5 {
+        width: 50%;
+    }
+    
     .section-container:last-child .content {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -218,7 +248,11 @@ and open the template in the editor.
 
 @media screen and (max-width: 450px) {
     
-    .section-container.package .ribbon .package-card .rotate {  
+    .section-container.package .ribbon .content {
+        padding-bottom: 20px;
+    }
+    
+    .section-container.package .ribbon .col.span_1_of_3 .package-card .rotate {  
         transform: scale(0.8) rotateY(20deg);
         -webkit-transform: scale(0.8) rotateY(20deg);
     }
@@ -229,10 +263,20 @@ and open the template in the editor.
     
     .section-container.package .ribbon .col.span_1_of_3 .span_1_of_2:first-child {
         margin: 0;
+        min-width: 300.5px;
+    }
+    
+    .section-container.package .ribbon .col.span_1_of_3 .span_1_of_2 {
+        min-width: 0;    
     }
     
     .section-container.package .ribbon .col.span_2_of_3 .span_1_of_3 {
         width: 100%;
+    }
+    
+    .section-container.package .col.span_3_of_3 .col.span_1_of_5 {
+        width: 100%;
+        margin-top: 10px;
     }
     
     .section-container:last-child .content {

@@ -28,19 +28,25 @@ function onPlayerReady(event) {
     player.mute();
     player.setVolume(0);
     player.playVideo();
+
 }
 
 $(window).on("load", function() {
     
-    $('#reserve').on('click', function(ev) {
-        ev.preventDefault();
-        window.location.href = "under-construction";
+    $('.reserve').each(function () {
+        $(this).on('click', function(ev) {
+            ev.preventDefault();
+            window.location.href = "under-construction";
+        });
     });
     
-    $('#inquiry').on('click', function(ev) {
-        ev.preventDefault();
-        window.location.href = "under-construction";
+    $('.inquiry').each(function () {
+       $(this).on('click', function(ev) {
+            ev.preventDefault();
+            window.location.href = "under-construction";
+        });
     });
+    
     
     // Animate loader off screen
     $("#header-section").delay(1000).fadeIn(1000);
@@ -104,7 +110,7 @@ $(window).on("load", function() {
             var element_bottom_position = (element_top_position + element_height);
 
             //check to see if this current container is within viewport
-            if ((element_bottom_position >= (window_top_position + 100)) &&
+            if ((element_bottom_position >= (window_top_position + 50)) &&
                 (element_top_position <= window_bottom_position - 20)) {
                 $element.addClass('in-view');
             } else {

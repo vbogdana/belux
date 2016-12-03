@@ -25,7 +25,7 @@
             
             <ul class="top-nav-menu" id="navigation">
                 <li class="top-nav-menu-item" ><div><a href="<?php echo url('/') ?>">HOME</a></div></li>
-                <li class="top-nav-menu-separator"></li>
+                <!--<li class="top-nav-menu-separator"></li>-->
                 <li class="top-nav-menu-item"><div><a href="<?php echo url('/under-construction') ?>">CONTACT</a></div></li>
                 <li class="top-nav-menu-separator"></li>
                 <li class="top-nav-menu-item" id="services" ><div><a href="">SERVICES</a></div>                   
@@ -56,13 +56,21 @@
                 </li>
                 <li class="top-nav-menu-separator"></li>
                 <li class="top-nav-menu-item"><div><a href="<?php echo url('/under-construction') ?>">VISIT</a></div></li>
-                <li class="top-nav-menu-separator"></li>
+                <!--<li class="top-nav-menu-separator"></li>-->
             </ul>           
         </nav>             
     </header>
 @stop
 
 @section('content')
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!-- za sve ove klase treba napisati css -->
 
 <!-- =============== START VIDEO SECTION ================= -->
@@ -75,6 +83,7 @@
     
     <div class="overlay-text">
         <h1 class="overlay-text-row" > VIP Experience - Belgrade Nightlife </h1> 
+        <div class="horizontal-line"></div>
         <h2 class="overlay-text-row quotes"> BELGRADE <span> LUXURY </span> </h2>
         <h2 class="overlay-text-row quotes"> LUXURY <span> APARTMENTS </span> </h2>
         <h2 class="overlay-text-row quotes"> <span> HIGH CLASS </span> VEHICLES </h2>
@@ -593,6 +602,32 @@
     </div>
 </section>
 <!-- =============== END EVENTS SECTION ================== -->
+
+<!-- =============== START SOCIAL MEDIA SECTION ============== -->
+<!--
+<section class="social-media-section">
+    <div class="background">
+        <div class="content">
+            <div class="section-title animation-element fade-in">
+                <h2> BELGRADE LUXURY ON SOCIAL MEDIA </h2>
+                <div class="horizontal-line"></div>     
+            </div>
+
+            <div class="section-description">
+                    <p class="animation-element fade-in">
+                        Here in <a href="<?php echo url('/') ?>" class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> we are giving our best to make your stay in our city <span>unforgettable</span>.
+                        If You are planning a trip to <a href="<?php echo url('/under-construction') ?>" class="light">Belgrade</a>, you must not miss these <span>events</span>!
+                        This is our <span>selected choice</span> of interesting happenings for the upcoming weeks.
+                    </p>
+            </div>
+            
+            <div class="fb-page" data-href="https://www.facebook.com/belgradeluxury/" data-tabs="timeline, messages" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/belgradeluxury/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/belgradeluxury/">BelgradeLuxury BeLux</a></blockquote></div>
+            
+        </div>
+    </div>   
+</section>
+-->
+<!-- =============== END SOCIAL MEDIA SECTION ============== -->
 
 <!-- =============== START BENEFITS SECTION ============== -->
 <!--

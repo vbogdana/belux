@@ -12,13 +12,13 @@
     <div class="background" data-stellar-vertical-offset="0" data-stellar-background-ratio="0.5"></div>
     <div class="overlay"></div>
     <div class="content">
-        <div class="section-title animation-element fade-in">
+        <div class="section-title">
             <h2> LUXURY PACKAGE </h2>
             <div class="horizontal-line"></div>
         </div>
 
         <div class="section-description">
-            <p class="animation-element fade-in">
+            <p class="">
                 These are our <a class="light" href="#">special packages</a> that we have prepared for <span>You</span>. 
                 Each one has been carefully selected by 
                 <a class="light belux-logo">BELGRADE<span style="color: #bb9b50; font-style: normal">LUXURY</span></a> 
@@ -27,7 +27,7 @@
             </p>
             
             <!-- <div id="reserve" class="btn gold"> RESERVE </div> -->
-            <div id="inquiry" class="btn gold"> INQUIRY </div>
+            <div class="btn gold inquiry"> INQUIRY </div>
         </div>
     </div>
 </section>
@@ -67,7 +67,7 @@
                                         </p>
                                     </div>
                                     <!-- <div id="reserve" class="btn gold"> RESERVE </div> -->
-                                    <div id="inquiry" class="btn gold"> INQUIRY </div>
+                                    <div class="btn gold inquiry"> INQUIRY </div>
                                 </div>
                             </div>
 
@@ -178,14 +178,68 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    
+                    <div class="col span_3_of_3">
+                        <div class="section-title animation-element fade-in">
+                            <h3 id="package-title"> OUR OTHER PACKAGES </h3>
+                            <div class="horizontal-line"></div>   
+                        </div>
+                        <div class="section group">
+                            <div class="col span_1_of_5">
+                                <div class="package-card perspective">
+                                    <div class="rotate">
+                                        <a href="../packages/vip-luxury-package">
+                                            <img id="vip-luxury" src="<?php echo url("") ?>/images/cards/front-2.svg" class="card" />                               
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col span_1_of_5">
+                                <div class="package-card perspective">
+                                    <div class="rotate">
+                                        <a href="../packages/bachelor-luxury-package">
+                                            <img id="bachelor-luxury" src="<?php echo url("") ?>/images/cards/front-3.svg" class="card" />                               
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col span_1_of_5">
+                                <div class="package-card perspective">
+                                    <div class="rotate">
+                                        <a href="../packages/bachelor-penthouse-package">
+                                            <img id="bachelor-penthouse" src="<?php echo url("") ?>/images/cards/front-4.svg" class="card" />                               
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col span_1_of_5">
+                                <div class="package-card perspective">
+                                    <div class="rotate">
+                                        <a href="../packages/new-year-luxury-package">
+                                            <img id="new-year-luxury" src="<?php echo url("") ?>/images/cards/front-5.svg" class="card" />                               
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col span_1_of_5">
+                                <div class="package-card perspective">
+                                    <div class="rotate">
+                                        <a href="../packages/new-year-vip-luxury-package">
+                                            <img id="new-year-vip-luxury" src="<?php echo url("") ?>/images/cards/front-6.svg" class="card" />                               
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>          
             </div>
         </div>
     </div>
 </section>
 
 <section class="section-container video-section">
-        <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/gCdSM1IXZvo?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1'></iframe>      
+        <iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="playerId" src='https://www.youtube.com/embed/gCdSM1IXZvo?enablejsapi=1&rel=0&playsinline=1&autoplay=1&showinfo=0&autohide=1&controls=0&loop=1&modestbranding=1&playlist=gCdSM1IXZvo'></iframe>      
         
         <div class="overlay"></div>
     
@@ -199,7 +253,7 @@
                     waiting for?                
                 </p>
                 <!-- <div id="reserve" class="btn gold"> RESERVE </div> -->
-                <div id="inquiry" class="btn gold"> INQUIRY </div>
+                <div id="" class="btn gold inquiry"> INQUIRY </div>
             </div>
         </div>    
 </section>

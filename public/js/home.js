@@ -48,7 +48,7 @@ $(window).on("load", function() {
         ++quoteIndex;
         quotes.eq(quoteIndex % quotes.length)
             .fadeIn(1000)
-            .delay(1000)
+            .delay(3000)
             .fadeOut(1000, showNextQuote);
     }
 
@@ -369,4 +369,12 @@ $(window).on("load", function() {
     });
 });
 
-
+$(window).on("load", function() {
+    checkMedia();
+    if (isMobile) {
+        $('.background').removeAttr("data-stellar-background-ratio");
+        $('.background').removeAttr("data-stellar-vertical-offset");
+        $('.background').removeAttr("style");
+    }
+    
+});
