@@ -74,6 +74,7 @@ and open the template in the editor.
 .video-section .overlay-text .horizontal-line {
     margin-top: 0;
     margin-bottom: 10px;
+    width: 250px;
 }
 
 .video-section .overlay-text-row {   
@@ -95,12 +96,12 @@ and open the template in the editor.
     color: #bb9b69;
     font-size: 12px;
     line-height: 14px;
-    font-weight: 200;
+    font-weight: 400;
     //border-bottom: 1px solid #bb9b50;
     padding: 10px 0px 10px 0px;
     margin: 0px 8% 0px 8%;
-    font-family: Georgia, serif;
-    font-style: italic;
+    //font-family: Georgia, serif;
+    //font-style: italic;
 }
 
 .video-section h2.overlay-text-row {  
